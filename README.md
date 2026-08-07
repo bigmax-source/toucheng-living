@@ -1,4 +1,4 @@
-# Toucheng Living v0.1 Alpha — Build 002
+# Toucheng Living v0.1 Alpha — Build 003
 
 探索頭城，從生活開始。
 
@@ -7,7 +7,14 @@
 尚未串接 Supabase、Storage、Living Studio 與正式專屬修改 Token。
 
 
-## Build 002 調整
+## Build 003 調整
 - 首頁生活分類：餐廳、咖啡、飲料、點心、超市、藥局、修車。
 - 移除：美食、住宿、醫療、加油站、ATM。
 - 「餐廳」可捲動至目前炸物／雞排／碳烤 Seed 區。
+
+
+## Build 003 changes
+- 首頁移除「頭城生活」與生活據點數量。
+- 新增 `Since 2026/08/07`。
+- Hero 區縮短，減少中段留白。
+- 桌面版第二列「藥局／修車」置中。
