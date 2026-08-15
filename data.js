@@ -61,9 +61,9 @@ window.LIVING_PLACES = [
     ],
     "editorial": "每年《頭城二三事》整理農曆春節營業資訊時，五阿姨早餐店都是第一批示範店家。來這裡，蛋餅配蘿蔔糕是很值得點的一組。",
     "images": [
-      "assets/images/wu-auntie-1.webp",
       "assets/images/wu-auntie-2.webp",
-      "assets/images/wu-auntie-3.webp"
+      "assets/images/wu-auntie-3.webp",
+      "assets/images/wu-auntie-1.webp"
     ],
     "verified": true
   },
@@ -122,6 +122,7 @@ window.LIVING_PLACES = [
     ],
     "editorial": "黑糖冰沙＋牛奶冰沙＋仙草＋豆花，再自己選三種料，65 元。份量跟組合都很有誠意，而且是真的好吃。",
     "images": [
+      "assets/images/blackwhite-new-cover.webp",
       "assets/images/blackwhite-1.webp",
       "assets/images/blackwhite-2.webp",
       "assets/images/blackwhite-3.webp"
