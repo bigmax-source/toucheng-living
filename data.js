@@ -1,15 +1,1215 @@
-window.LIVING_SEEDS = [
-{"id":"TCL-0001","name":"台灣第一家鹽酥雞","subcat":"鹽酥雞","category":"美食","address":"開蘭路90號","phone":"0930-698-569"},
-{"id":"TCL-0002","name":"頭城第一家鹽酥雞","subcat":"鹽酥雞","category":"美食","address":"民鋒路1-3號","phone":"03-977-8130"},
-{"id":"TCL-0003","name":"富美香雞排","subcat":"雞排","category":"美食","address":"開蘭路177號","phone":"0979-380-730"},
-{"id":"TCL-0004","name":"E世代香雞排","subcat":"雞排","category":"美食","address":"開蘭路179號","phone":"03-977-9822"},
-{"id":"TCL-0005","name":"布丁雞排","subcat":"雞排","category":"美食","address":"開蘭路91號","phone":"03-977-7578"},
-{"id":"TCL-0006","name":"香好佳雞排","subcat":"雞排","category":"美食","address":"青雲路二段273號","phone":"03-977-6543"},
-{"id":"TCL-0007","name":"台妹炸雞翅－頭城站前店","subcat":"炸雞","category":"美食","address":"民鋒路6-2號","phone":"03-977-0313"},
-{"id":"TCL-0008","name":"志明與春嬌炸物店","subcat":"炸物","category":"美食","address":"沙成路97號","phone":"暫無公開電話"},
-{"id":"TCL-0009","name":"潮麻吉－頭城開蘭店","subcat":"炸物","category":"美食","address":"開蘭路85-1號","phone":"03-977-5007"},
-{"id":"TCL-0010","name":"珍湘碳烤","subcat":"碳烤","category":"美食","address":"民鋒路78-4號","phone":"0921-823-477"},
-{"id":"TCL-0011","name":"串燒寶貝","subcat":"串燒","category":"美食","address":"復興路59-3號","phone":"0926-377-880"},
-{"id":"TCL-0012","name":"羽鹿炭烤","subcat":"碳烤","category":"美食","address":"協天路842號","phone":"0928-463-754"},
-{"id":"TCL-0013","name":"珍珍燒烤店","subcat":"燒烤","category":"美食","address":"和平街131號","phone":"0918-964-248"}
+window.LIVING_PLACES = [
+  {
+    "id": "TCL-0101",
+    "slug": "wu-auntie",
+    "name": "五阿姨早餐店",
+    "category": "餐廳",
+    "subcat": "早餐",
+    "address": "宜蘭縣頭城鎮城西里吉祥路32號",
+    "phone": "0953-911-231",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:30–11:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:30–11:30"
+        ]
+      }
+    },
+    "tags": [
+      "頭城早餐",
+      "在地老味道"
+    ],
+    "recommended": [
+      "蛋餅",
+      "蘿蔔糕"
+    ],
+    "editorial": "每年《頭城二三事》整理農曆春節營業資訊時，五阿姨早餐店都是第一批示範店家。來這裡，蛋餅配蘿蔔糕是很值得點的一組。",
+    "images": [
+      "assets/images/wu-auntie-1.webp",
+      "assets/images/wu-auntie-2.webp",
+      "assets/images/wu-auntie-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0102",
+    "slug": "blackwhite",
+    "name": "黑白配冰沙豆花",
+    "category": "點心",
+    "subcat": "冰品甜品",
+    "address": "宜蘭縣頭城鎮拔雅里公園路54號",
+    "phone": "03-977-0258",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:30"
+        ]
+      }
+    },
+    "tags": [
+      "冰品",
+      "豆花"
+    ],
+    "recommended": [
+      "黑糖冰沙＋牛奶冰沙＋仙草＋豆花＋三種料"
+    ],
+    "editorial": "黑糖冰沙＋牛奶冰沙＋仙草＋豆花，再自己選三種料，65 元。份量跟組合都很有誠意，而且是真的好吃。",
+    "images": [
+      "assets/images/blackwhite-1.webp",
+      "assets/images/blackwhite-2.webp",
+      "assets/images/blackwhite-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0103",
+    "slug": "overtime",
+    "name": "Overtime Coffee 261 金少爺",
+    "category": "咖啡",
+    "subcat": "咖啡甜點",
+    "address": "宜蘭縣頭城鎮城南里東五巷7號",
+    "phone": "0926-699-527",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:40–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:40–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:40–18:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:40–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:40–17:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:40–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "LGBTQ+友善",
+      "頭城鎮文學巷"
+    ],
+    "recommended": [
+      "咖啡",
+      "甜點"
+    ],
+    "editorial": "藏在頭城鎮文學巷裡的咖啡店。除了咖啡與甜點，也是 LGBTQ+ 友善空間。坐在店門口，文學巷的日常就在眼前。",
+    "images": [
+      "assets/images/overtime-1.webp",
+      "assets/images/overtime-2.webp",
+      "assets/images/overtime-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0104",
+    "slug": "nameless-noodle",
+    "name": "無名乾麵",
+    "category": "餐廳",
+    "subcat": "麵店",
+    "address": "宜蘭縣頭城鎮城南里沙成路71號",
+    "phone": "03-977-5254",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:00–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:00–20:00"
+        ]
+      }
+    },
+    "tags": [
+      "第二代傳承",
+      "頭城下午茶"
+    ],
+    "recommended": [
+      "乾麵加甜辣醬",
+      "菜頭排骨湯",
+      "苦瓜排骨湯",
+      "豆干",
+      "豆澎",
+      "小黃瓜"
+    ],
+    "editorial": "頭城人的下午茶，是一碗乾麵。想吃這一味記得講「乾麵」；說「陽春麵」可是會有湯的。內行一點，還會跟老闆說：「加甜辣醬。」再配一碗排骨湯和幾盤小菜，就是很頭城的一餐。",
+    "images": [
+      "assets/images/nameless-noodle-1.webp",
+      "assets/images/nameless-noodle-2.webp",
+      "assets/images/nameless-noodle-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0105",
+    "slug": "cheap-home",
+    "name": "便宜之家",
+    "category": "生活",
+    "subcat": "鞋店",
+    "address": "宜蘭縣頭城鎮城北里開蘭路111號",
+    "phone": "03-977-1177",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:30–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "全年無休",
+      "童鞋",
+      "藍白拖"
+    ],
+    "recommended": [
+      "童鞋",
+      "拖鞋",
+      "日常鞋款"
+    ],
+    "editorial": "頭城鎮上的老鞋店，也是許多頭城小小孩的好朋友。從小朋友的鞋子、拖鞋，到大人日常穿的鞋款都有。要問頭城人去哪裡買雙藍白拖？《頭城二三事》的答案很簡單：我也都來便宜之家買。",
+    "images": [
+      "assets/images/cheap-home-1.webp",
+      "assets/images/cheap-home-2.webp",
+      "assets/images/cheap-home-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0106",
+    "slug": "wujie-biscuit",
+    "name": "五結燒餅頭城店",
+    "category": "點心",
+    "subcat": "燒餅伴手禮",
+    "address": "宜蘭縣頭城鎮城南里沙成路61號",
+    "phone": "0966-922-235",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "05:30–13:30"
+        ]
+      }
+    },
+    "tags": [
+      "伴手禮"
+    ],
+    "recommended": [
+      "小蔥餅",
+      "刈包"
+    ],
+    "editorial": "小蔥餅是那種離開頭城，還會想帶一盒回去的味道。《頭城二三事》小編的叔叔每次從台北回來，回程都要帶上一盒。頭城店還藏了一個很推的刈包，想吃記得早點來，晚了可能就賣光啦！",
+    "images": [
+      "assets/images/wujie-biscuit-1.webp",
+      "assets/images/wujie-biscuit-2.webp",
+      "assets/images/wujie-biscuit-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0107",
+    "slug": "shichang",
+    "name": "世昌文具鎖印",
+    "category": "生活",
+    "subcat": "文具鎖印",
+    "address": "宜蘭縣頭城鎮城東里沙成路22號",
+    "phone": "03-977-4618",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:15–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:15–20:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:15–20:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:15–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:15–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:10–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:30–20:45"
+        ]
+      }
+    },
+    "tags": [
+      "全年無休",
+      "文具",
+      "鎖印",
+      "季節用品"
+    ],
+    "recommended": [
+      "文具",
+      "刻印",
+      "開鎖換鎖"
+    ],
+    "editorial": "小小一間，卻像頭城人的生活百寶箱。上學缺文具、要刻印章、鑰匙和鎖有問題都可以來；過年有鞭炮，夏天又換成泳圈和玩水道具。這不是觀光景點，這就是很多頭城人一路用到大的日常。",
+    "images": [
+      "assets/images/shichang-1.webp",
+      "assets/images/shichang-2.webp",
+      "assets/images/shichang-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0108",
+    "slug": "mimi",
+    "name": "米米蔬雞",
+    "category": "餐廳",
+    "subcat": "鹽水雞",
+    "address": "宜蘭縣頭城鎮城東里開蘭舊路19號",
+    "phone": "0907-351-655",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "飲控友善",
+      "鹽水雞"
+    ],
+    "recommended": [
+      "兩份雞肉＋六樣菜"
+    ],
+    "editorial": "想吃消夜，又不想每次都是炸的，頭城還有這一味。配料櫃乾乾淨淨，蔬菜種類也不少，老闆娘很客氣。《頭城二三事》小編固定吃法是兩份肉＋六樣菜，一大盤有肉又有菜。",
+    "images": [
+      "assets/images/mimi-1.webp",
+      "assets/images/mimi-2.webp",
+      "assets/images/mimi-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0109",
+    "slug": "dear-kitchen",
+    "name": "蒂薾廚房",
+    "category": "餐廳",
+    "subcat": "早餐早午餐",
+    "address": "宜蘭縣頭城鎮城北里開蘭路139號",
+    "phone": "03-977-0010",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      }
+    },
+    "tags": [
+      "寵物友善",
+      "親子友善",
+      "環保店家"
+    ],
+    "recommended": [
+      "手作青醬雞肉白吐司"
+    ],
+    "editorial": "藏在頭城菜市場裡的一間舒服早餐店。夏天最重要的先講：冷氣夠冷！寵物、親子都友善，店裡還使用環保玻璃吸管。來這裡推薦直接點手作青醬雞肉白吐司；草莓產季時，還可以跟著店家團購草莓。",
+    "images": [
+      "assets/images/dear-kitchen-1.webp",
+      "assets/images/dear-kitchen-2.webp",
+      "assets/images/dear-kitchen-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0110",
+    "slug": "seven-hotpot",
+    "name": "七度鍋物",
+    "category": "餐廳",
+    "subcat": "火鍋",
+    "address": "宜蘭縣頭城鎮武營里青雲路三段350號",
+    "phone": "03-977-7111",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–22:00"
+        ]
+      }
+    },
+    "tags": [
+      "親子友善",
+      "兒童遊戲區",
+      "海鮮"
+    ],
+    "recommended": [
+      "月見滷肉飯",
+      "海鮮鍋物"
+    ],
+    "editorial": "來吃火鍋，結果我先叫你點滷肉飯。七度鍋物的月見滷肉飯必點；老闆自己有船，所以海鮮是這間店很重要的特色。帶小孩來也方便，店裡有兒童遊戲區。",
+    "images": [
+      "assets/images/seven-hotpot-1.webp",
+      "assets/images/seven-hotpot-2.webp",
+      "assets/images/seven-hotpot-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0111",
+    "slug": "fumei",
+    "name": "富美香雞排",
+    "category": "點心",
+    "subcat": "雞排炸物",
+    "address": "宜蘭縣頭城鎮城北里開蘭路177號",
+    "phone": "0979-380-730",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:00–22:30"
+        ]
+      }
+    },
+    "tags": [
+      "2021頭城雞排王",
+      "冷氣內用區"
+    ],
+    "recommended": [
+      "雞排",
+      "米血"
+    ],
+    "editorial": "2021 頭城雞排王，不只雞排要吃，米血也別漏掉。雞排當然是主角，但我覺得真正要看一家炸物店功力，米血也很重要。夏天還有一個小小的冷氣內用區。",
+    "images": [
+      "assets/images/fumei-1.webp",
+      "assets/images/fumei-2.webp",
+      "assets/images/fumei-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0112",
+    "slug": "egen",
+    "name": "E世代香雞排",
+    "category": "點心",
+    "subcat": "雞排炸物",
+    "address": "宜蘭縣頭城鎮城東里開蘭路179號",
+    "phone": "03-977-9822",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:30"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "學生族愛店",
+      "開蘭路雞排"
+    ],
+    "recommended": [
+      "雞排"
+    ],
+    "editorial": "就在富美香雞排隔壁，兩家雞排風格不太一樣，在頭城也各有自己的擁戴者。尤其學生族群對 E世代很熟，放學後來份雞排，就是不少頭城學生的日常。至於老闆嘛……長得有點像葉問。",
+    "images": [],
+    "verified": true
+  },
+  {
+    "id": "TCL-0113",
+    "slug": "taimei",
+    "name": "台妹炸雞翅－頭城站前店",
+    "category": "點心",
+    "subcat": "炸雞炸物",
+    "address": "宜蘭縣頭城鎮民鋒路6-2號",
+    "phone": "03-977-0313",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:15"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      }
+    },
+    "tags": [
+      "站前",
+      "現買現吃"
+    ],
+    "recommended": [
+      "雞翅",
+      "雞腿",
+      "酥皮五花肉",
+      "全家餐"
+    ],
+    "editorial": "雖然是連鎖店，但這間台妹很有「頭城站前」自己的味道。買完不用急著帶走，外面就有一張小小的桌子，炸物就是要剛起鍋趁熱吃才對。",
+    "images": [
+      "assets/images/taimei-1.webp",
+      "assets/images/taimei-2.webp",
+      "assets/images/taimei-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0114",
+    "slug": "weijia",
+    "name": "魏家食府",
+    "category": "餐廳",
+    "subcat": "宜蘭辦桌菜",
+    "address": "宜蘭縣頭城鎮城北里纘祥路38號",
+    "phone": "03-977-1785",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:45",
+          "16:30–19:45"
+        ]
+      }
+    },
+    "tags": [
+      "第二代傳承",
+      "宜蘭辦桌菜"
+    ],
+    "recommended": [
+      "西魯肉",
+      "糕渣",
+      "金棗糕",
+      "鴨賞",
+      "櫻花蝦炒飯"
+    ],
+    "editorial": "想吃宜蘭辦桌菜，不一定真的要等人家辦喜宴。老老闆以前是有名的中園總舖師，現在手藝傳承給第二代。西魯肉、糕渣、金棗糕、鴨賞都可以點，但別忘了櫻花蝦炒飯。",
+    "images": [
+      "assets/images/weijia-1.webp",
+      "assets/images/weijia-2.webp",
+      "assets/images/weijia-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0115",
+    "slug": "chaomaji",
+    "name": "潮麻吉－頭城開蘭店",
+    "category": "點心",
+    "subcat": "雞排炸物",
+    "address": "宜蘭縣頭城鎮城西里開蘭路85-1號",
+    "phone": "03-977-5007",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "五": {
+        "status": "休息"
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:30–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "多口味雞排",
+      "星期五公休"
+    ],
+    "recommended": [
+      "鹽酥雞",
+      "甘梅地瓜",
+      "辣味雞排"
+    ],
+    "editorial": "口味選擇很多，辣味是真的有辣；鹽酥雞無骨又飽滿，甘梅地瓜甚至什麼粉都不加就很好吃。老闆選星期五公休，是因為星期五有頭城夜市，附近小吃店也就不跟夜市搶生意。",
+    "images": [
+      "assets/images/chaomaji-1.webp",
+      "assets/images/chaomaji-2.webp",
+      "assets/images/chaomaji-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0116",
+    "slug": "hito",
+    "name": "Hito石花凍",
+    "category": "點心",
+    "subcat": "石花凍甜品",
+    "address": "宜蘭縣頭城鎮城南里和平街60號",
+    "phone": "0935-956-770",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "13:00–18:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "頭城老街",
+      "得獎甜品"
+    ],
+    "recommended": [
+      "石花凍"
+    ],
+    "editorial": "頭城老街上少數有營業的店面，用料真材實料，一喝就知道。店面有濃濃的古樸風，室內涼涼的，也有可以坐下來慢慢享用的空間。曾榮獲「宜蘭十大好食好物」最佳甜品獎，以及「宜蘭縣第一屆特別產品獎」。",
+    "images": [
+      "assets/images/hito-1.webp",
+      "assets/images/hito-2.webp",
+      "assets/images/hito-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0201",
+    "slug": "tcl-0201",
+    "name": "台灣第一家鹽酥雞",
+    "category": "點心",
+    "subcat": "鹽酥雞",
+    "address": "宜蘭縣頭城鎮開蘭路90號",
+    "phone": "0930-698-569",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0202",
+    "slug": "tcl-0202",
+    "name": "頭城第一家鹽酥雞",
+    "category": "點心",
+    "subcat": "鹽酥雞",
+    "address": "宜蘭縣頭城鎮民鋒路1-3號",
+    "phone": "03-977-8130",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0203",
+    "slug": "tcl-0203",
+    "name": "布丁雞排",
+    "category": "點心",
+    "subcat": "雞排炸物",
+    "address": "宜蘭縣頭城鎮開蘭路91號",
+    "phone": "03-977-7578",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0204",
+    "slug": "tcl-0204",
+    "name": "香好佳雞排",
+    "category": "點心",
+    "subcat": "雞排炸物",
+    "address": "宜蘭縣頭城鎮青雲路二段273號",
+    "phone": "03-977-6543",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0205",
+    "slug": "tcl-0205",
+    "name": "志明與春嬌炸物店",
+    "category": "點心",
+    "subcat": "炸物",
+    "address": "宜蘭縣頭城鎮沙成路97號",
+    "phone": "暫無公開電話",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0206",
+    "slug": "tcl-0206",
+    "name": "珍湘碳烤",
+    "category": "點心",
+    "subcat": "碳烤",
+    "address": "宜蘭縣頭城鎮民鋒路78-4號",
+    "phone": "0921-823-477",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0207",
+    "slug": "tcl-0207",
+    "name": "串燒寶貝",
+    "category": "點心",
+    "subcat": "串燒",
+    "address": "宜蘭縣頭城鎮復興路59-3號",
+    "phone": "0926-377-880",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0208",
+    "slug": "tcl-0208",
+    "name": "羽鹿炭烤",
+    "category": "點心",
+    "subcat": "碳烤",
+    "address": "宜蘭縣頭城鎮協天路842號",
+    "phone": "0928-463-754",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  },
+  {
+    "id": "TCL-0209",
+    "slug": "tcl-0209",
+    "name": "珍珍燒烤店",
+    "category": "點心",
+    "subcat": "燒烤",
+    "address": "宜蘭縣頭城鎮和平街131號",
+    "phone": "0918-964-248",
+    "hours": null,
+    "tags": [
+      "待店家補充"
+    ],
+    "recommended": [],
+    "editorial": "",
+    "images": [],
+    "verified": false
+  }
 ];
