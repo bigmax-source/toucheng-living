@@ -1,7 +1,9 @@
-Toucheng Living v0.1 Alpha Build005
+Toucheng Living v0.1 Alpha Build005a
 Generated 2026-08-17
-Weekend batch release
-- Based on Build004a
-- Added 7 complete places with photos: 啾咕咖啡 烏石港店、蒸餃阿姨、謝家蜜之蜜手工包子店、頭城發財車無名炒麵早餐、煦栩花藝設計、啤 咖 酒、Kanea廚房-餐酒小館
+Hotfix based on Build005
+- E世代香雞排：加入暫用視覺主圖，避免空白卡片；標記實景照片待補
+- 每次重新載入頁面：有實景主圖店家採亂數排列
+- 尚未有實景主圖的店家統一排在列表最後
+- 「生活據點」後顯示目前店家資料總筆數
+- 移除「完整資料與『頭城二三事 在地推薦』會優先顯示。」
 - Total place records: 32
-- Preserves Build004a cover adjustments for 五阿姨早餐店 and 黑白配冰沙豆花

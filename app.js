@@ -3,6 +3,9 @@ const app=document.querySelector("#app");
 const places=window.LIVING_PLACES||[];
 const categories=[["🍜","餐廳"],["☕","咖啡"],["🧋","飲料"],["🍰","點心"],["🛒","超市"],["💊","藥局"],["🛠","修車"],["🧰","生活"]];
 let currentCategory="全部",query="";
+// 每次重新載入頁面都建立一份新的亂數排序；有實景主圖的店家優先，尚待補主圖者固定排在最後。
+const pageRandomOrder=new Map(places.map(p=>[p.id,Math.random()]));
+function hasMainPhoto(s){return !!(s.images?.length)&&!s.photoPending;}
 const dayNames=["日","一","二","三","四","五","六"];
 const dayLong={一:"星期一",二:"星期二",三:"星期三",四:"星期四",五:"星期五",六:"星期六",日:"星期日"};
 
@@ -44,6 +47,10 @@ function filtered(){
    const cat=currentCategory==="全部"||s.category===currentCategory;
    const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());
    return cat&&q;
+ }).sort((a,b)=>{
+   const photoDiff=Number(hasMainPhoto(b))-Number(hasMainPhoto(a));
+   if(photoDiff)return photoDiff;
+   return pageRandomOrder.get(a.id)-pageRandomOrder.get(b.id);
  });
 }
 function home(){
@@ -54,12 +61,12 @@ function home(){
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
   </section>
   <section class="section">
-   <div class="section-head"><div><h2 id="listTitle">${currentCategory==="全部"?"生活據點":currentCategory}</h2><p>完整資料與「頭城二三事 在地推薦」會優先顯示。</p></div></div>
+   <div class="section-head"><div><h2 id="listTitle">${currentCategory==="全部"?`生活據點　現在已有${places.length}筆店家資料`:currentCategory}</h2></div></div>
    <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、地址、推薦品項…" value="${esc(query)}"><span class="count" id="count"></span></div>
    <div id="cards"></div>
   </section>
  </div>`;
- document.querySelectorAll(".cat").forEach(b=>b.onclick=()=>{currentCategory=b.dataset.cat;renderCards();document.querySelectorAll(".cat").forEach(x=>x.classList.toggle("active",x===b));document.querySelector("#listTitle").textContent=currentCategory;document.querySelector("#cards")?.scrollIntoView({behavior:"smooth",block:"start"})});
+ document.querySelectorAll(".cat").forEach(b=>b.onclick=()=>{currentCategory=b.dataset.cat;renderCards();document.querySelectorAll(".cat").forEach(x=>x.classList.toggle("active",x===b));document.querySelector("#listTitle").textContent=currentCategory==="全部"?`生活據點　現在已有${places.length}筆店家資料`:currentCategory;document.querySelector("#cards")?.scrollIntoView({behavior:"smooth",block:"start"})});
  document.querySelector("#search").oninput=e=>{query=e.target.value;renderCards()};
  renderCards();
 }

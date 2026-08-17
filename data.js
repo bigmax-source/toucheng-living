@@ -789,7 +789,10 @@ window.LIVING_PLACES = [
       "雞排"
     ],
     "editorial": "就在富美香雞排隔壁，兩家雞排風格不太一樣，在頭城也各有自己的擁戴者。尤其學生族群對 E世代很熟，放學後來份雞排，就是不少頭城學生的日常。至於老闆嘛……長得有點像葉問。",
-    "images": [],
+    "images": [
+      "assets/images/egen-cover.webp"
+    ],
+    "photoPending": true,
     "verified": true
   },
   {
