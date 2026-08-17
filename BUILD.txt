@@ -1,9 +1,8 @@
-Toucheng Living v0.1 Alpha Build005a
+Toucheng Living v0.1 Alpha Build005b
 Generated 2026-08-17
-Hotfix based on Build005
-- E世代香雞排：加入暫用視覺主圖，避免空白卡片；標記實景照片待補
-- 每次重新載入頁面：有實景主圖店家採亂數排列
-- 尚未有實景主圖的店家統一排在列表最後
-- 「生活據點」後顯示目前店家資料總筆數
-- 移除「完整資料與『頭城二三事 在地推薦』會優先顯示。」
+Hotfix based on Build005a
+- E世代香雞排：補入使用者提供的 3 張實景照片
+- E世代香雞排：首圖改為雞排近拍，另兩張收錄於詳細頁圖庫
+- E世代香雞排：取消實景照片待補標記
+- 保留 Build005a 其餘內容與排序邏輯
 - Total place records: 32
