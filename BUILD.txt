@@ -1,2 +1,7 @@
-Toucheng Living v0.1 Alpha Build004a
-Cover image adjustment: 五阿姨早餐店 / 黑白配冰沙豆花
+Toucheng Living v0.1 Alpha Build005
+Generated 2026-08-17
+Weekend batch release
+- Based on Build004a
+- Added 7 complete places with photos: 啾咕咖啡 烏石港店、蒸餃阿姨、謝家蜜之蜜手工包子店、頭城發財車無名炒麵早餐、煦栩花藝設計、啤 咖 酒、Kanea廚房-餐酒小館
+- Total place records: 32
+- Preserves Build004a cover adjustments for 五阿姨早餐店 and 黑白配冰沙豆花

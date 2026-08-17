@@ -1212,5 +1212,461 @@ window.LIVING_PLACES = [
     "editorial": "",
     "images": [],
     "verified": false
+  },
+  {
+    "id": "TCL-0117",
+    "slug": "tjuku-wushi",
+    "name": "啾咕咖啡 烏石港店",
+    "category": "咖啡",
+    "subcat": "咖啡甜點",
+    "address": "宜蘭縣頭城鎮港口里港墘路60號2樓",
+    "phone": "03-977-2158",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00"
+        ]
+      }
+    },
+    "tags": [
+      "LGBTQ+ 友善空間",
+      "烏石港"
+    ],
+    "recommended": [
+      "咖啡",
+      "甜點"
+    ],
+    "editorial": "位在烏石港旁的咖啡空間，窗邊可以望向港區，適合喝咖啡、吃甜點，慢慢坐上一段時間。也是 LGBTQ+ 友善空間。",
+    "images": [
+      "assets/images/tjuku-wushi-1.webp",
+      "assets/images/tjuku-wushi-2.webp",
+      "assets/images/tjuku-wushi-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0118",
+    "slug": "steamed-dumpling-auntie",
+    "name": "蒸餃阿姨",
+    "category": "餐廳",
+    "subcat": "早餐／蒸餃",
+    "address": "宜蘭縣頭城鎮開蘭路57號",
+    "phone": "0916-892-115",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–14:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–14:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–14:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–14:00"
+        ]
+      }
+    },
+    "tags": [
+      "2026《500碗》2碗",
+      "頭城早餐"
+    ],
+    "recommended": [
+      "綜合蒸餃"
+    ],
+    "editorial": "榮獲 2026《500碗》2碗殊榮。早上六點開始營業，八點之後建議先打電話預約；綜合蒸餃絕對必點。",
+    "images": [
+      "assets/images/steamed-dumpling-auntie-1.webp",
+      "assets/images/steamed-dumpling-auntie-2.webp",
+      "assets/images/steamed-dumpling-auntie-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0119",
+    "slug": "honey-bun",
+    "name": "謝家蜜之蜜手工包子店",
+    "category": "餐廳",
+    "subcat": "早餐／包子",
+    "address": "宜蘭縣頭城鎮拔雅里吉祥路72號",
+    "phone": "03-977-7519",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–10:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–10:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–10:30"
+        ]
+      },
+      "五": {
+        "status": "休息"
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–10:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–10:30"
+        ]
+      }
+    },
+    "tags": [
+      "每天現包現蒸",
+      "頭城早餐"
+    ],
+    "recommended": [
+      "肉包",
+      "奶酥包",
+      "無糖豆漿"
+    ],
+    "editorial": "每天現包現蒸，肉包跟奶酥包都是別家吃不到的口味，無糖豆漿也非常好喝。",
+    "images": [
+      "assets/images/honey-bun-1.webp",
+      "assets/images/honey-bun-2.webp",
+      "assets/images/honey-bun-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0120",
+    "slug": "breakfast-truck",
+    "name": "頭城發財車無名炒麵早餐",
+    "category": "餐廳",
+    "subcat": "早餐／小吃",
+    "address": "宜蘭縣頭城鎮拔雅里吉祥路96-3號",
+    "phone": "",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–售完"
+        ]
+      }
+    },
+    "tags": [
+      "第二代接手",
+      "發財車早餐"
+    ],
+    "recommended": [
+      "米粉焿",
+      "炒麵",
+      "油豆腐"
+    ],
+    "editorial": "已由第二代接手，早上六點開賣，也常常很早就賣完，賣完老闆就收一收回家。米粉焿、炒麵會淋上滷肉和特製甜辣醬，在滷肉鍋中一起滷的油豆腐必加。沒有桌子，旁邊幾張椅子坐下來就能開吃，連保麗龍碗都很有復古感。",
+    "images": [
+      "assets/images/breakfast-truck-1.webp",
+      "assets/images/breakfast-truck-2.webp",
+      "assets/images/breakfast-truck-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0121",
+    "slug": "xuxu-floral",
+    "name": "煦栩花藝設計",
+    "category": "服務",
+    "subcat": "花藝設計",
+    "address": "宜蘭縣頭城鎮復興路63-1號",
+    "phone": "0917-779-037",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "2023/10/15 開幕",
+      "德國花藝師 FDF/IHK"
+    ],
+    "recommended": [
+      "花束",
+      "花藝設計"
+    ],
+    "editorial": "2023年10月15日開幕，前身是在開蘭路上的櫻竹花店。老闆娘曾遠赴德國取得德國花藝師 FDF/IHK 證照，從老店的地方記憶延續成現在的花藝設計空間。",
+    "images": [
+      "assets/images/xuxu-floral-1.webp",
+      "assets/images/xuxu-floral-2.webp",
+      "assets/images/xuxu-floral-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0122",
+    "slug": "beer-coffee-wine",
+    "name": "啤 咖 酒",
+    "category": "餐廳",
+    "subcat": "酒吧／咖啡",
+    "address": "宜蘭縣頭城鎮城東里和平東路37號",
+    "phone": "0906-251-010",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "14:30–23:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:00–23:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:00–23:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "13:00–23:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "13:00–23:00"
+        ]
+      }
+    },
+    "tags": [
+      "LGBTQ+ 友善空間",
+      "精釀啤酒"
+    ],
+    "recommended": [
+      "啤酒",
+      "咖啡"
+    ],
+    "editorial": "啤酒、咖啡與音樂收藏交織在一起的個性空間，店裡從酒櫃、音響到各式收藏都有老闆自己的味道，也是 LGBTQ+ 友善空間。",
+    "images": [
+      "assets/images/beer-coffee-wine-1.webp",
+      "assets/images/beer-coffee-wine-2.webp",
+      "assets/images/beer-coffee-wine-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0123",
+    "slug": "kanea",
+    "name": "Kanea廚房-餐酒小館",
+    "category": "餐廳",
+    "subcat": "義式料理／餐酒館",
+    "address": "宜蘭縣頭城鎮拔雅里吉祥路220號",
+    "phone": "0901-305-805",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "17:30–22:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "17:30–22:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "17:30–22:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "17:30–22:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:30–14:00",
+          "17:30–22:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:30–14:00",
+          "17:30–22:00"
+        ]
+      }
+    },
+    "tags": [
+      "約會聚餐",
+      "慶祝聚會"
+    ],
+    "recommended": [
+      "義大利麵",
+      "燉飯",
+      "提拉米蘇"
+    ],
+    "editorial": "藏在吉祥路上的餐酒小館。義大利麵風味十足，燉飯走濃郁路線，店內有小館子的溫度，氣氛舒服又帶點浪漫，很適合約會或找個理由來慶祝一下。",
+    "images": [
+      "assets/images/kanea-1.webp",
+      "assets/images/kanea-2.webp",
+      "assets/images/kanea-3.webp"
+    ],
+    "verified": true
   }
 ];
