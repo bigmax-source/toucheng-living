@@ -61,18 +61,16 @@ function home(){
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
   </section>
   <section class="section">
-   <div class="section-head"><div><h2 id="listTitle">${currentCategory==="全部"?`生活據點　現在已有${places.length}筆店家資料`:currentCategory}</h2></div></div>
-   <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、地址、推薦品項…" value="${esc(query)}"><span class="count" id="count"></span></div>
+   <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、地址、推薦品項…" value="${esc(query)}"></div>
    <div id="cards"></div>
   </section>
  </div>`;
- document.querySelectorAll(".cat").forEach(b=>b.onclick=()=>{currentCategory=b.dataset.cat;renderCards();document.querySelectorAll(".cat").forEach(x=>x.classList.toggle("active",x===b));document.querySelector("#listTitle").textContent=currentCategory==="全部"?`生活據點　現在已有${places.length}筆店家資料`:currentCategory;document.querySelector("#cards")?.scrollIntoView({behavior:"smooth",block:"start"})});
+ document.querySelectorAll(".cat").forEach(b=>b.onclick=()=>{currentCategory=b.dataset.cat;renderCards();document.querySelectorAll(".cat").forEach(x=>x.classList.toggle("active",x===b));document.querySelector("#cards")?.scrollIntoView({behavior:"smooth",block:"start"})});
  document.querySelector("#search").oninput=e=>{query=e.target.value;renderCards()};
  renderCards();
 }
 function renderCards(){
  const arr=filtered();
- document.querySelector("#count").textContent=`${arr.length} 個據點`;
  document.querySelector("#cards").innerHTML=arr.length?`<div class="cards">${arr.map(card).join("")}</div>`:`<div class="empty">這個分類目前還在蒐集中。你知道適合加入的頭城店家嗎？</div>`;
 }
 function gallery(s){
@@ -91,7 +89,8 @@ function hoursHtml(s){
 function detail(id){
  const s=places.find(x=>x.id===id);if(!s)return home();
  const rec=(s.recommended||[]).length?`<div class="story-box"><b>推薦品項</b><ul class="rec-list">${s.recommended.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:"";
- const editorial=s.editorial?`<div class="editorial"><h3>頭城二三事 在地推薦</h3><p>${esc(s.editorial)}</p></div>`:"";
+ const editorial=s.editorial?`<div class="editorial"><h3>${esc(s.editorial_title||"頭城二三事 在地推薦")}</h3><p>${esc(s.editorial)}</p></div>`:"";
+ const relations=(s.relations||[]).map(r=>{const p=places.find(x=>x.id===r.place_id);return p?`<div class="relation-box"><b>📍 ${esc(r.label||"附近店家")}</b><a href="#place/${p.id}">${esc(p.name)} →</a></div>`:""}).join("");
  app.innerHTML=`<div class="container page">
   <a class="back" href="#">← 回到 Toucheng Living</a>
   <div class="detail">
@@ -109,7 +108,7 @@ function detail(id){
        <button class="btn btn-secondary" onclick="toggleFavorite('${s.id}',this)">♡ 收藏</button>
        <button class="btn btn-secondary" onclick="sharePage('${esc(s.name)}')">↗ 分享</button>
       </div>
-      ${hoursHtml(s)}${rec}${editorial}
+      ${hoursHtml(s)}${rec}${editorial}${relations}
       <div class="claim-box"><h3>🎁 領取你的 Living Card</h3><p>如果你是店家負責人或經授權的人員，可以補充、修正照片與營業資訊。</p><a class="btn btn-primary" style="display:inline-block" href="#claim/${s.id}">開始更新</a></div>
     </section>
   </div>
@@ -166,5 +165,5 @@ function renderWizard(){
 }
 function route(){const h=location.hash.slice(1);if(h.startsWith("place/"))detail(h.split("/")[1]);else if(h.startsWith("claim/"))startClaim(h.split("/")[1]);else home()}
 window.addEventListener("hashchange",route);
-document.querySelector("#joinBtn").onclick=()=>alert("Build004 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
+document.querySelector("#joinBtn").onclick=()=>alert("Build006 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
 route();

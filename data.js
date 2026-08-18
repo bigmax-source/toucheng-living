@@ -654,19 +654,20 @@ window.LIVING_PLACES = [
       }
     },
     "tags": [
+      "自家肉攤與漁船",
       "親子友善",
       "兒童遊戲區",
-      "海鮮"
+      "假日建議預約"
     ],
     "recommended": [
       "月見滷肉飯",
       "海鮮鍋物"
     ],
-    "editorial": "來吃火鍋，結果我先叫你點滷肉飯。七度鍋物的月見滷肉飯必點；老闆自己有船，所以海鮮是這間店很重要的特色。帶小孩來也方便，店裡有兒童遊戲區。",
+    "editorial": "老闆家有自己的肉攤與漁船，保證新鮮！有兒童遊戲區，帶小孩來也方便。假日生意很好，建議一個星期之前訂位。",
     "images": [
-      "assets/images/seven-hotpot-1.webp",
-      "assets/images/seven-hotpot-2.webp",
-      "assets/images/seven-hotpot-3.webp"
+      "assets/images/seven-hotpot-new-1.webp",
+      "assets/images/seven-hotpot-new-2.webp",
+      "assets/images/seven-hotpot-new-3.webp"
     ],
     "verified": true
   },
@@ -1673,5 +1674,505 @@ window.LIVING_PLACES = [
       "assets/images/kanea-3.webp"
     ],
     "verified": true
+  },
+  {
+    "id": "TCL-0124",
+    "slug": "happy-rentstation",
+    "name": "開心RentStation頭城店 單車｜機車補給站",
+    "category": "生活",
+    "subcat": "租車／交通",
+    "address": "宜蘭縣頭城鎮城東里開蘭路120號",
+    "phone": "0902-112-299",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      }
+    },
+    "tags": [
+      "租車",
+      "單車",
+      "機車補給站",
+      "頭城移動"
+    ],
+    "recommended": [
+      "租腳踏車逛頭城"
+    ],
+    "editorial": "頭城租車第一首選，款式多、活動多、價格合理。來頭城，租腳踏車移動超級方便。看老闆今天穿的衣服上面印星期幾，今天就是星期幾。",
+    "images": [
+      "assets/images/rentstation-1.webp",
+      "assets/images/rentstation-2.webp",
+      "assets/images/rentstation-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0125",
+    "slug": "guangyi-station",
+    "name": "光驛站",
+    "category": "餐廳",
+    "subcat": "咖啡／燒烤／餐酒",
+    "address": "宜蘭縣頭城鎮武營里青雲路三段502之1號",
+    "phone": "0903-003-948",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "12:00–23:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "12:00–23:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "12:00–23:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "12:00–23:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "12:00–23:30"
+        ]
+      }
+    },
+    "tags": [
+      "LGBTQ+友善",
+      "女性業主",
+      "燒烤",
+      "餐酒"
+    ],
+    "recommended": [
+      "牛肉麵",
+      "啤酒",
+      "燒烤"
+    ],
+    "editorial": "牛肉麵必點，老闆娘在的話要記得點啤酒跟燒烤。",
+    "images": [
+      "assets/images/guangyi-1.webp",
+      "assets/images/guangyi-2.webp",
+      "assets/images/guangyi-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0126",
+    "slug": "woosbar",
+    "name": "水旅居餐廳＋露營車露營",
+    "category": "餐廳",
+    "subcat": "簡餐／露營車",
+    "address": "宜蘭縣頭城鎮文化路205巷38-1號",
+    "phone": "0912-581-913",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:30–15:00",
+          "17:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:30–15:00",
+          "17:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:30–15:00",
+          "17:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:30–15:00",
+          "17:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:30–15:00",
+          "17:00–21:00"
+        ]
+      }
+    },
+    "tags": [
+      "露營車",
+      "簡餐",
+      "啤酒",
+      "建議訂位"
+    ],
+    "recommended": [
+      "滷味",
+      "簡餐",
+      "啤酒"
+    ],
+    "editorial": "建議事先訂位，滷味超級好吃，餐點以簡餐類為主，也有好喝的啤酒。老闆非常幽默，來吃飯有時候連聊天都是套餐的一部分。",
+    "images": [
+      "assets/images/woosbar-1.webp",
+      "assets/images/woosbar-2.webp",
+      "assets/images/woosbar-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0127",
+    "slug": "ruyi-snack",
+    "name": "如意小吃",
+    "category": "餐廳",
+    "subcat": "早餐／小吃",
+    "address": "宜蘭縣頭城鎮城北里纘祥路56號",
+    "phone": "03-977-4828",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–13:00"
+        ]
+      }
+    },
+    "tags": [
+      "在地早餐",
+      "乾麵",
+      "小菜",
+      "料理台乾淨"
+    ],
+    "recommended": [
+      "乾麵",
+      "小菜",
+      "湯品"
+    ],
+    "editorial": "超級乾淨的料理台，頭城在地人的早餐選擇。",
+    "images": [
+      "assets/images/ruyi-1.webp",
+      "assets/images/ruyi-2.webp",
+      "assets/images/ruyi-3.webp"
+    ],
+    "verified": true,
+    "relations": [
+      {
+        "type": "next_door",
+        "place_id": "TCL-0128",
+        "label": "就在隔壁"
+      }
+    ]
+  },
+  {
+    "id": "TCL-0128",
+    "slug": "wubai-stirfry",
+    "name": "伍佰快炒",
+    "category": "餐廳",
+    "subcat": "快炒／合菜",
+    "address": "宜蘭縣頭城鎮城北里纘祥路54號",
+    "phone": "03-978-0021",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:00",
+          "16:30–19:00"
+        ]
+      }
+    },
+    "tags": [
+      "快炒",
+      "合菜",
+      "炒飯",
+      "四菜一湯"
+    ],
+    "recommended": [
+      "390元四菜一湯",
+      "炒飯"
+    ],
+    "editorial": "各式快炒都難不倒老闆，最喜歡他390元四菜一湯的組合！炒飯非常讚！5566的王仁甫必點。",
+    "images": [
+      "assets/images/wubai-1.webp",
+      "assets/images/wubai-2.webp",
+      "assets/images/wubai-3.webp"
+    ],
+    "verified": true,
+    "relations": [
+      {
+        "type": "next_door",
+        "place_id": "TCL-0127",
+        "label": "就在隔壁"
+      }
+    ]
+  },
+  {
+    "id": "TCL-0129",
+    "slug": "wootea-toucheng",
+    "name": "五桐號 WooTea 宜蘭頭城店",
+    "category": "飲料",
+    "subcat": "茶飲",
+    "address": "宜蘭縣頭城鎮城南里青雲路三段82號",
+    "phone": "03-977-8065",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:30"
+        ]
+      }
+    },
+    "tags": [
+      "手搖飲",
+      "茶飲",
+      "連鎖品牌"
+    ],
+    "recommended": [
+      "小芋圓清茶"
+    ],
+    "editorial": "真心推薦小芋圓清茶，兩位老闆娘都很幽默。",
+    "images": [
+      "assets/images/wootea-1.webp",
+      "assets/images/wootea-2.webp",
+      "assets/images/wootea-3.webp"
+    ],
+    "verified": true,
+    "instagram": "https://www.instagram.com/wootea_toucheng/"
+  },
+  {
+    "id": "TCL-0130",
+    "slug": "toucheng-pharmacy",
+    "name": "頭城藥局",
+    "category": "藥局",
+    "subcat": "健保藥局",
+    "address": "宜蘭縣頭城鎮城東里開蘭路134號",
+    "phone": "03-977-0618",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:15–21:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:15–21:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:15–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:15–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:15–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
+    },
+    "tags": [
+      "在地老店",
+      "社區服務",
+      "偏鄉送藥",
+      "健保藥局"
+    ],
+    "recommended": [],
+    "editorial": "在頭城服務超過一甲子的老藥局。從創辦人楊哲雄，到第二代林文奎藥師，頭城藥局不只是買藥的地方。轉型健保藥局後，也協助老人家預約掛號、提供偏鄉送藥等服務。對不少頭城人來說，這間開蘭路上的藥局，早已是生活裡熟悉的一部分。",
+    "images": [
+      "assets/images/toucheng-pharmacy-1.webp",
+      "assets/images/toucheng-pharmacy-2.webp",
+      "assets/images/toucheng-pharmacy-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "在地故事"
   }
 ];

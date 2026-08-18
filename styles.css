@@ -130,3 +130,7 @@ footer{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;padding:2
  .uploads{grid-template-columns:1fr}
  .action-row{grid-template-columns:1fr 1fr 1fr}
 }
+
+.relation-box{margin-top:16px;padding:15px 18px;border:1px solid var(--line);border-radius:18px;background:#fff}
+.relation-box b{display:block;margin-bottom:7px;color:var(--street)}
+.relation-box a{color:var(--green);font-weight:800}

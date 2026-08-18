@@ -1,8 +1,14 @@
-Toucheng Living v0.1 Alpha Build005b
-Generated 2026-08-17
-Hotfix based on Build005a
-- E世代香雞排：補入使用者提供的 3 張實景照片
-- E世代香雞排：首圖改為雞排近拍，另兩張收錄於詳細頁圖庫
-- E世代香雞排：取消實景照片待補標記
-- 保留 Build005a 其餘內容與排序邏輯
-- Total place records: 32
+Toucheng Living v0.1 Alpha Build006
+Date: 2026-08-18
+
+Base: Build005b
+
+Build006 updates
+- 新增 7 間完整 Living Card：
+  開心RentStation頭城店、光驛站、水旅居、如意小吃、伍佰快炒、
+  五桐號 WooTea 宜蘭頭城店、頭城藥局
+- 七度鍋物：更新照片與「自家肉攤與漁船／假日建議提前一週訂位」資訊
+- 如意小吃 ↔ 伍佰快炒：加入「就在隔壁」人工確認關聯
+- 頭城藥局使用「在地故事」呈現
+- 完全移除首頁「生活據點／目前店家筆數」提示，不以其他筆數文字取代
+- 維持 Build005b 原有的隨機排序、實景照片優先與 Living Card 更新流程
