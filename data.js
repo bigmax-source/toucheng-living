@@ -2174,5 +2174,374 @@ window.LIVING_PLACES = [
     ],
     "verified": true,
     "editorial_title": "在地故事"
-  }
+  },
+{
+  "id": "TCL-0131",
+  "slug": "donburi-minfeng",
+  "name": "丼飯",
+  "category": "餐廳",
+  "subcat": "丼飯",
+  "address": "宜蘭縣頭城鎮民鋒路78-2號",
+  "phone": "0981-482-100",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "日": {
+      "status": "休息"
+    }
+  },
+  "tags": [
+    "丼飯",
+    "現點現做",
+    "售完為止"
+  ],
+  "recommended": [
+    "牛五花丼飯",
+    "羊肉丼",
+    "豬五花丼",
+    "去骨雞腿丼"
+  ],
+  "editorial": "現點現做的大份量丼飯，每份120元。主餐可選牛五花、羊肉、豬五花或去骨雞腿，搭配兩樣青菜、雪白菇，再從半熟太陽蛋與蔥蛋二選一；每日售完為止。",
+  "images": [
+    "assets/images/donburi-1.webp",
+    "assets/images/donburi-2.webp"
+  ],
+  "verified": true
+},
+{
+  "id": "TCL-0132",
+  "slug": "aqua-teashop",
+  "name": "AQUA 水瓶",
+  "category": "飲料",
+  "subcat": "精品茶飲",
+  "address": "宜蘭縣頭城鎮城西里沙成路101號",
+  "phone": "03-977-0047",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "11:00–21:00"
+      ]
+    },
+    "二": {
+      "status": "休息"
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "11:00–21:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "11:00–21:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "11:00–21:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "11:00–20:00"
+      ]
+    },
+    "日": {
+      "status": "休息"
+    }
+  },
+  "tags": [
+    "精品茶飲",
+    "台灣茶",
+    "職人茶飲"
+  ],
+  "recommended": [
+    "酸辣湯"
+  ],
+  "editorial": "台灣在地精品茶葉，透過現代淬鍊手法，把水與茶做成一杯杯有自己個性的飲品。頭城人一定要推他的「酸辣湯」——先說好，是飲料，不是湯。",
+  "images": [
+    "assets/images/aqua-1.webp",
+    "assets/images/aqua-2.webp",
+    "assets/images/aqua-3.webp"
+  ],
+  "verified": true,
+  "website": "https://shiu47.github.io/AQUA-Teashop"
+},
+{
+  "id": "TCL-0133",
+  "slug": "wuming-sugarcane-ice",
+  "name": "吳銘小棧｜甘蔗冰",
+  "category": "點心",
+  "subcat": "冰品甜品",
+  "address": "宜蘭縣頭城鎮城北里開蘭路137號",
+  "phone": "03-978-9137",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "12:00–20:00"
+      ]
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "12:00–20:00"
+      ]
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "12:00–20:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "12:00–20:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "12:00–20:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "10:00–20:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "10:00–20:00"
+      ]
+    }
+  },
+  "tags": [
+    "甘蔗冰",
+    "芋頭",
+    "花豆",
+    "珍珠假日限定"
+  ],
+  "recommended": [
+    "甘蔗冰",
+    "芋頭",
+    "花豆",
+    "假日限定珍珠"
+  ],
+  "editorial": "珍珠是假日限定，記得加點芋頭跟花豆！",
+  "images": [
+    "assets/images/wuming-1.webp",
+    "assets/images/wuming-2.webp",
+    "assets/images/wuming-3.webp"
+  ],
+  "verified": true
+},
+{
+  "id": "TCL-0134",
+  "slug": "xingfu-manwei",
+  "name": "幸福滿味食堂",
+  "category": "餐廳",
+  "subcat": "海鮮／飯麵",
+  "address": "宜蘭縣頭城鎮頭濱路二段92號",
+  "phone": "0981-764-767",
+  "hours": {
+    "一": {
+      "status": "休息"
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "10:30–19:00"
+      ]
+    }
+  },
+  "tags": [
+    "海鮮料理",
+    "炒飯",
+    "女性業主",
+    "附停車場"
+  ],
+  "recommended": [
+    "海鮮麵",
+    "炒飯"
+  ],
+  "editorial": "業主為女性的商家。海鮮料理新鮮又美味，海鮮麵和炒飯份量十足；餐點價格合理，現場也有停車場。",
+  "images": [
+    "assets/images/xingfu-manwei-1.webp",
+    "assets/images/xingfu-manwei-2.webp",
+    "assets/images/xingfu-manwei-3.webp"
+  ],
+  "verified": true
+},
+{
+  "id": "TCL-0135",
+  "slug": "now-coffee",
+  "name": "當下咖啡",
+  "category": "咖啡",
+  "subcat": "精品咖啡／自家烘焙",
+  "address": "宜蘭縣頭城鎮復興路38-1號",
+  "phone": "0927-368-698",
+  "hours": null,
+  "tags": [
+    "極淺焙",
+    "淺焙",
+    "自家烘焙",
+    "Uber Eats"
+  ],
+  "recommended": [
+    "手沖咖啡",
+    "自家烘焙咖啡豆"
+  ],
+  "editorial": "以極淺焙與淺焙精品咖啡為主，現場常備10～12款自家烘焙咖啡豆。來到當下，不需要很懂咖啡，只要找到自己喜歡的香氣就好。還有一件很「頭城」的小事：馬路對面就是煦栩花藝設計，當下咖啡老闆煮到新豆子的時候，常會順手多煮一壺，過個馬路分給煦栩花藝設計的老闆娘喝。兩間店隔著一條復興路，用一壺咖啡敦親睦鄰。",
+  "images": [
+    "assets/images/now-coffee-1.webp",
+    "assets/images/now-coffee-2.webp",
+    "assets/images/now-coffee-3.webp"
+  ],
+  "verified": true,
+  "relations": [
+    {
+      "type": "neighbor_story",
+      "place_id": "TCL-0121",
+      "label": "隔街的新豆分享"
+    }
+  ]
+},
+{
+  "id": "TCL-0136",
+  "slug": "amao-noodles",
+  "name": "阿茂麵攤",
+  "category": "餐廳",
+  "subcat": "麵店",
+  "address": "宜蘭縣頭城鎮新建里東興街59號",
+  "phone": "0953-823-468",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    },
+    "三": {
+      "status": "休息"
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "09:30–18:00"
+      ]
+    }
+  },
+  "tags": [
+    "乾麵",
+    "瓜仔雞湯",
+    "在地老味道"
+  ],
+  "recommended": [
+    "乾麵",
+    "瓜仔雞湯"
+  ],
+  "editorial": "老闆很幽默，原本在青雲路開店，一路做到退休。本來以為就這樣收山了，沒想到休息一陣子，大概是真的閒不住，又在自家門口重新擺起麵攤。想吃阿茂的老味道，乾麵一定要點，再配一碗瓜仔雞湯，就是熟客記得的那一套。",
+  "images": [
+    "assets/images/amao-1.webp",
+    "assets/images/amao-2.webp",
+    "assets/images/amao-3.webp"
+  ],
+  "verified": true
+}
 ];

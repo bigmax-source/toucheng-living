@@ -134,3 +134,8 @@ footer{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;padding:2
 .relation-box{margin-top:16px;padding:15px 18px;border:1px solid var(--line);border-radius:18px;background:#fff}
 .relation-box b{display:block;margin-bottom:7px;color:var(--street)}
 .relation-box a{color:var(--green);font-weight:800}
+
+/* Build007: compact category-to-search spacing */
+.categories-section{padding:30px 0 8px}
+.results-section{padding:0 0 30px}
+.results-section .toolbar{margin:10px 0 18px}

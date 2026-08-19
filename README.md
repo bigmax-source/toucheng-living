@@ -1,3 +1,16 @@
+# Toucheng Living v0.1 Alpha — Build007
+
+**Date: 2026/08/19｜Incremental Build**
+
+- 店家資料：39 → 45 筆
+- 新增：丼飯、AQUA 水瓶、吳銘小棧｜甘蔗冰、幸福滿味食堂、當下咖啡、阿茂麵攤
+- 當下咖啡 ↔ 煦栩花藝設計：加入「隔街分享新豆」街坊故事
+- 前台店名不顯示 TCL 內部編號
+- 移除首頁「生活分類／從頭城人的日常開始找。」標題列並壓縮分類與搜尋列間距
+- 自 Build007 起採增量更新：`assets/images/` 僅交付本版新增圖片
+
+---
+
 # Toucheng Living v0.1 Alpha — Build004
 
 **Since 2026/08/07**

@@ -1,14 +1,13 @@
-Toucheng Living v0.1 Alpha Build006
-Date: 2026-08-18
+Toucheng Living v0.1 Alpha Build007
+Date: 2026-08-19
+Base: Build006
+Mode: Incremental Build
 
-Base: Build005b
-
-Build006 updates
-- 新增 7 間完整 Living Card：
-  開心RentStation頭城店、光驛站、水旅居、如意小吃、伍佰快炒、
-  五桐號 WooTea 宜蘭頭城店、頭城藥局
-- 七度鍋物：更新照片與「自家肉攤與漁船／假日建議提前一週訂位」資訊
-- 如意小吃 ↔ 伍佰快炒：加入「就在隔壁」人工確認關聯
-- 頭城藥局使用「在地故事」呈現
-- 完全移除首頁「生活據點／目前店家筆數」提示，不以其他筆數文字取代
-- 維持 Build005b 原有的隨機排序、實景照片優先與 Living Card 更新流程
+Build007 updates
+- 新增 6 間完整 Living Card：丼飯、AQUA 水瓶、吳銘小棧｜甘蔗冰、幸福滿味食堂、當下咖啡、阿茂麵攤
+- 總資料筆數：45
+- 當下咖啡加入與煦栩花藝設計的隔街新豆分享故事與關聯
+- 前台店名不顯示 TCL 內部編號
+- 首頁移除「生活分類／從頭城人的日常開始找。」標題列
+- 壓縮分類按鈕與搜尋列之間的留白
+- 本增量包 assets/images 僅包含 Build007 新增圖片

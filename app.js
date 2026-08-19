@@ -56,11 +56,10 @@ function filtered(){
 function home(){
  app.innerHTML=`<section class="hero"><div class="hero-inner"><h1>Toucheng Living</h1><div class="since">Since 2026/08/07</div></div></section>
  <div class="container">
-  <section class="section">
-   <div class="section-head"><div><h2>生活分類</h2><p>從頭城人的日常開始找。</p></div></div>
+  <section class="section categories-section">
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
   </section>
-  <section class="section">
+  <section class="section results-section">
    <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、地址、推薦品項…" value="${esc(query)}"></div>
    <div id="cards"></div>
   </section>

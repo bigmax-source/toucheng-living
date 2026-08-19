@@ -1,0 +1,6 @@
+Build007 增量更新包
+
+1. 將本資料夾中的 data.js、app.js、styles.css、README.md、BUILD.txt、living-seed.csv 上傳到 GitHub repository 根目錄，覆蓋同名檔案。
+2. 將 assets/images/ 內的新圖片上傳到 repository 的 assets/images/。
+3. 不需要重新上傳 Build006 既有的 95 張圖片，也不要刪除舊圖片。
+4. 本版新增 17 張 WebP 圖片（丼飯目前使用 2 張；其餘新增店家各 3 張）。
