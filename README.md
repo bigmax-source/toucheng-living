@@ -1,3 +1,3 @@
-# Toucheng Living v0.1 Alpha — Build008
+# Toucheng Living v0.1 Alpha — Build008b
 
-2026/08/20 增量結算。新增 23 筆，總數 68 筆；補當下咖啡營業時間；新增 OG 分享卡。圖片採增量交付。
+2026/08/20 增量修正版。修正 Build008 內 12 筆已提供照片但未綁定至卡片的問題。

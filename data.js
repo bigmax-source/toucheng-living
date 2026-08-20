@@ -2649,9 +2649,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "位在開蘭行旅一樓商店街，是寵物友善、LGBTQ+ 友善空間。下午適合一個人喝茶看書聽音樂，夜晚則適合親朋好友聚會小酌；也是頭城少數營業到深夜的店，夜貓族很實用。官網：lucas-bistro.weebly.com",
-    "images": "",
+    "images": [
+      "assets/images/lucas-bistro-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0147",
@@ -2773,9 +2775,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "頭城鎮上購買國高中職制服的重要選擇，也提供繡學號、繡名字服務。",
-    "images": [],
+    "images": [
+      "assets/images/jindao-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0149",
@@ -2834,9 +2838,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "頭城各店家、學校與活動大量印刷的實用選擇。可加老闆娘 LINE 直接傳待印檔案，再到店取件；各種影印輸出的疑難雜症也常能處理，甚至可詢問股東會紀念品代領服務。",
-    "images": [],
+    "images": [
+      "assets/images/zide-print-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0150",
@@ -2895,9 +2901,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "原本是西裝店的副業，後來越做越受歡迎，現在由第二代女兒經營。綿綿冰、福肉凍、杏仁凍、燒仙草、麵線都有，冬天甚至還有湯圓。",
-    "images": [],
+    "images": [
+      "assets/images/sheraton-ice-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0151",
@@ -3082,9 +3090,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "電腦維修與回收之外也有數位影像輸出。主機／筆電100元、螢幕50元、印表機30元；價格與服務請先電話確認。",
-    "images": [],
+    "images": [
+      "assets/images/kavalan-computer-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0154",
@@ -3140,9 +3150,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "金屬、電器、紙類回收。鎮上容易抵達，電器品項多數都有收。",
-    "images": [],
+    "images": [
+      "assets/images/jinfeng-recycle-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0155",
@@ -3322,9 +3334,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "提供無障礙斜坡板。傳真 03-2166-858；電子郵件 jameslin@tienta.com.tw。",
-    "images": [],
+    "images": [
+      "assets/images/tienda-access-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0159",
@@ -3342,9 +3356,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "新建案水電工程、老宅翻修、老舊線路更換、高低壓用電申請、自來水申請、衛浴設備燈具安裝、瓦斯管路配置、家庭水電查修、監視器、自動控制與機電整合。聯絡人吳凰源，請來電預約。具乙級室內配線士、甲種電匠、工業配線士及自來水管相關證照。統編87384897。",
-    "images": [],
+    "images": [
+      "assets/images/chengkung-plumbing-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0160",
@@ -3404,9 +3420,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "壁紙、地毯、塑膠拉門、塑膠地磚、窗簾及到府丈量估價。頭城少數窗簾行，款式多、施工迅速、價格合理，可先到店面挑款。聯絡人林文仲；LINE：0935088467。",
-    "images": [],
+    "images": [
+      "assets/images/jinli-curtain-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0163",
@@ -3531,9 +3549,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "就在啤咖酒隔壁，沒有招牌，不特別說很容易錯過。改褲頭、換鬆緊帶、改褲子長度都沒問題。",
-    "images": [],
+    "images": [
+      "assets/images/nameless-alteration-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0167",
@@ -3551,9 +3571,11 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "Google Maps 上沒有，小小的家庭式店面。可買各種免洗餐具，也提供改褲頭、換鬆緊帶、修改褲長等衣物修改服務，可先打電話預約。",
-    "images": [],
+    "images": [
+      "assets/images/xinchang-alteration-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   },
   {
     "id": "TCL-0168",
@@ -3571,8 +3593,10 @@ window.LIVING_PLACES = [
     ],
     "recommended": [],
     "editorial": "修改衣服、改褲頭、換鬆緊帶、修改褲子長度等衣物修改服務；店內還有老闆娘的藍染作品。",
-    "images": [],
+    "images": [
+      "assets/images/xiuhui-tailor-1.webp"
+    ],
     "verified": true,
-    "photoPending": true
+    "photoPending": false
   }
 ];

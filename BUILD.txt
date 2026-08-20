@@ -1,11 +1,11 @@
-Toucheng Living v0.1 Alpha Build008
+Toucheng Living v0.1 Alpha Build008b
 Date: 2026-08-20
-Base: Build007
+Base: Build007 / fixes Build008 image mapping
 Mode: Incremental Build
 
 - 新增 23 筆 Living Places（TCL-0146～TCL-0168）
 - 總資料筆數：68
-- 當下咖啡補上每日 09:00–18:00 營業時間
-- 正式加入醫療、居家修繕／水電／冷氣／裝修、交通接送、衣物修改等內容
-- 新增 Open Graph 分享預覽：頭城生活指南 + og-image.jpg
-- assets/images 僅包含本次新增需要的圖片，不重包既有圖片
+- 修正 Build008 圖片映射遺漏：補回 12 筆使用者已提供主圖
+- 當下咖啡：每日 09:00–18:00
+- Open Graph：頭城生活指南 + og-image.jpg
+- assets/images 仍為增量內容，不重包舊圖
