@@ -2175,373 +2175,1404 @@ window.LIVING_PLACES = [
     "verified": true,
     "editorial_title": "在地故事"
   },
-{
-  "id": "TCL-0131",
-  "slug": "donburi-minfeng",
-  "name": "丼飯",
-  "category": "餐廳",
-  "subcat": "丼飯",
-  "address": "宜蘭縣頭城鎮民鋒路78-2號",
-  "phone": "0981-482-100",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
+  {
+    "id": "TCL-0131",
+    "slug": "donburi-minfeng",
+    "name": "丼飯",
+    "category": "餐廳",
+    "subcat": "丼飯",
+    "address": "宜蘭縣頭城鎮民鋒路78-2號",
+    "phone": "0981-482-100",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "日": {
-      "status": "休息"
-    }
+    "tags": [
+      "丼飯",
+      "現點現做",
+      "售完為止"
+    ],
+    "recommended": [
+      "牛五花丼飯",
+      "羊肉丼",
+      "豬五花丼",
+      "去骨雞腿丼"
+    ],
+    "editorial": "現點現做的大份量丼飯，每份120元。主餐可選牛五花、羊肉、豬五花或去骨雞腿，搭配兩樣青菜、雪白菇，再從半熟太陽蛋與蔥蛋二選一；每日售完為止。",
+    "images": [
+      "assets/images/donburi-1.webp",
+      "assets/images/donburi-2.webp"
+    ],
+    "verified": true
   },
-  "tags": [
-    "丼飯",
-    "現點現做",
-    "售完為止"
-  ],
-  "recommended": [
-    "牛五花丼飯",
-    "羊肉丼",
-    "豬五花丼",
-    "去骨雞腿丼"
-  ],
-  "editorial": "現點現做的大份量丼飯，每份120元。主餐可選牛五花、羊肉、豬五花或去骨雞腿，搭配兩樣青菜、雪白菇，再從半熟太陽蛋與蔥蛋二選一；每日售完為止。",
-  "images": [
-    "assets/images/donburi-1.webp",
-    "assets/images/donburi-2.webp"
-  ],
-  "verified": true
-},
-{
-  "id": "TCL-0132",
-  "slug": "aqua-teashop",
-  "name": "AQUA 水瓶",
-  "category": "飲料",
-  "subcat": "精品茶飲",
-  "address": "宜蘭縣頭城鎮城西里沙成路101號",
-  "phone": "03-977-0047",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "11:00–21:00"
-      ]
+  {
+    "id": "TCL-0132",
+    "slug": "aqua-teashop",
+    "name": "AQUA 水瓶",
+    "category": "飲料",
+    "subcat": "精品茶飲",
+    "address": "宜蘭縣頭城鎮城西里沙成路101號",
+    "phone": "03-977-0047",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
     },
-    "二": {
-      "status": "休息"
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "11:00–21:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "11:00–21:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "11:00–21:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "11:00–20:00"
-      ]
-    },
-    "日": {
-      "status": "休息"
-    }
+    "tags": [
+      "精品茶飲",
+      "台灣茶",
+      "職人茶飲"
+    ],
+    "recommended": [
+      "酸辣湯"
+    ],
+    "editorial": "台灣在地精品茶葉，透過現代淬鍊手法，把水與茶做成一杯杯有自己個性的飲品。頭城人一定要推他的「酸辣湯」——先說好，是飲料，不是湯。",
+    "images": [
+      "assets/images/aqua-1.webp",
+      "assets/images/aqua-2.webp",
+      "assets/images/aqua-3.webp"
+    ],
+    "verified": true,
+    "website": "https://shiu47.github.io/AQUA-Teashop"
   },
-  "tags": [
-    "精品茶飲",
-    "台灣茶",
-    "職人茶飲"
-  ],
-  "recommended": [
-    "酸辣湯"
-  ],
-  "editorial": "台灣在地精品茶葉，透過現代淬鍊手法，把水與茶做成一杯杯有自己個性的飲品。頭城人一定要推他的「酸辣湯」——先說好，是飲料，不是湯。",
-  "images": [
-    "assets/images/aqua-1.webp",
-    "assets/images/aqua-2.webp",
-    "assets/images/aqua-3.webp"
-  ],
-  "verified": true,
-  "website": "https://shiu47.github.io/AQUA-Teashop"
-},
-{
-  "id": "TCL-0133",
-  "slug": "wuming-sugarcane-ice",
-  "name": "吳銘小棧｜甘蔗冰",
-  "category": "點心",
-  "subcat": "冰品甜品",
-  "address": "宜蘭縣頭城鎮城北里開蘭路137號",
-  "phone": "03-978-9137",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "12:00–20:00"
-      ]
+  {
+    "id": "TCL-0133",
+    "slug": "wuming-sugarcane-ice",
+    "name": "吳銘小棧｜甘蔗冰",
+    "category": "點心",
+    "subcat": "冰品甜品",
+    "address": "宜蘭縣頭城鎮城北里開蘭路137號",
+    "phone": "03-978-9137",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "12:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "12:00–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "12:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "12:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "12:00–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:00"
+        ]
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "12:00–20:00"
-      ]
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "12:00–20:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "12:00–20:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "12:00–20:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "10:00–20:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "10:00–20:00"
-      ]
-    }
+    "tags": [
+      "甘蔗冰",
+      "芋頭",
+      "花豆",
+      "珍珠假日限定"
+    ],
+    "recommended": [
+      "甘蔗冰",
+      "芋頭",
+      "花豆",
+      "假日限定珍珠"
+    ],
+    "editorial": "珍珠是假日限定，記得加點芋頭跟花豆！",
+    "images": [
+      "assets/images/wuming-1.webp",
+      "assets/images/wuming-2.webp",
+      "assets/images/wuming-3.webp"
+    ],
+    "verified": true
   },
-  "tags": [
-    "甘蔗冰",
-    "芋頭",
-    "花豆",
-    "珍珠假日限定"
-  ],
-  "recommended": [
-    "甘蔗冰",
-    "芋頭",
-    "花豆",
-    "假日限定珍珠"
-  ],
-  "editorial": "珍珠是假日限定，記得加點芋頭跟花豆！",
-  "images": [
-    "assets/images/wuming-1.webp",
-    "assets/images/wuming-2.webp",
-    "assets/images/wuming-3.webp"
-  ],
-  "verified": true
-},
-{
-  "id": "TCL-0134",
-  "slug": "xingfu-manwei",
-  "name": "幸福滿味食堂",
-  "category": "餐廳",
-  "subcat": "海鮮／飯麵",
-  "address": "宜蘭縣頭城鎮頭濱路二段92號",
-  "phone": "0981-764-767",
-  "hours": {
-    "一": {
-      "status": "休息"
+  {
+    "id": "TCL-0134",
+    "slug": "xingfu-manwei",
+    "name": "幸福滿味食堂",
+    "category": "餐廳",
+    "subcat": "海鮮／飯麵",
+    "address": "宜蘭縣頭城鎮頭濱路二段92號",
+    "phone": "0981-764-767",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:30–19:00"
+        ]
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "10:30–19:00"
-      ]
-    }
+    "tags": [
+      "海鮮料理",
+      "炒飯",
+      "女性業主",
+      "附停車場"
+    ],
+    "recommended": [
+      "海鮮麵",
+      "炒飯"
+    ],
+    "editorial": "業主為女性的商家。海鮮料理新鮮又美味，海鮮麵和炒飯份量十足；餐點價格合理，現場也有停車場。",
+    "images": [
+      "assets/images/xingfu-manwei-1.webp",
+      "assets/images/xingfu-manwei-2.webp",
+      "assets/images/xingfu-manwei-3.webp"
+    ],
+    "verified": true
   },
-  "tags": [
-    "海鮮料理",
-    "炒飯",
-    "女性業主",
-    "附停車場"
-  ],
-  "recommended": [
-    "海鮮麵",
-    "炒飯"
-  ],
-  "editorial": "業主為女性的商家。海鮮料理新鮮又美味，海鮮麵和炒飯份量十足；餐點價格合理，現場也有停車場。",
-  "images": [
-    "assets/images/xingfu-manwei-1.webp",
-    "assets/images/xingfu-manwei-2.webp",
-    "assets/images/xingfu-manwei-3.webp"
-  ],
-  "verified": true
-},
-{
-  "id": "TCL-0135",
-  "slug": "now-coffee",
-  "name": "當下咖啡",
-  "category": "咖啡",
-  "subcat": "精品咖啡／自家烘焙",
-  "address": "宜蘭縣頭城鎮復興路38-1號",
-  "phone": "0927-368-698",
-  "hours": null,
-  "tags": [
-    "極淺焙",
-    "淺焙",
-    "自家烘焙",
-    "Uber Eats"
-  ],
-  "recommended": [
-    "手沖咖啡",
-    "自家烘焙咖啡豆"
-  ],
-  "editorial": "以極淺焙與淺焙精品咖啡為主，現場常備10～12款自家烘焙咖啡豆。來到當下，不需要很懂咖啡，只要找到自己喜歡的香氣就好。還有一件很「頭城」的小事：馬路對面就是煦栩花藝設計，當下咖啡老闆煮到新豆子的時候，常會順手多煮一壺，過個馬路分給煦栩花藝設計的老闆娘喝。兩間店隔著一條復興路，用一壺咖啡敦親睦鄰。",
-  "images": [
-    "assets/images/now-coffee-1.webp",
-    "assets/images/now-coffee-2.webp",
-    "assets/images/now-coffee-3.webp"
-  ],
-  "verified": true,
-  "relations": [
-    {
-      "type": "neighbor_story",
-      "place_id": "TCL-0121",
-      "label": "隔街的新豆分享"
-    }
-  ]
-},
-{
-  "id": "TCL-0136",
-  "slug": "amao-noodles",
-  "name": "阿茂麵攤",
-  "category": "餐廳",
-  "subcat": "麵店",
-  "address": "宜蘭縣頭城鎮新建里東興街59號",
-  "phone": "0953-823-468",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
+  {
+    "id": "TCL-0135",
+    "slug": "now-coffee",
+    "name": "當下咖啡",
+    "category": "咖啡",
+    "subcat": "精品咖啡／自家烘焙",
+    "address": "宜蘭縣頭城鎮復興路38-1號",
+    "phone": "0927-368-698",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
-    },
-    "三": {
-      "status": "休息"
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "09:30–18:00"
-      ]
-    }
+    "tags": [
+      "極淺焙",
+      "淺焙",
+      "自家烘焙",
+      "Uber Eats"
+    ],
+    "recommended": [
+      "手沖咖啡",
+      "自家烘焙咖啡豆"
+    ],
+    "editorial": "以極淺焙與淺焙精品咖啡為主，現場常備10～12款自家烘焙咖啡豆。來到當下，不需要很懂咖啡，只要找到自己喜歡的香氣就好。還有一件很「頭城」的小事：馬路對面就是煦栩花藝設計，當下咖啡老闆煮到新豆子的時候，常會順手多煮一壺，過個馬路分給煦栩花藝設計的老闆娘喝。兩間店隔著一條復興路，用一壺咖啡敦親睦鄰。",
+    "images": [
+      "assets/images/now-coffee-1.webp",
+      "assets/images/now-coffee-2.webp",
+      "assets/images/now-coffee-3.webp"
+    ],
+    "verified": true,
+    "relations": [
+      {
+        "type": "neighbor_story",
+        "place_id": "TCL-0121",
+        "label": "隔街的新豆分享"
+      }
+    ]
   },
-  "tags": [
-    "乾麵",
-    "瓜仔雞湯",
-    "在地老味道"
-  ],
-  "recommended": [
-    "乾麵",
-    "瓜仔雞湯"
-  ],
-  "editorial": "老闆很幽默，原本在青雲路開店，一路做到退休。本來以為就這樣收山了，沒想到休息一陣子，大概是真的閒不住，又在自家門口重新擺起麵攤。想吃阿茂的老味道，乾麵一定要點，再配一碗瓜仔雞湯，就是熟客記得的那一套。",
-  "images": [
-    "assets/images/amao-1.webp",
-    "assets/images/amao-2.webp",
-    "assets/images/amao-3.webp"
-  ],
-  "verified": true
-}
+  {
+    "id": "TCL-0136",
+    "slug": "amao-noodles",
+    "name": "阿茂麵攤",
+    "category": "餐廳",
+    "subcat": "麵店",
+    "address": "宜蘭縣頭城鎮新建里東興街59號",
+    "phone": "0953-823-468",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:30–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "乾麵",
+      "瓜仔雞湯",
+      "在地老味道"
+    ],
+    "recommended": [
+      "乾麵",
+      "瓜仔雞湯"
+    ],
+    "editorial": "老闆很幽默，原本在青雲路開店，一路做到退休。本來以為就這樣收山了，沒想到休息一陣子，大概是真的閒不住，又在自家門口重新擺起麵攤。想吃阿茂的老味道，乾麵一定要點，再配一碗瓜仔雞湯，就是熟客記得的那一套。",
+    "images": [
+      "assets/images/amao-1.webp",
+      "assets/images/amao-2.webp",
+      "assets/images/amao-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0146",
+    "slug": "lucas-bistro",
+    "name": "Lucas Bistro 酒龜88餐酒館",
+    "category": "餐廳",
+    "subcat": "餐酒館",
+    "address": "宜蘭縣頭城鎮環鎮東路二段373號",
+    "phone": "0980-777-178",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "14:00–16:00",
+          "17:30–02:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "14:00–16:00",
+          "17:30–02:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "14:00–16:00",
+          "17:30–02:00"
+        ]
+      },
+      "四": {
+        "status": "休息",
+        "slots": []
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "16:30–02:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:30–16:00",
+          "17:30–02:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "14:00–16:00",
+          "17:30–02:00"
+        ]
+      }
+    },
+    "tags": [
+      "寵物友善",
+      "LGBTQ+友善",
+      "深夜"
+    ],
+    "recommended": [],
+    "editorial": "位在開蘭行旅一樓商店街，是寵物友善、LGBTQ+ 友善空間。下午適合一個人喝茶看書聽音樂，夜晚則適合親朋好友聚會小酌；也是頭城少數營業到深夜的店，夜貓族很實用。官網：lucas-bistro.weebly.com",
+    "images": "",
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0147",
+    "slug": "dafa-congee",
+    "name": "大發清粥 自助餐",
+    "category": "餐廳",
+    "subcat": "清粥小菜／自助餐",
+    "address": "宜蘭縣頭城鎮武營里青雲路三段383號",
+    "phone": "03-977-9668",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "16:00–00:30"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "晚餐",
+      "深夜食堂"
+    ],
+    "recommended": [],
+    "editorial": "晚餐時段一路開到深夜的在地食堂。",
+    "images": [
+      "assets/images/dafa-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0148",
+    "slug": "jindao",
+    "name": "錦道行",
+    "category": "生活",
+    "subcat": "制服／繡學號",
+    "address": "宜蘭縣頭城鎮城北里沙成路34號",
+    "phone": "03-977-1655",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:30"
+        ]
+      }
+    },
+    "tags": [
+      "學生制服",
+      "繡學號"
+    ],
+    "recommended": [],
+    "editorial": "頭城鎮上購買國高中職制服的重要選擇，也提供繡學號、繡名字服務。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0149",
+    "slug": "zide-print",
+    "name": "自得印刷",
+    "category": "生活",
+    "subcat": "印刷／影印輸出",
+    "address": "宜蘭縣頭城鎮城南里開蘭路86號",
+    "phone": "03-978-2968",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "印刷",
+      "影印",
+      "檔案輸出"
+    ],
+    "recommended": [],
+    "editorial": "頭城各店家、學校與活動大量印刷的實用選擇。可加老闆娘 LINE 直接傳待印檔案，再到店取件；各種影印輸出的疑難雜症也常能處理，甚至可詢問股東會紀念品代領服務。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0150",
+    "slug": "sheraton-ice",
+    "name": "喜來登冰城 麵線",
+    "category": "點心",
+    "subcat": "冰品／麵線",
+    "address": "宜蘭縣頭城鎮城西里開蘭路18號",
+    "phone": "03-977-6029",
+    "hours": {
+      "一": {
+        "status": "休息",
+        "slots": []
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "冰品",
+      "麵線",
+      "在地老店"
+    ],
+    "recommended": [],
+    "editorial": "原本是西裝店的副業，後來越做越受歡迎，現在由第二代女兒經營。綿綿冰、福肉凍、杏仁凍、燒仙草、麵線都有，冬天甚至還有湯圓。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0151",
+    "slug": "mengda-auto",
+    "name": "盟達友汽車修理廠",
+    "category": "修車",
+    "subcat": "汽車維修保養",
+    "address": "宜蘭縣頭城鎮新建里青雲路二段730號",
+    "phone": "03-978-2963",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00",
+          "13:00–17:00"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "家族企業",
+      "現金交易"
+    ],
+    "recommended": [],
+    "editorial": "價格合理、維修保養用心，老闆親切的家族企業。現金交易；等候室有咖啡、茶、餅乾、糖果、水果、大電視與自由時報，廁所也很乾淨。",
+    "images": [
+      "assets/images/mengda-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0152",
+    "slug": "sea-day-breakfast",
+    "name": "海日子早餐吧",
+    "category": "餐廳",
+    "subcat": "早餐／早午餐",
+    "address": "宜蘭縣頭城鎮青雲路三段157號",
+    "phone": "03-977-8116",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:00–13:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–13:30"
+        ]
+      },
+      "三": {
+        "status": "休息",
+        "slots": []
+      },
+      "四": {
+        "status": "休息",
+        "slots": []
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–13:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:00–14:00"
+        ]
+      }
+    },
+    "tags": [
+      "早餐",
+      "早午餐"
+    ],
+    "recommended": [],
+    "editorial": "平日 08:00–13:30、假日 08:00–14:00，星期三、四公休。",
+    "images": [
+      "assets/images/sea-day-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0153",
+    "slug": "kavalan-computer",
+    "name": "噶瑪蘭電腦 數位影像輸出",
+    "category": "生活",
+    "subcat": "電腦維修／數位輸出",
+    "address": "宜蘭縣頭城鎮拔雅里復興路52之2號",
+    "phone": "03-977-7755／0982-185-600",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "六": {
+        "status": "休息",
+        "slots": []
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "電腦維修",
+      "數位輸出",
+      "回收"
+    ],
+    "recommended": [],
+    "editorial": "電腦維修與回收之外也有數位影像輸出。主機／筆電100元、螢幕50元、印表機30元；價格與服務請先電話確認。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0154",
+    "slug": "jinfeng-recycle",
+    "name": "金峰企業社",
+    "category": "生活",
+    "subcat": "資源回收",
+    "address": "宜蘭縣頭城鎮武營里青雲路三段323巷13號",
+    "phone": "暫無",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:00–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–18:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "休息",
+        "slots": []
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "資源回收",
+      "電器回收"
+    ],
+    "recommended": [],
+    "editorial": "金屬、電器、紙類回收。鎮上容易抵達，電器品項多數都有收。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0155",
+    "slug": "zhaoren-clinic",
+    "name": "照仁診所",
+    "category": "生活",
+    "subcat": "醫療／診所",
+    "address": "宜蘭縣頭城鎮拔雅里吉祥路88巷27號",
+    "phone": "03-977-4133",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30",
+          "16:30–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30",
+          "14:00–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30",
+          "16:30–20:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30",
+          "16:30–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30",
+          "14:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:30"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "醫療",
+      "慢性病",
+      "家庭診所"
+    ],
+    "recommended": [],
+    "editorial": "李醫師親切，許多長輩很信任。慢性病、一般感冒，以及兒童發燒、感冒、流感、跌傷等都會看。星期一早診常超過100人，建議提早到診所或當天提早電話預約。",
+    "images": [
+      "assets/images/zhaoren-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0156",
+    "slug": "cixin-clinic",
+    "name": "慈心診所",
+    "category": "生活",
+    "subcat": "醫療／皮膚耳鼻喉",
+    "address": "宜蘭縣頭城鎮城北里開蘭路183號",
+    "phone": "03-978-9123",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:30–12:00",
+          "16:00–18:00",
+          "18:30–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–12:00",
+          "16:00–18:00",
+          "18:30–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:30–12:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–12:00",
+          "16:00–18:00",
+          "18:30–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–12:00",
+          "16:00–18:00",
+          "18:30–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:00–12:00"
+        ]
+      }
+    },
+    "tags": [
+      "醫療",
+      "星期日看診",
+      "皮膚科"
+    ],
+    "recommended": [],
+    "editorial": "鎮上少數星期日仍有看診的診所，醫師親切，可處理皮膚科相關問題，也看耳鼻喉、感冒等。就在 E世代隔壁，富美香雞排也在附近。",
+    "images": [
+      "assets/images/cixin-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0157",
+    "slug": "weixin-appliance",
+    "name": "維新電器",
+    "category": "生活",
+    "subcat": "冷氣／家電維修",
+    "address": "宜蘭縣頭城鎮城南里東五巷4-1號",
+    "phone": "0905-508-890",
+    "hours": null,
+    "tags": [
+      "冷氣維修",
+      "家電維修",
+      "電話預約"
+    ],
+    "recommended": [],
+    "editorial": "冷氣安裝、冷氣維修、熱水器及各式家電維修。聯絡人王凱霖（小胖），也是城南里的鎮民代表。沒有固定營業時間，先打電話約好時間即可。",
+    "images": [
+      "assets/images/weixin-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0158",
+    "slug": "tienda-access",
+    "name": "添大興業",
+    "category": "生活",
+    "subcat": "無障礙設備",
+    "address": "宜蘭縣頭城鎮和平街70號",
+    "phone": "03-9770-189",
+    "hours": null,
+    "tags": [
+      "無障礙",
+      "斜坡板"
+    ],
+    "recommended": [],
+    "editorial": "提供無障礙斜坡板。傳真 03-2166-858；電子郵件 jameslin@tienta.com.tw。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0159",
+    "slug": "chengkung-plumbing",
+    "name": "成功水電工程行",
+    "category": "生活",
+    "subcat": "水電工程",
+    "address": "宜蘭縣頭城鎮",
+    "phone": "0981-383-008",
+    "hours": null,
+    "tags": [
+      "水電",
+      "老宅翻修",
+      "證照"
+    ],
+    "recommended": [],
+    "editorial": "新建案水電工程、老宅翻修、老舊線路更換、高低壓用電申請、自來水申請、衛浴設備燈具安裝、瓦斯管路配置、家庭水電查修、監視器、自動控制與機電整合。聯絡人吳凰源，請來電預約。具乙級室內配線士、甲種電匠、工業配線士及自來水管相關證照。統編87384897。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0160",
+    "slug": "keitin-surveillance",
+    "name": "數位監控系統｜李楷廷（阿倫）",
+    "category": "生活",
+    "subcat": "監視器／網路配線",
+    "address": "宜蘭縣頭城鎮下埔里下埔路57之3號",
+    "phone": "0916-250-657",
+    "hours": null,
+    "tags": [
+      "監視器",
+      "網路配線",
+      "水電維修"
+    ],
+    "recommended": [],
+    "editorial": "監視器系統、遠端監控監聽、設計規劃安裝、水電維護維修及網路架設配線。Email：thekeitin@yahoo.com；LINE：thekeitin。",
+    "images": [
+      "assets/images/keitin-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0161",
+    "slug": "gongcun-design",
+    "name": "宮村室內裝修設計工程有限公司",
+    "category": "生活",
+    "subcat": "室內裝修／工程管理",
+    "address": "宜蘭縣頭城鎮青雲路二段723號",
+    "phone": "0983-338-147",
+    "hours": null,
+    "tags": [
+      "室內裝修",
+      "工程整合"
+    ],
+    "recommended": [],
+    "editorial": "室內裝修設計、建築外觀設計及工程管理顧問。聯絡人林銘慶，LINE：0983338147。有完整工程團隊，可一次協調泥作、木作、冷氣、鋁門窗、垃圾清運等工種；專業好溝通、價格合理，大小工程都很放心。",
+    "images": [
+      "assets/images/gongcun-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0162",
+    "slug": "jinli-curtain",
+    "name": "金利屋窗簾",
+    "category": "生活",
+    "subcat": "窗簾／壁紙地毯",
+    "address": "宜蘭縣頭城鎮開蘭路249號",
+    "phone": "0935-088-467",
+    "hours": null,
+    "tags": [
+      "窗簾",
+      "到府丈量"
+    ],
+    "recommended": [],
+    "editorial": "壁紙、地毯、塑膠拉門、塑膠地磚、窗簾及到府丈量估價。頭城少數窗簾行，款式多、施工迅速、價格合理，可先到店面挑款。聯絡人林文仲；LINE：0935088467。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0163",
+    "slug": "changhong-window",
+    "name": "長弘鋁門窗",
+    "category": "生活",
+    "subcat": "鋁門窗／氣密窗",
+    "address": "宜蘭縣頭城鎮金面路202-7號",
+    "phone": "0917-739-990",
+    "hours": null,
+    "tags": [
+      "鋁門窗",
+      "氣密窗",
+      "電話預約"
+    ],
+    "recommended": [],
+    "editorial": "防盜靜音格子窗、防颱百葉窗、鋁格網、造型鋁格柵、防盜窗、造型門、隱藏式紗窗門、舊窗換新窗、陽台凸窗及採光罩。建議先電話預約。聯絡人莊宏琦。",
+    "images": [
+      "assets/images/changhong-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0164",
+    "slug": "xu-wenbin-taxi",
+    "name": "徐文彬計程車",
+    "category": "生活",
+    "subcat": "計程車／夜間叫車",
+    "address": "宜蘭縣頭城鎮",
+    "phone": "0916-220-000",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "14:00–02:00"
+        ]
+      }
+    },
+    "tags": [
+      "計程車",
+      "夜間叫車",
+      "包車"
+    ],
+    "recommended": [],
+    "editorial": "頭城地區包車服務及夜間叫車，服務時間 14:00–02:00。車牌 TDH-0068。",
+    "images": [
+      "assets/images/xu-wenbin-1.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0165",
+    "slug": "airport-charter",
+    "name": "機場接送、包車旅遊",
+    "category": "生活",
+    "subcat": "機場接送／包車",
+    "address": "宜蘭縣頭城鎮",
+    "phone": "0953-965-988",
+    "hours": null,
+    "tags": [
+      "機場接送",
+      "包車旅遊"
+    ],
+    "recommended": [],
+    "editorial": "頭城往返桃園機場，除了自己開車與大眾運輸之外的第三個選擇。老闆是大坑人，使用大型賓士廂型車。2026/08/20價格：單趟2500元、來回5000元；3個點內接送不加價，沒有夜間加價，農曆過年期間會加價。",
+    "images": [
+      "assets/images/airport-charter.webp"
+    ],
+    "verified": true,
+    "photoPending": false
+  },
+  {
+    "id": "TCL-0166",
+    "slug": "nameless-alteration",
+    "name": "無名修改衣服店",
+    "category": "生活",
+    "subcat": "衣物修改",
+    "address": "宜蘭縣頭城鎮城東里和平東路39號",
+    "phone": "暫無",
+    "hours": null,
+    "tags": [
+      "衣物修改",
+      "無招牌"
+    ],
+    "recommended": [],
+    "editorial": "就在啤咖酒隔壁，沒有招牌，不特別說很容易錯過。改褲頭、換鬆緊帶、改褲子長度都沒問題。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0167",
+    "slug": "xinchang-alteration",
+    "name": "欣倡 修改衣服／免洗餐具",
+    "category": "生活",
+    "subcat": "衣物修改／免洗餐具",
+    "address": "宜蘭縣頭城鎮城東里沙成路8號",
+    "phone": "03-977-2337",
+    "hours": null,
+    "tags": [
+      "衣物修改",
+      "免洗餐具",
+      "電話預約"
+    ],
+    "recommended": [],
+    "editorial": "Google Maps 上沒有，小小的家庭式店面。可買各種免洗餐具，也提供改褲頭、換鬆緊帶、修改褲長等衣物修改服務，可先打電話預約。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  },
+  {
+    "id": "TCL-0168",
+    "slug": "xiuhui-tailor",
+    "name": "秀惠裁縫",
+    "category": "生活",
+    "subcat": "衣物修改／裁縫",
+    "address": "宜蘭縣頭城鎮新建里開蘭東路53號",
+    "phone": "03-977-4706",
+    "hours": null,
+    "tags": [
+      "衣物修改",
+      "裁縫",
+      "藍染"
+    ],
+    "recommended": [],
+    "editorial": "修改衣服、改褲頭、換鬆緊帶、修改褲子長度等衣物修改服務；店內還有老闆娘的藍染作品。",
+    "images": [],
+    "verified": true,
+    "photoPending": true
+  }
 ];

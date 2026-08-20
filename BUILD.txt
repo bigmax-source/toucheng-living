@@ -1,13 +1,11 @@
-Toucheng Living v0.1 Alpha Build007
-Date: 2026-08-19
-Base: Build006
+Toucheng Living v0.1 Alpha Build008
+Date: 2026-08-20
+Base: Build007
 Mode: Incremental Build
 
-Build007 updates
-- 新增 6 間完整 Living Card：丼飯、AQUA 水瓶、吳銘小棧｜甘蔗冰、幸福滿味食堂、當下咖啡、阿茂麵攤
-- 總資料筆數：45
-- 當下咖啡加入與煦栩花藝設計的隔街新豆分享故事與關聯
-- 前台店名不顯示 TCL 內部編號
-- 首頁移除「生活分類／從頭城人的日常開始找。」標題列
-- 壓縮分類按鈕與搜尋列之間的留白
-- 本增量包 assets/images 僅包含 Build007 新增圖片
+- 新增 23 筆 Living Places（TCL-0146～TCL-0168）
+- 總資料筆數：68
+- 當下咖啡補上每日 09:00–18:00 營業時間
+- 正式加入醫療、居家修繕／水電／冷氣／裝修、交通接送、衣物修改等內容
+- 新增 Open Graph 分享預覽：頭城生活指南 + og-image.jpg
+- assets/images 僅包含本次新增需要的圖片，不重包既有圖片
