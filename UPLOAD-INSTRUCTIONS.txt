@@ -1,11 +1,10 @@
-Build008b 增量修正版
+Build008c 緊急修正版
 
 請覆蓋：
-- index.html
+- app.js
 - data.js
 - living-seed.csv
 
-請將本包 assets/images/ 內圖片全部上傳／覆蓋到 GitHub 同一路徑。
+請將 assets/images/ 內 9 張圖片上傳／覆蓋到 GitHub 同一路徑。
 不要刪除 GitHub 上既有 assets/images 其他圖片。
-
-本版修正上一版 12 筆圖片映射遺漏。
+index.html、styles.css 本次沒有必要變更。

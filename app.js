@@ -1,7 +1,7 @@
 
 const app=document.querySelector("#app");
 const places=window.LIVING_PLACES||[];
-const categories=[["🍜","餐廳"],["☕","咖啡"],["🧋","飲料"],["🍰","點心"],["🛒","超市"],["💊","藥局"],["🛠","修車"],["🧰","生活"]];
+const categories=[["🍜","餐廳"],["☕","咖啡"],["🧋","飲料"],["🍰","點心"],["🛒","超市"],["💊","診所 藥局"],["🛠","修車"],["🧰","生活"]];
 let currentCategory="全部",query="";
 // 每次重新載入頁面都建立一份新的亂數排序；有實景主圖的店家優先，尚待補主圖者固定排在最後。
 const pageRandomOrder=new Map(places.map(p=>[p.id,Math.random()]));

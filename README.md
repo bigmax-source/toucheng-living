@@ -1,3 +1,3 @@
-# Toucheng Living v0.1 Alpha — Build008b
+# Toucheng Living Build008c Hotfix
 
-2026/08/20 增量修正版。修正 Build008 內 12 筆已提供照片但未綁定至卡片的問題。
+三家店相簿補正 + 「診所 藥局」分類調整。

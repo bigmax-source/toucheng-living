@@ -2114,7 +2114,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0130",
     "slug": "toucheng-pharmacy",
     "name": "頭城藥局",
-    "category": "藥局",
+    "category": "診所 藥局",
     "subcat": "健保藥局",
     "address": "宜蘭縣頭城鎮城東里開蘭路134號",
     "phone": "03-977-0618",
@@ -2650,7 +2650,9 @@ window.LIVING_PLACES = [
     "recommended": [],
     "editorial": "位在開蘭行旅一樓商店街，是寵物友善、LGBTQ+ 友善空間。下午適合一個人喝茶看書聽音樂，夜晚則適合親朋好友聚會小酌；也是頭城少數營業到深夜的店，夜貓族很實用。官網：lucas-bistro.weebly.com",
     "images": [
-      "assets/images/lucas-bistro-1.webp"
+      "assets/images/lucas-bistro-1.webp",
+      "assets/images/lucas-bistro-2.webp",
+      "assets/images/lucas-bistro-3.webp"
     ],
     "verified": true,
     "photoPending": false
@@ -2902,7 +2904,9 @@ window.LIVING_PLACES = [
     "recommended": [],
     "editorial": "原本是西裝店的副業，後來越做越受歡迎，現在由第二代女兒經營。綿綿冰、福肉凍、杏仁凍、燒仙草、麵線都有，冬天甚至還有湯圓。",
     "images": [
-      "assets/images/sheraton-ice-1.webp"
+      "assets/images/sheraton-ice-1.webp",
+      "assets/images/sheraton-ice-2.webp",
+      "assets/images/sheraton-ice-3.webp"
     ],
     "verified": true,
     "photoPending": false
@@ -3030,7 +3034,9 @@ window.LIVING_PLACES = [
     "recommended": [],
     "editorial": "平日 08:00–13:30、假日 08:00–14:00，星期三、四公休。",
     "images": [
-      "assets/images/sea-day-1.webp"
+      "assets/images/sea-day-1.webp",
+      "assets/images/sea-day-2.webp",
+      "assets/images/sea-day-3.webp"
     ],
     "verified": true,
     "photoPending": false
@@ -3160,7 +3166,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0155",
     "slug": "zhaoren-clinic",
     "name": "照仁診所",
-    "category": "生活",
+    "category": "診所 藥局",
     "subcat": "醫療／診所",
     "address": "宜蘭縣頭城鎮拔雅里吉祥路88巷27號",
     "phone": "03-977-4133",
@@ -3228,7 +3234,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0156",
     "slug": "cixin-clinic",
     "name": "慈心診所",
-    "category": "生活",
+    "category": "診所 藥局",
     "subcat": "醫療／皮膚耳鼻喉",
     "address": "宜蘭縣頭城鎮城北里開蘭路183號",
     "phone": "03-978-9123",

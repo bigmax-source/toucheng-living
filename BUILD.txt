@@ -1,11 +1,11 @@
-Toucheng Living v0.1 Alpha Build008b
+Toucheng Living v0.1 Alpha Build008c Hotfix
 Date: 2026-08-20
-Base: Build007 / fixes Build008 image mapping
-Mode: Incremental Build
+Base: Build008b
+Mode: Incremental hotfix
 
-- 新增 23 筆 Living Places（TCL-0146～TCL-0168）
-- 總資料筆數：68
-- 修正 Build008 圖片映射遺漏：補回 12 筆使用者已提供主圖
-- 當下咖啡：每日 09:00–18:00
-- Open Graph：頭城生活指南 + og-image.jpg
-- assets/images 仍為增量內容，不重包舊圖
+- Lucas Bistro 酒龜88餐酒館：相簿補為 3 張
+- 海日子早餐吧：相簿補為 3 張
+- 喜來登冰城 麵線：相簿補為 3 張
+- 分類「藥局」更名為「診所 藥局」
+- 照仁診所、慈心診所由「生活」移至「診所 藥局」
+- assets/images 僅包含本次三家相簿需要的 9 張圖，不掃描／重包既有圖片
