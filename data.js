@@ -264,7 +264,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0105",
     "slug": "cheap-home",
     "name": "便宜之家",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "鞋店",
     "address": "宜蘭縣頭城鎮城北里開蘭路111號",
     "phone": "03-977-1177",
@@ -398,7 +398,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0107",
     "slug": "shichang",
     "name": "世昌文具鎖印",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "文具鎖印",
     "address": "宜蘭縣頭城鎮城東里沙成路22號",
     "phone": "03-977-4618",
@@ -1484,7 +1484,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0121",
     "slug": "xuxu-floral",
     "name": "煦栩花藝設計",
-    "category": "服務",
+    "category": "生活服務",
     "subcat": "花藝設計",
     "address": "宜蘭縣頭城鎮復興路63-1號",
     "phone": "0917-779-037",
@@ -1679,7 +1679,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0124",
     "slug": "happy-rentstation",
     "name": "開心RentStation頭城店 單車｜機車補給站",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "租車／交通",
     "address": "宜蘭縣頭城鎮城東里開蘭路120號",
     "phone": "0902-112-299",
@@ -2114,7 +2114,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0130",
     "slug": "toucheng-pharmacy",
     "name": "頭城藥局",
-    "category": "診所 藥局",
+    "category": "醫療照護",
     "subcat": "健保藥局",
     "address": "宜蘭縣頭城鎮城東里開蘭路134號",
     "phone": "03-977-0618",
@@ -2915,7 +2915,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0151",
     "slug": "mengda-auto",
     "name": "盟達友汽車修理廠",
-    "category": "修車",
+    "category": "生活服務",
     "subcat": "汽車維修保養",
     "address": "宜蘭縣頭城鎮新建里青雲路二段730號",
     "phone": "03-978-2963",
@@ -3992,6 +3992,74 @@ window.LIVING_PLACES = [
       "assets/images/dingfu-1.webp",
       "assets/images/dingfu-2.webp",
       "assets/images/dingfu-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0175",
+    "slug": "raintown-cafe",
+    "name": "蘭城雨啡 RainTownCafe",
+    "category": "咖啡",
+    "subcat": "咖啡／甜點",
+    "address": "宜蘭縣頭城鎮城南里和平街68號",
+    "phone": "03-977-0255",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "三": {
+        "status": "休息",
+        "slots": []
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      }
+    },
+    "tags": [
+      "業主為女性的商家",
+      "頭城老街",
+      "咖啡",
+      "甜點"
+    ],
+    "recommended": [
+      "咖啡",
+      "甜點"
+    ],
+    "editorial": "頭城老街南門段中難得有營業的店家，遠遠就能聞到咖啡香氣。",
+    "images": [
+      "assets/images/raintown-cafe-1.webp",
+      "assets/images/raintown-cafe-2.webp",
+      "assets/images/raintown-cafe-3.webp"
     ],
     "verified": true
   }
