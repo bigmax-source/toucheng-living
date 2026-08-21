@@ -1,10 +1,14 @@
-Build008c 緊急修正版
+Build009 增量覆蓋說明
 
-請覆蓋：
+請覆蓋上傳：
+- index.html
 - app.js
 - data.js
 - living-seed.csv
 
-請將 assets/images/ 內 9 張圖片上傳／覆蓋到 GitHub 同一路徑。
+請新增上傳 assets/images/ 內本次 19 張檔案：
+- 6 家 × 3 張 = 18 張店家照片
+- og-image.jpg = 1 張分享預覽圖
+
 不要刪除 GitHub 上既有 assets/images 其他圖片。
-index.html、styles.css 本次沒有必要變更。
+styles.css 本次不需要覆蓋。

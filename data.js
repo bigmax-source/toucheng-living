@@ -198,7 +198,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0104",
     "slug": "nameless-noodle",
     "name": "無名乾麵",
-    "category": "餐廳",
+    "category": "小吃",
     "subcat": "麵店",
     "address": "宜蘭縣頭城鎮城南里沙成路71號",
     "phone": "03-977-5254",
@@ -469,7 +469,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0108",
     "slug": "mimi",
     "name": "米米蔬雞",
-    "category": "餐廳",
+    "category": "小吃",
     "subcat": "鹽水雞",
     "address": "宜蘭縣頭城鎮城東里開蘭舊路19號",
     "phone": "0907-351-655",
@@ -2525,7 +2525,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0136",
     "slug": "amao-noodles",
     "name": "阿茂麵攤",
-    "category": "餐廳",
+    "category": "小吃",
     "subcat": "麵店",
     "address": "宜蘭縣頭城鎮新建里東興街59號",
     "phone": "0953-823-468",
@@ -2723,7 +2723,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0148",
     "slug": "jindao",
     "name": "錦道行",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "制服／繡學號",
     "address": "宜蘭縣頭城鎮城北里沙成路34號",
     "phone": "03-977-1655",
@@ -2787,7 +2787,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0149",
     "slug": "zide-print",
     "name": "自得印刷",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "印刷／影印輸出",
     "address": "宜蘭縣頭城鎮城南里開蘭路86號",
     "phone": "03-978-2968",
@@ -3045,7 +3045,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0153",
     "slug": "kavalan-computer",
     "name": "噶瑪蘭電腦 數位影像輸出",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "電腦維修／數位輸出",
     "address": "宜蘭縣頭城鎮拔雅里復興路52之2號",
     "phone": "03-977-7755／0982-185-600",
@@ -3106,7 +3106,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0154",
     "slug": "jinfeng-recycle",
     "name": "金峰企業社",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "資源回收",
     "address": "宜蘭縣頭城鎮武營里青雲路三段323巷13號",
     "phone": "暫無",
@@ -3166,7 +3166,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0155",
     "slug": "zhaoren-clinic",
     "name": "照仁診所",
-    "category": "診所 藥局",
+    "category": "醫療照護",
     "subcat": "醫療／診所",
     "address": "宜蘭縣頭城鎮拔雅里吉祥路88巷27號",
     "phone": "03-977-4133",
@@ -3234,7 +3234,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0156",
     "slug": "cixin-clinic",
     "name": "慈心診所",
-    "category": "診所 藥局",
+    "category": "醫療照護",
     "subcat": "醫療／皮膚耳鼻喉",
     "address": "宜蘭縣頭城鎮城北里開蘭路183號",
     "phone": "03-978-9123",
@@ -3307,7 +3307,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0157",
     "slug": "weixin-appliance",
     "name": "維新電器",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "冷氣／家電維修",
     "address": "宜蘭縣頭城鎮城南里東五巷4-1號",
     "phone": "0905-508-890",
@@ -3329,7 +3329,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0158",
     "slug": "tienda-access",
     "name": "添大興業",
-    "category": "生活",
+    "category": "醫療照護",
     "subcat": "無障礙設備",
     "address": "宜蘭縣頭城鎮和平街70號",
     "phone": "03-9770-189",
@@ -3350,7 +3350,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0159",
     "slug": "chengkung-plumbing",
     "name": "成功水電工程行",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "水電工程",
     "address": "宜蘭縣頭城鎮",
     "phone": "0981-383-008",
@@ -3372,7 +3372,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0160",
     "slug": "keitin-surveillance",
     "name": "數位監控系統｜李楷廷（阿倫）",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "監視器／網路配線",
     "address": "宜蘭縣頭城鎮下埔里下埔路57之3號",
     "phone": "0916-250-657",
@@ -3394,7 +3394,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0161",
     "slug": "gongcun-design",
     "name": "宮村室內裝修設計工程有限公司",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "室內裝修／工程管理",
     "address": "宜蘭縣頭城鎮青雲路二段723號",
     "phone": "0983-338-147",
@@ -3415,7 +3415,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0162",
     "slug": "jinli-curtain",
     "name": "金利屋窗簾",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "窗簾／壁紙地毯",
     "address": "宜蘭縣頭城鎮開蘭路249號",
     "phone": "0935-088-467",
@@ -3436,7 +3436,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0163",
     "slug": "changhong-window",
     "name": "長弘鋁門窗",
-    "category": "生活",
+    "category": "居家修繕",
     "subcat": "鋁門窗／氣密窗",
     "address": "宜蘭縣頭城鎮金面路202-7號",
     "phone": "0917-739-990",
@@ -3458,7 +3458,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0164",
     "slug": "xu-wenbin-taxi",
     "name": "徐文彬計程車",
-    "category": "生活",
+    "category": "交通接送",
     "subcat": "計程車／夜間叫車",
     "address": "宜蘭縣頭城鎮",
     "phone": "0916-220-000",
@@ -3523,7 +3523,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0165",
     "slug": "airport-charter",
     "name": "機場接送、包車旅遊",
-    "category": "生活",
+    "category": "交通接送",
     "subcat": "機場接送／包車",
     "address": "宜蘭縣頭城鎮",
     "phone": "0953-965-988",
@@ -3544,7 +3544,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0166",
     "slug": "nameless-alteration",
     "name": "無名修改衣服店",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "衣物修改",
     "address": "宜蘭縣頭城鎮城東里和平東路39號",
     "phone": "暫無",
@@ -3565,7 +3565,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0167",
     "slug": "xinchang-alteration",
     "name": "欣倡 修改衣服／免洗餐具",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "衣物修改／免洗餐具",
     "address": "宜蘭縣頭城鎮城東里沙成路8號",
     "phone": "03-977-2337",
@@ -3587,7 +3587,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0168",
     "slug": "xiuhui-tailor",
     "name": "秀惠裁縫",
-    "category": "生活",
+    "category": "生活服務",
     "subcat": "衣物修改／裁縫",
     "address": "宜蘭縣頭城鎮新建里開蘭東路53號",
     "phone": "03-977-4706",
@@ -3604,5 +3604,395 @@ window.LIVING_PLACES = [
     ],
     "verified": true,
     "photoPending": false
+  },
+  {
+    "id": "TCL-0169",
+    "slug": "jin-feng-drinks",
+    "name": "錦豐飲料店",
+    "category": "飲料",
+    "subcat": "飲料／冰沙／咖啡",
+    "address": "宜蘭縣頭城鎮大坑里協天路638號",
+    "phone": "0983-802-882",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:30–18:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–18:30"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–18:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–18:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "飲料",
+      "冰沙"
+    ],
+    "recommended": [],
+    "editorial": "大坑里協天路上的在地飲料店，飲品、冰沙與咖啡都有。",
+    "images": [
+      "assets/images/jin-feng-drinks-1.webp",
+      "assets/images/jin-feng-drinks-2.webp",
+      "assets/images/jin-feng-drinks-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0170",
+    "slug": "qingxin-toucheng",
+    "name": "清心福全 頭城青雲店",
+    "category": "飲料",
+    "subcat": "手搖飲",
+    "address": "宜蘭縣頭城鎮新建里青雲路三段50號",
+    "phone": "03-977-7230",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:30–22:00"
+        ]
+      }
+    },
+    "tags": [
+      "手搖飲",
+      "連鎖飲料"
+    ],
+    "recommended": [],
+    "editorial": "頭城青雲路上的清心福全門市。",
+    "images": [
+      "assets/images/qingxin-toucheng-1.webp",
+      "assets/images/qingxin-toucheng-2.webp",
+      "assets/images/qingxin-toucheng-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0171",
+    "slug": "hand-sauce-rougeng",
+    "name": "手醬肉焿",
+    "category": "小吃",
+    "subcat": "肉焿／早餐午餐",
+    "address": "宜蘭縣頭城鎮城西里西一巷1號",
+    "phone": "0970-717-178",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:30–14:00"
+        ]
+      }
+    },
+    "tags": [
+      "小吃",
+      "早餐"
+    ],
+    "recommended": [
+      "肉焿",
+      "自製辣醬"
+    ],
+    "editorial": "頭城早餐一天的開始也可以選肉焿，也是午餐的好選擇！拜託一定要加他們自製辣醬。",
+    "images": [
+      "assets/images/hand-sauce-rougeng-1.webp",
+      "assets/images/hand-sauce-rougeng-2.webp",
+      "assets/images/hand-sauce-rougeng-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0172",
+    "slug": "yes-chain-pharmacy",
+    "name": "佑全保健藥妝-頭城青雲藥局",
+    "category": "醫療照護",
+    "subcat": "藥局／保健藥妝",
+    "address": "宜蘭縣頭城鎮城東里青雲路三段196-200號",
+    "phone": "03-977-1837",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–21:00"
+        ]
+      }
+    },
+    "tags": [
+      "藥局",
+      "保健藥妝"
+    ],
+    "recommended": [],
+    "editorial": "頭城最大三連間的開架式藥局，還有專業藥師讓你問到飽！",
+    "images": [
+      "assets/images/yes-chain-pharmacy-1.webp",
+      "assets/images/yes-chain-pharmacy-2.webp",
+      "assets/images/yes-chain-pharmacy-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0173",
+    "slug": "coco-toucheng",
+    "name": "CoCo都可 頭城店",
+    "category": "飲料",
+    "subcat": "手搖飲",
+    "address": "宜蘭縣頭城鎮城東里青雲路三段169號",
+    "phone": "03-977-0149",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:45"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:45"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:30"
+        ]
+      }
+    },
+    "tags": [
+      "手搖飲",
+      "連鎖飲料"
+    ],
+    "recommended": [],
+    "editorial": "頭城青雲路上的 CoCo 都可門市。",
+    "images": [
+      "assets/images/coco-toucheng-1.webp",
+      "assets/images/coco-toucheng-2.webp",
+      "assets/images/coco-toucheng-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0174",
+    "slug": "dingfu",
+    "name": "鼎福小館",
+    "category": "餐廳",
+    "subcat": "家常菜／快炒桌菜",
+    "address": "宜蘭縣頭城鎮城東里青雲路三段202號",
+    "phone": "03-977-8323",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–14:00",
+          "17:00–21:00"
+        ]
+      }
+    },
+    "tags": [
+      "家常菜",
+      "快炒",
+      "桌菜"
+    ],
+    "recommended": [
+      "炒飯"
+    ],
+    "editorial": "青雲路上各有特色的家常桌菜快炒店，炒飯是一定要點的；過年期間還有桌菜可以打包回家。",
+    "images": [
+      "assets/images/dingfu-1.webp",
+      "assets/images/dingfu-2.webp",
+      "assets/images/dingfu-3.webp"
+    ],
+    "verified": true
   }
 ];

@@ -1,7 +1,7 @@
 
 const app=document.querySelector("#app");
 const places=window.LIVING_PLACES||[];
-const categories=[["🍜","餐廳"],["☕","咖啡"],["🧋","飲料"],["🍰","點心"],["🛒","超市"],["💊","診所 藥局"],["🛠","修車"],["🧰","生活"]];
+const categories=[["🍜","餐廳"],["🥐","早午餐"],["🌙","晚餐"],["🥢","小吃"],["🍰","點心"],["🧋","飲料"],["☕","咖啡"],["🩺","醫療照護"],["🧰","生活服務"],["🔧","居家修繕"],["🚕","交通接送"]];
 let currentCategory="全部",query="";
 // 每次重新載入頁面都建立一份新的亂數排序；有實景主圖的店家優先，尚待補主圖者固定排在最後。
 const pageRandomOrder=new Map(places.map(p=>[p.id,Math.random()]));
@@ -19,8 +19,8 @@ function todayText(s){
  if(!h||h.status==="休息")return "今日休息";
  return "今日 "+(h.slots||[]).join("、");
 }
-function categoryIcon(cat){return Object.fromEntries(categories.map(x=>[x[1],x[0]]))[cat]||"📍"}
-function fallbackIcon(s){if(s.category==="咖啡")return"☕";if(s.category==="生活")return"🧰";if(s.subcat.includes("碳")||s.subcat.includes("串"))return"🍢";if(s.category==="點心")return"🍰";return"🍜"}
+function categoryIcon(cat){return Object.fromEntries(categories.map(x=>[x[1],x[0]]))[cat]||({"超市":"🛒","修車":"🛠"}[cat]||"📍")}
+function fallbackIcon(s){if(s.category==="咖啡")return"☕";if(s.category==="生活服務")return"🧰";if(s.category==="居家修繕")return"🔧";if(s.category==="交通接送")return"🚕";if(s.category==="醫療照護")return"🩺";if(s.subcat.includes("碳")||s.subcat.includes("串"))return"🍢";if(s.category==="點心")return"🍰";return"🍜"}
 function mainPhoto(s){
  if(s.images?.length)return `<img src="${s.images[0]}" alt="${esc(s.name)}" loading="lazy">`;
  return `<div class="placeholder">${fallbackIcon(s)}</div>`;
@@ -42,9 +42,16 @@ function card(s){
    </div>
  </article>`
 }
+function timeToMin(t){const m=String(t||"").match(/(\d{1,2}):(\d{2})/);return m?Number(m[1])*60+Number(m[2]):null}
+function hasTimeWindow(s,kind){
+ if(!s.hours)return false;
+ const slots=Object.values(s.hours).flatMap(h=>h?.slots||[]);
+ return slots.some(slot=>{const [a,b]=slot.split(/[–-]/);const st=timeToMin(a),en=timeToMin(b);if(st==null||en==null)return false;return kind==="早午餐"?(st<15*60&&en>6*60):(en>17*60||st>=17*60)});
+}
+function categoryMatch(s,cat){if(cat==="全部")return true;if(cat==="早午餐"||cat==="晚餐")return ["餐廳","小吃"].includes(s.category)&&hasTimeWindow(s,cat);return s.category===cat}
 function filtered(){
  return places.filter(s=>{
-   const cat=currentCategory==="全部"||s.category===currentCategory;
+   const cat=categoryMatch(s,currentCategory);
    const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());
    return cat&&q;
  }).sort((a,b)=>{
@@ -54,7 +61,7 @@ function filtered(){
  });
 }
 function home(){
- app.innerHTML=`<section class="hero"><div class="hero-inner"><h1>Toucheng Living</h1><div class="since">Since 2026/08/07</div></div></section>
+ app.innerHTML=`<section class="hero"><div class="hero-inner"><h1>頭城生活指南｜頭城生活中</h1><div class="since">頭城二三事 補充／規劃　｜　聯絡信箱 polonews@gmail.com　｜　Facebook 搜尋「頭城二三事」</div></div></section>
  <div class="container">
   <section class="section categories-section">
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
@@ -91,7 +98,7 @@ function detail(id){
  const editorial=s.editorial?`<div class="editorial"><h3>${esc(s.editorial_title||"頭城二三事 在地推薦")}</h3><p>${esc(s.editorial)}</p></div>`:"";
  const relations=(s.relations||[]).map(r=>{const p=places.find(x=>x.id===r.place_id);return p?`<div class="relation-box"><b>📍 ${esc(r.label||"附近店家")}</b><a href="#place/${p.id}">${esc(p.name)} →</a></div>`:""}).join("");
  app.innerHTML=`<div class="container page">
-  <a class="back" href="#">← 回到 Toucheng Living</a>
+  <a class="back" href="#">← 回到 頭城生活中</a>
   <div class="detail">
     <section>${gallery(s)}</section>
     <section class="detail-panel">
@@ -159,7 +166,7 @@ function renderWizard(){
  if(wizard.step===4)html=shell(`<h2>📷 照片與網路資訊</h2><p class="desc">正式接上 Supabase 後，這裡會把照片送到 Storage。Alpha 版先測試流程。</p><div class="uploads"><label class="upload">主圖<input type="file" accept="image/*" style="display:none"></label><label class="upload">環境照<input type="file" accept="image/*" style="display:none"></label><label class="upload">特色照<input type="file" accept="image/*" style="display:none"></label></div><div class="field"><label>Facebook（選填）</label><input class="input" id="facebook" value="${esc(d.facebook||"")}"></div><div class="field"><label>Instagram（選填）</label><input class="input" id="instagram" value="${esc(d.instagram||"")}"></div><div class="field"><label>官方網站（選填）</label><input class="input" id="website" value="${esc(d.website||"")}"></div>${nav(3,5)}`);
  if(wizard.step===5)html=shell(`<h2>👤 聯絡與刊登確認</h2><p class="desc">以下聯絡資料不公開，只供審核與協助找回修改連結。</p><div class="field"><label>聯絡人姓名</label><input class="input" id="contact" value="${esc(d.contact||"")}"></div><div class="field"><label>聯絡手機</label><input class="input" id="mobile" value="${esc(d.mobile||"")}"></div><div class="field"><label>Email（選填）</label><input class="input" id="email" type="email" value="${esc(d.email||"")}"></div><div class="field"><label>填寫者身分</label><select id="role"><option>店家／機構負責人</option><option>店家工作人員</option><option>經店家授權代為填寫</option><option>其他</option></select></div><div class="field"><label><input type="checkbox" id="consent"> 我確認以上公開資料可刊登於 Toucheng Living。</label></div><div class="field"><label><input type="checkbox" id="photoConsent"> 我確認照片為本人拍攝、店家所有或已取得授權。</label></div>${nav(4,6,"預覽 Living Card")}`);
  if(wizard.step===6)html=shell(`<h2>👀 請確認你的 Living Card</h2><div>${card({...s,...d})}</div>${nav(5,7,"確認送出")}`);
- if(wizard.step===7){const token=Math.random().toString(36).slice(2,8).toUpperCase();html=shell(`<div class="success"><div class="big">🎉</div><h2>完成 Alpha 測試送出</h2><p class="desc">謝謝你協助測試 Toucheng Living。</p><div class="notice">正式版串接 Supabase 後，這一步會送進「Living Studio」待審核，並產生專屬修改連結。</div><p><b>測試編號：${wizard.store.id}-${token}</b></p><button class="btn btn-primary" onclick="location.hash=''">回到 Toucheng Living</button></div>`);localStorage.removeItem(draftKey(wizard.store.id))}
+ if(wizard.step===7){const token=Math.random().toString(36).slice(2,8).toUpperCase();html=shell(`<div class="success"><div class="big">🎉</div><h2>完成 Alpha 測試送出</h2><p class="desc">謝謝你協助測試 Toucheng Living。</p><div class="notice">正式版串接 Supabase 後，這一步會送進「Living Studio」待審核，並產生專屬修改連結。</div><p><b>測試編號：${wizard.store.id}-${token}</b></p><button class="btn btn-primary" onclick="location.hash=''">回到 頭城生活中</button></div>`);localStorage.removeItem(draftKey(wizard.store.id))}
  app.innerHTML=html;
 }
 function route(){const h=location.hash.slice(1);if(h.startsWith("place/"))detail(h.split("/")[1]);else if(h.startsWith("claim/"))startClaim(h.split("/")[1]);else home()}
