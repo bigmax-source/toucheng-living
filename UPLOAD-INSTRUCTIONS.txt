@@ -1,15 +1,3 @@
-Build009a Hotfix 上傳方式
-
-1. 覆蓋 GitHub 根目錄：
-   - data.js
-   - living-seed.csv
-
-2. 將 assets/images/ 內 3 張新圖上傳到 GitHub 的 assets/images/：
-   - raintown-cafe-1.webp
-   - raintown-cafe-2.webp
-   - raintown-cafe-3.webp
-
-3. 不要刪除 GitHub 原本 assets/images/ 的任何既有圖片。
-4. index.html、app.js、styles.css 本次不用動。
-
-修正內容：頭城藥局與其他舊分類值同步遷移至 Build009 新分類骨架，並新增蘭城雨啡 RainTownCafe。
+覆蓋：app.js、data.js、living-seed.csv
+新增：assets/images/ 內 18 張新圖
+不要刪除既有 assets/images 圖片。

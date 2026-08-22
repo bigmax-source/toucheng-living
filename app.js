@@ -3,8 +3,13 @@ const app=document.querySelector("#app");
 const places=window.LIVING_PLACES||[];
 const categories=[["🍜","餐廳"],["🥐","早午餐"],["🌙","晚餐"],["🥢","小吃"],["🍰","點心"],["🧋","飲料"],["☕","咖啡"],["🩺","醫療照護"],["🧰","生活服務"],["🔧","居家修繕"],["🚕","交通接送"]];
 let currentCategory="全部",query="";
-// 每次重新載入頁面都建立一份新的亂數排序；有實景主圖的店家優先，尚待補主圖者固定排在最後。
-const pageRandomOrder=new Map(places.map(p=>[p.id,Math.random()]));
+// 同一個瀏覽 Session 使用固定亂數；新 Session 才重新洗牌。
+const SESSION_KEY="tl-session-random-v1";
+let savedRandom={};
+try{savedRandom=JSON.parse(sessionStorage.getItem(SESSION_KEY)||"{}")||{}}catch(e){savedRandom={}}
+for(const p of places){if(typeof savedRandom[p.id]!=="number")savedRandom[p.id]=Math.random()}
+try{sessionStorage.setItem(SESSION_KEY,JSON.stringify(savedRandom))}catch(e){}
+const pageRandomOrder=new Map(places.map(p=>[p.id,savedRandom[p.id]]));
 function hasMainPhoto(s){return !!(s.images?.length)&&!s.photoPending;}
 const dayNames=["日","一","二","三","四","五","六"];
 const dayLong={一:"星期一",二:"星期二",三:"星期三",四:"星期四",五:"星期五",六:"星期六",日:"星期日"};
@@ -12,51 +17,50 @@ const dayLong={一:"星期一",二:"星期二",三:"星期三",四:"星期四",�
 function esc(s=""){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function mapsUrl(s){return`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.address)}`}
 function telUrl(s){return s.phone.includes("暫無")?"#":"tel:"+s.phone.replace(/[^\d+]/g,"")}
-function todayKey(){return dayNames[new Date().getDay()]}
-function todayText(s){
- if(!s.hours)return "營業時間等待店家補充";
- const h=s.hours[todayKey()];
- if(!h||h.status==="休息")return "今日休息";
- return "今日 "+(h.slots||[]).join("、");
+function todayKey(date=new Date()){return dayNames[date.getDay()]}
+function timeToMin(t){const m=String(t||"").match(/(\d{1,2}):(\d{2})/);return m?Number(m[1])*60+Number(m[2]):null}
+function prevDayKey(date=new Date()){const d=new Date(date);d.setDate(d.getDate()-1);return todayKey(d)}
+function slotState(slot,nowMin,fromPrevious=false){
+ const [a,b]=String(slot||"").split(/[–-]/),st=timeToMin(a),en=timeToMin(b);if(st==null||en==null)return null;
+ const cross=en<=st;
+ if(fromPrevious){if(cross&&nowMin<en)return {open:true,end:b,endMin:en};return null}
+ if(cross){if(nowMin>=st)return {open:true,end:b,endMin:en+1440};return null}
+ if(nowMin>=st&&nowMin<en)return {open:true,end:b,endMin:en};
+ return null;
 }
+function currentOpenState(s,now=new Date()){
+ if(s.status==="暫時關閉")return {open:false,label:"暫時關閉",rank:3};
+ if(!s.hours)return {open:false,label:"營業時間等待店家補充",rank:4};
+ const nowMin=now.getHours()*60+now.getMinutes(),today=s.hours[todayKey(now)];
+ if(today&&today.status!=="休息")for(const slot of (today.slots||[])){const st=slotState(slot,nowMin,false);if(st?.open){const remain=st.endMin-nowMin;return {open:true,label:(remain<=60?"即將打烊":"營業中")+"・至 "+st.end,rank:0}}}
+ const prev=s.hours[prevDayKey(now)];
+ if(prev&&prev.status!=="休息")for(const slot of (prev.slots||[])){const st=slotState(slot,nowMin,true);if(st?.open)return {open:true,label:(st.endMin-nowMin<=60?"即將打烊":"營業中")+"・至 "+st.end,rank:0}}
+ if(!today||today.status==="休息")return {open:false,label:"今日休息",rank:2};
+ return {open:false,label:"已打烊・今日 "+(today.slots||[]).join("、"),rank:1};
+}
+function todayText(s){return currentOpenState(s).label}
 function categoryIcon(cat){return Object.fromEntries(categories.map(x=>[x[1],x[0]]))[cat]||({"超市":"🛒","修車":"🛠"}[cat]||"📍")}
 function fallbackIcon(s){if(s.category==="咖啡")return"☕";if(s.category==="生活服務")return"🧰";if(s.category==="居家修繕")return"🔧";if(s.category==="交通接送")return"🚕";if(s.category==="醫療照護")return"🩺";if(s.subcat.includes("碳")||s.subcat.includes("串"))return"🍢";if(s.category==="點心")return"🍰";return"🍜"}
-function mainPhoto(s){
- if(s.images?.length)return `<img src="${s.images[0]}" alt="${esc(s.name)}" loading="lazy">`;
- return `<div class="placeholder">${fallbackIcon(s)}</div>`;
-}
+function mainPhoto(s){if(s.images?.length)return `<img src="${s.images[0]}" alt="${esc(s.name)}" loading="lazy">`;return `<div class="placeholder">${fallbackIcon(s)}</div>`}
 function card(s){
  const tags=(s.tags||[]).slice(0,2).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
- return `<article class="postcard">
-   <div class="photo">${mainPhoto(s)}${!s.verified?'<span class="photo-label">🌱 等待店家補充</span>':''}</div>
-   <div class="card-body">
-    <span class="badge">${categoryIcon(s.category)} ${esc(s.subcat)}</span>
-    <h3>${esc(s.name)}</h3>
-    <div class="info">
-      <div class="info-row"><span class="ico">⌖</span><div>${esc(s.address.replace("宜蘭縣頭城鎮",""))}</div></div>
-      <div class="info-row"><span class="ico">☎</span><div>${esc(s.phone)}</div></div>
-      <div class="info-row ${s.hours?'today':'pending'}"><span class="ico">◷</span><div>${esc(todayText(s))}</div></div>
-    </div>
-    <div class="card-tags">${tags}</div>
-    <div class="card-actions"><a class="text-link" href="#place/${s.id}">閱讀更多 →</a><a class="claim-mini" href="#claim/${s.id}">🎁 領取</a></div>
-   </div>
- </article>`
+ const state=currentOpenState(s);
+ return `<article class="postcard"><div class="photo">${mainPhoto(s)}${!s.verified?'<span class="photo-label">🌱 等待店家補充</span>':''}</div><div class="card-body"><span class="badge">${categoryIcon(s.category)} ${esc(s.subcat)}</span><h3>${esc(s.name)}</h3><div class="info"><div class="info-row"><span class="ico">⌖</span><div>${esc(s.address.replace("宜蘭縣頭城鎮",""))}</div></div><div class="info-row"><span class="ico">☎</span><div>${esc(s.phone)}</div></div><div class="info-row ${state.open?'today':'pending'}"><span class="ico">◷</span><div>${esc(state.label)}</div></div></div><div class="card-tags">${tags}</div><div class="card-actions"><a class="text-link" href="#place/${s.id}">閱讀更多 →</a><a class="claim-mini" href="#claim/${s.id}">🎁 領取</a></div></div></article>`
 }
-function timeToMin(t){const m=String(t||"").match(/(\d{1,2}):(\d{2})/);return m?Number(m[1])*60+Number(m[2]):null}
 function hasTimeWindow(s,kind){
  if(!s.hours)return false;
  const slots=Object.values(s.hours).flatMap(h=>h?.slots||[]);
- return slots.some(slot=>{const [a,b]=slot.split(/[–-]/);const st=timeToMin(a),en=timeToMin(b);if(st==null||en==null)return false;return kind==="早午餐"?(st<15*60&&en>6*60):(en>17*60||st>=17*60)});
+ return slots.some(slot=>{const [a,b]=slot.split(/[–-]/),st=timeToMin(a),en=timeToMin(b);if(st==null||en==null)return false;const end=en<=st?en+1440:en;return kind==="早午餐"?(st<15*60&&end>6*60):(st<24*60&&end>17*60)});
 }
-function categoryMatch(s,cat){if(cat==="全部")return true;if(cat==="早午餐"||cat==="晚餐")return ["餐廳","小吃"].includes(s.category)&&hasTimeWindow(s,cat);return s.category===cat}
+function categoryMatch(s,cat){
+ if(cat==="全部")return true;
+ if(cat==="早午餐"||cat==="晚餐")return ["餐廳","小吃","咖啡"].includes(s.category)&&hasTimeWindow(s,cat);
+ if(cat==="點心"&&s.slug==="adan-taro-milk")return true;
+ return s.category===cat;
+}
 function filtered(){
- return places.filter(s=>{
-   const cat=categoryMatch(s,currentCategory);
-   const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());
-   return cat&&q;
- }).sort((a,b)=>{
-   const photoDiff=Number(hasMainPhoto(b))-Number(hasMainPhoto(a));
-   if(photoDiff)return photoDiff;
+ return places.filter(s=>{const cat=categoryMatch(s,currentCategory);const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());return cat&&q;}).sort((a,b)=>{
+   const ar=currentOpenState(a).open?0:1,br=currentOpenState(b).open?0:1;if(ar!==br)return ar-br;
    return pageRandomOrder.get(a.id)-pageRandomOrder.get(b.id);
  });
 }

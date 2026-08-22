@@ -4062,5 +4062,377 @@ window.LIVING_PLACES = [
       "assets/images/raintown-cafe-3.webp"
     ],
     "verified": true
+  },
+  {
+    "id": "TCL-0176",
+    "slug": "bo-coffee-roaster-2",
+    "name": "洄城咖啡",
+    "category": "咖啡",
+    "subcat": "咖啡／甜點／鹹派",
+    "address": "宜蘭縣頭城鎮城西里吉祥路44號",
+    "phone": "暫無資料",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "四": {
+        "status": "休息",
+        "slots": []
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "instagram": "https://www.instagram.com/bo_coffee_roaster_2",
+    "tags": [
+      "咖啡",
+      "提拉米蘇",
+      "鹹派",
+      "舒適空間"
+    ],
+    "recommended": [
+      "提拉米蘇",
+      "鹹派"
+    ],
+    "editorial": "適合坐下來小憩的咖啡店，咖啡選擇不少，提拉米蘇味道濃郁，還有較少見的鹹派。店內空間舒適，從擺設到植物都看得出老闆的小巧思，是間讓人待起來很放鬆的咖啡店。",
+    "images": [
+      "assets/images/bo-coffee-1.webp",
+      "assets/images/bo-coffee-2.webp",
+      "assets/images/bo-coffee-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0177",
+    "slug": "pal-coffee",
+    "name": "pal coffee",
+    "category": "咖啡",
+    "subcat": "咖啡／早午餐",
+    "address": "宜蘭縣頭城鎮吉祥路9-1號",
+    "phone": "0908-022-073",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:30–13:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:30–13:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–13:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–13:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:30–13:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–13:30"
+        ]
+      }
+    },
+    "website": "http://palcoffee.cc/",
+    "tags": [
+      "咖啡",
+      "衝浪客",
+      "任天堂",
+      "看火車"
+    ],
+    "recommended": [
+      "咖啡"
+    ],
+    "editorial": "吉祥路上的 pal coffee，是不少衝浪客喜歡聚集的咖啡店。它和洄城咖啡其實只隔了一個平交道；二樓還有懷舊任天堂遊戲機，可以喝咖啡、玩遊戲，也可以坐著看火車從頭城經過。",
+    "images": [
+      "assets/images/pal-coffee-1.webp",
+      "assets/images/pal-coffee-2.webp",
+      "assets/images/pal-coffee-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0178",
+    "slug": "kf-coffee",
+    "name": "KF COFFEE",
+    "category": "咖啡",
+    "subcat": "自家烘焙／咖啡",
+    "address": "宜蘭縣頭城鎮城西里開蘭路85之4號",
+    "phone": "0972-440-345",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      },
+      "三": {
+        "status": "休息",
+        "slots": []
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:30–16:30"
+        ]
+      }
+    },
+    "facebook": "https://www.facebook.com/kandfcoffee/",
+    "tags": [
+      "自家烘焙",
+      "咖啡",
+      "早午餐"
+    ],
+    "recommended": [
+      "拿鐵咖啡"
+    ],
+    "editorial": "首推拿鐵咖啡，自家烘焙是店裡的一大特色。還可以點隔壁早餐店的餐點進來配咖啡，一次解決早餐和咖啡，超級方便。店內空間舒服，洗手間也維持得非常乾淨。",
+    "images": [
+      "assets/images/kf-coffee-1.webp",
+      "assets/images/kf-coffee-2.webp",
+      "assets/images/kf-coffee-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0179",
+    "slug": "treasure-of-joy",
+    "name": "兌藏人文藝術咖啡館 Treasure of Joy",
+    "category": "咖啡",
+    "subcat": "人文藝術咖啡館",
+    "address": "宜蘭縣頭城鎮城東里和平街145號",
+    "phone": "03-977-7389",
+    "hours": null,
+    "facebook": "https://www.facebook.com/treasureofjoy/",
+    "status": "暫時關閉",
+    "tags": [
+      "暫時關閉",
+      "頭城老街",
+      "人文藝術",
+      "咖啡"
+    ],
+    "recommended": [],
+    "editorial": "位在頭城老街北門福德祠旁，藍色門面、滿屋植栽與老屋空間，是和平街上很有辨識度的一間人文咖啡館。雖然目前暫時關閉，但這樣一間曾經為頭城老街帶來咖啡、人文與藝術氣息的空間，我們希望仍把它留在「頭城生活中」。",
+    "images": [
+      "assets/images/treasure-of-joy-1.webp",
+      "assets/images/treasure-of-joy-2.webp",
+      "assets/images/treasure-of-joy-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0180",
+    "slug": "adan-taro-milk",
+    "name": "阿丹芋頭牛奶冰沙",
+    "category": "飲料",
+    "subcat": "芋頭牛奶冰沙／冰品",
+    "address": "宜蘭縣頭城鎮城西里纘祥路14-1號",
+    "phone": "暫無資料",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      }
+    },
+    "facebook": "https://www.facebook.com/profile.php?id=100057117144601",
+    "tags": [
+      "飲料",
+      "點心",
+      "冰沙",
+      "芋頭"
+    ],
+    "recommended": [
+      "芋頭牛奶冰沙"
+    ],
+    "editorial": "頭城想喝芋頭牛奶冰沙，這間是在地開了不少年的老選擇。主打大杯 700cc，芋頭打成冰沙後仍保留一些果肉口感，不只是單純喝到芋頭香。天氣熱時來上一杯，很有頭城街邊老店的味道。",
+    "images": [
+      "assets/images/adan-taro-1.webp",
+      "assets/images/adan-taro-2.webp",
+      "assets/images/adan-taro-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0181",
+    "slug": "landhome-clinic",
+    "name": "仁宏診所",
+    "category": "醫療照護",
+    "subcat": "診所／大腸鏡檢查",
+    "address": "宜蘭縣頭城鎮城北里纘祥路79-2號",
+    "phone": "03-977-6568",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:45",
+          "15:00–17:45",
+          "18:30–20:20"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:45",
+          "15:00–17:45",
+          "18:30–20:20"
+        ]
+      },
+      "三": {
+        "status": "休息",
+        "slots": []
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:45",
+          "15:00–17:45",
+          "18:30–20:20"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:45",
+          "15:00–17:45",
+          "18:30–20:20"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:30–11:45"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "website": "https://landhomeclinic.com/",
+    "tags": [
+      "診所",
+      "大腸鏡",
+      "痔瘡相關治療",
+      "LGBTQ+ 友善空間"
+    ],
+    "recommended": [],
+    "editorial": "頭城少數提供大腸鏡檢查的診所，也有痔瘡相關治療。檢查前會提供準備說明，門診與麻醉評估流程說明仔細；若有相關需求，可把仁宏列入頭城在地就醫選擇之一。實際檢查方式與術前準備仍以診所醫療人員評估及指示為準。",
+    "images": [
+      "assets/images/landhome-clinic-1.webp",
+      "assets/images/landhome-clinic-2.webp",
+      "assets/images/landhome-clinic-3.webp"
+    ],
+    "verified": true
   }
 ];
