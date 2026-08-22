@@ -99,7 +99,7 @@ function hoursHtml(s){
 function detail(id){
  const s=places.find(x=>x.id===id);if(!s)return home();
  const rec=(s.recommended||[]).length?`<div class="story-box"><b>推薦品項</b><ul class="rec-list">${s.recommended.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`:"";
- const editorial=s.editorial?`<div class="editorial"><h3>${esc(s.editorial_title||"頭城二三事 在地推薦")}</h3><p>${esc(s.editorial)}</p></div>`:"";
+ const editorial=s.editorial?`<div class="editorial"><h3>${esc(s.editorial_title||"店家介紹")}</h3><p>${esc(s.editorial)}</p></div>`:"";
  const relations=(s.relations||[]).map(r=>{const p=places.find(x=>x.id===r.place_id);return p?`<div class="relation-box"><b>📍 ${esc(r.label||"附近店家")}</b><a href="#place/${p.id}">${esc(p.name)} →</a></div>`:""}).join("");
  app.innerHTML=`<div class="container page">
   <a class="back" href="#">← 回到 頭城生活中</a>

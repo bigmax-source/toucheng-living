@@ -4897,8 +4897,13 @@ window.LIVING_PLACES = [
       "關東煮"
     ],
     "recommended": [],
-    "editorial": "既有收錄店家漏件修復。本次重新補回正式資料集；營業時間以店家最新提供資料為準。",
-    "images": [],
-    "verified": true
+    "editorial": "大家好，我是頭城日式料理小吃 BOSS 曹小城，來自宜蘭頭城。本店位於頭城火車站與頭城老街附近，將日式料理的細膩與台式美食的溫暖融合成自己的味道。店內主要提供拉麵、招牌肉燥飯、各式壽司、手捲、生魚片、關東煮與沙拉；其中以薯泥包製的手捲是店內特色，一年四季也都有關東煮。一路走來，我們始終堅持每日現做，從食材挑選、料理準備到餐點製作都用心把關。對我們而言，美食不只是填飽肚子，更是一份人情味與陪伴。無論一個人用餐、好友相聚或一家大小來吃飯，都希望大家能吃得開心、吃得滿足、吃得飽飽，再帶著笑容回家。客人的肯定與再次光臨，就是我們持續把每一道料理做好最大的動力。來到頭城，歡迎到《頭城日式料理小吃》坐坐，讓我們用熱騰騰的料理與真誠服務招待每一位朋友。",
+    "images": [
+      "assets/images/toucheng-japanese-snack-1.webp",
+      "assets/images/toucheng-japanese-snack-2.webp",
+      "assets/images/toucheng-japanese-snack-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   }
 ];

@@ -1,11 +1,11 @@
-# Build011 增量上傳
+# Toucheng Living Build011a Hotfix
 
-覆蓋：data.js、living-seed.csv、BUILD.txt
+本修正包針對「頭城日式料理小吃」：
+- 補入 3 張店家照片。
+- 將介紹區標題預設由「頭城二三事 在地推薦」改為「店家介紹」。
+- 將該店介紹整理為店家／老闆提供的正式介紹文字。
 
-新增：assets/images/ 內 18 張圖片。
-
-不要刪除既有 assets/images。
-
-本版新增 6 家：FuBaoDonut現烤甜甜圈、就是茶米手搖飲、老街麻辣、老家餡餅 - 頭城店、哇茶！ 頭城店、七嘴八舌頭城店。
-
-漏件修復：頭城日式料理小吃（不計入本日新增）。
+上傳方式：
+1. 覆蓋 app.js、data.js、living-seed.csv。
+2. 將 assets/images/ 內 3 張新圖上傳到網站相同路徑。
+3. 不要刪除任何既有圖片。
