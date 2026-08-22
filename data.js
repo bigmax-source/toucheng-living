@@ -4434,5 +4434,471 @@ window.LIVING_PLACES = [
       "assets/images/landhome-clinic-3.webp"
     ],
     "verified": true
+  },
+  {
+    "id": "TCL-0182",
+    "slug": "fubao-donut",
+    "name": "FuBaoDonut現烤甜甜圈",
+    "category": "點心",
+    "subcat": "現烤甜甜圈",
+    "address": "宜蘭縣頭城鎮城南里沙成路81號",
+    "phone": "0965-463-978",
+    "hours": {
+      "一": {
+        "status": "休息",
+        "slots": []
+      },
+      "二": {
+        "status": "休息",
+        "slots": []
+      },
+      "三": {
+        "status": "休息",
+        "slots": []
+      },
+      "四": {
+        "status": "休息",
+        "slots": []
+      },
+      "五": {
+        "status": "休息",
+        "slots": []
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–17:00"
+        ]
+      }
+    },
+    "website": "https://lin.ee/fWZ4FmH",
+    "tags": [
+      "現烤甜甜圈",
+      "可先LINE預訂"
+    ],
+    "recommended": [
+      "原味",
+      "奶酥",
+      "巧克力",
+      "花生",
+      "抹茶",
+      "巧克力棉花糖",
+      "起司",
+      "香蒜",
+      "開心果"
+    ],
+    "editorial": "現烤甜甜圈，可先用官方 LINE 預訂，減少現場等候時間。限定口味與優惠依店家當日公告為準。",
+    "images": [
+      "assets/images/fubao-donut-1.webp",
+      "assets/images/fubao-donut-2.webp",
+      "assets/images/fubao-donut-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0183",
+    "slug": "just-charming",
+    "name": "就是茶米手搖飲",
+    "category": "飲料",
+    "subcat": "現泡茶飲／水果特調",
+    "address": "宜蘭縣頭城鎮城南里沙成路83號",
+    "phone": "0982-902-421",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:30–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:30–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:30–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:30–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:30–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–20:00"
+        ]
+      }
+    },
+    "website": "https://www.facebook.com/pg/justcharming.yilan",
+    "tags": [
+      "LGBTQ+ 友善空間",
+      "女性業主",
+      "手搖飲"
+    ],
+    "recommended": [
+      "紅心芭樂檸檬綠茶",
+      "梅果綠茶"
+    ],
+    "editorial": "提供現泡茶飲與水果特調，紅心芭樂檸檬綠茶、梅果綠茶是熱門選擇。與 FuBaoDonut 是鄰居，兩間中間只隔一條小巷子。",
+    "images": [
+      "assets/images/just-charming-1.webp",
+      "assets/images/just-charming-2.webp",
+      "assets/images/just-charming-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0184",
+    "slug": "historic-street-79",
+    "name": "老街麻辣",
+    "category": "餐廳",
+    "subcat": "麻辣火鍋",
+    "address": "宜蘭縣頭城鎮城南里沙成路79號",
+    "phone": "03-977-6909",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "website": "https://www.facebook.com/hirtoricstreet79",
+    "tags": [
+      "火鍋",
+      "晚餐",
+      "看球賽"
+    ],
+    "recommended": [],
+    "editorial": "老闆一個人掌控內外場，店內裝潢也多由老闆親手打造。火鍋可以依需求調整，也可以一邊吃鍋一邊看球賽。",
+    "images": [
+      "assets/images/historic-street-79-1.webp",
+      "assets/images/historic-street-79-2.webp",
+      "assets/images/historic-street-79-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0185",
+    "slug": "laojia-pie",
+    "name": "老家餡餅 - 頭城店",
+    "category": "小吃",
+    "subcat": "餡餅／攤車",
+    "address": "宜蘭縣頭城鎮城南里沙成路73號",
+    "phone": "0933-233-003",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "13:30–18:00"
+        ]
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "攤車",
+      "三代傳承",
+      "多語菜單"
+    ],
+    "recommended": [
+      "豬肉餡餅",
+      "牛肉餡餅",
+      "韭菜餡餅",
+      "高麗菜餡餅"
+    ],
+    "editorial": "不是店面，而是沙成路上一個小小的餡餅攤車。最早由一對老夫妻經營，後來第二代加入，現在連第三代小朋友也會來當小幫手。菜單還有英文、日文等多語標示。",
+    "images": [
+      "assets/images/laojia-pie-1.webp",
+      "assets/images/laojia-pie-2.webp",
+      "assets/images/laojia-pie-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0186",
+    "slug": "wow-tea-toucheng",
+    "name": "哇茶！ 頭城店",
+    "category": "飲料",
+    "subcat": "地方手搖飲",
+    "address": "宜蘭縣頭城鎮城南里沙成路75號",
+    "phone": "03-977-2586",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–17:30"
+        ]
+      }
+    },
+    "tags": [
+      "地方飲料店",
+      "手搖飲",
+      "特色口味"
+    ],
+    "recommended": [],
+    "editorial": "有趣的地方型飲料店，飲品選擇不少，也有一些不同於常見連鎖手搖店的特色口味。",
+    "images": [
+      "assets/images/wow-tea-toucheng-1.webp",
+      "assets/images/wow-tea-toucheng-2.webp",
+      "assets/images/wow-tea-toucheng-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0187",
+    "slug": "seven-mouths-toucheng",
+    "name": "七嘴八舌頭城店",
+    "category": "小吃",
+    "subcat": "滷味／晚餐",
+    "address": "宜蘭縣頭城鎮沙成路69號",
+    "phone": "0989-707-914",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      }
+    },
+    "tags": [
+      "滷味",
+      "晚餐",
+      "學生常客",
+      "客製煮法",
+      "有廁所",
+      "有冷氣"
+    ],
+    "recommended": [],
+    "editorial": "食材種類多，青菜葉菜類幾乎都是有機的，煮法可以依喜好調整。小辣就已經頗辣；學生客群多，不想久候可避開下午四、五點放學時段。還可以和隔壁無名乾麵攤跨店合點，老闆會幫忙送進店裡，但仍各自結帳。",
+    "images": [
+      "assets/images/seven-mouths-toucheng-1.webp",
+      "assets/images/seven-mouths-toucheng-2.webp",
+      "assets/images/seven-mouths-toucheng-3.webp"
+    ],
+    "verified": true
+  },
+  {
+    "id": "TCL-0188",
+    "slug": "toucheng-japanese-snack",
+    "name": "頭城日式料理小吃",
+    "category": "餐廳",
+    "subcat": "日式料理",
+    "address": "宜蘭縣頭城鎮開蘭路114號1樓",
+    "phone": "03-977-5320",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "休息",
+        "slots": []
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–20:00"
+        ]
+      }
+    },
+    "tags": [
+      "日式料理",
+      "拉麵",
+      "壽司",
+      "關東煮"
+    ],
+    "recommended": [],
+    "editorial": "既有收錄店家漏件修復。本次重新補回正式資料集；營業時間以店家最新提供資料為準。",
+    "images": [],
+    "verified": true
   }
 ];
