@@ -4905,5 +4905,394 @@ window.LIVING_PLACES = [
     ],
     "verified": true,
     "editorial_title": "店家介紹"
+  },
+  {
+    "id": "TCL-0189",
+    "slug": "wushi-harbor-plumbing",
+    "name": "烏石港水電行",
+    "category": "居家修繕",
+    "subcat": "水電工程",
+    "address": "宜蘭縣頭城鎮城南里沙成路21號",
+    "phone": "03-977-2365",
+    "hours": null,
+    "tags": [
+      "水電",
+      "居家修繕",
+      "小型工程"
+    ],
+    "recommended": [],
+    "editorial": "家中小小的水電工程問題，可以先打電話跟阿牛師傅約時間處理。家裡用了25年的馬桶整個換新、新拉燈座，也都是請他協助。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/wushi-harbor-plumbing-1.webp",
+      "assets/images/wushi-harbor-plumbing-2.webp"
+    ]
+  },
+  {
+    "id": "TCL-0190",
+    "slug": "yuanbao-breakfast",
+    "name": "元堡早餐",
+    "category": "餐廳",
+    "subcat": "早餐",
+    "address": "宜蘭縣頭城鎮城東里民鋒路78-1號",
+    "phone": "03-977-7606",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–11:00"
+        ]
+      }
+    },
+    "tags": [
+      "早餐",
+      "蛋餅",
+      "鐵板麵",
+      "奶茶"
+    ],
+    "recommended": [
+      "蛋餅",
+      "鐵板麵",
+      "奶茶"
+    ],
+    "editorial": "特色是蛋餅、鐵板麵和奶茶。店內乾淨舒適、有冷氣，價格實惠。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/yuanbao-breakfast-1.webp",
+      "assets/images/yuanbao-breakfast-2.webp",
+      "assets/images/yuanbao-breakfast-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0191",
+    "slug": "jingoodwheat",
+    "name": "勁好麥烘焙",
+    "category": "點心",
+    "subcat": "烘焙甜點",
+    "address": "宜蘭縣頭城鎮大坑里協天路563號",
+    "phone": "0988-652-210",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:30"
+        ]
+      }
+    },
+    "tags": [
+      "烘焙",
+      "蛋糕",
+      "麵包",
+      "客製蛋糕"
+    ],
+    "recommended": [
+      "客製蛋糕",
+      "麵包"
+    ],
+    "editorial": "老闆是台北學成返鄉的蛋糕師傅，烏石港遊艇糕點和麵包都難不倒他。蛋糕可以客製化，也願意配合緊急訂單；店內還有有趣的值星帶可以買。",
+    "facebook": "https://www.facebook.com/jingoodwheat/",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/jingoodwheat-1.webp",
+      "assets/images/jingoodwheat-2.webp",
+      "assets/images/jingoodwheat-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0192",
+    "slug": "zhen-zhou-dao",
+    "name": "珍粥到廣東粥",
+    "category": "小吃",
+    "subcat": "粥品",
+    "address": "宜蘭縣頭城鎮城南里沙成路63之3號",
+    "phone": "03-977-9888",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–18:25"
+        ]
+      }
+    },
+    "tags": [
+      "廣東粥",
+      "粥品",
+      "寶寶粥"
+    ],
+    "recommended": [
+      "廣東粥",
+      "寶寶粥"
+    ],
+    "editorial": "頭城相當少有的粥類店面，也可以客製化煮成寶寶粥；身體不舒服、想吃清淡一點時，也是很實用的應急餐點。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/zhen-zhou-dao-1.webp",
+      "assets/images/zhen-zhou-dao-2.webp",
+      "assets/images/zhen-zhou-dao-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0193",
+    "slug": "lao-zhang-breakfast",
+    "name": "老張早餐吧",
+    "category": "餐廳",
+    "subcat": "早餐／早午餐",
+    "address": "宜蘭縣頭城鎮城南里和平街92號",
+    "phone": "0928-075-749",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "05:00–13:00"
+        ]
+      }
+    },
+    "tags": [
+      "早餐",
+      "早午餐",
+      "老宅",
+      "飯糰"
+    ],
+    "recommended": [
+      "黑豬飯糰"
+    ],
+    "editorial": "05:00就會有觀光客來排隊用餐的早餐店，可以在頭城老宅中吃一頓漂亮的早午餐。有吃一個就會讓你碳暈到下午的黑豬飯糰！",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/lao-zhang-breakfast-1.webp",
+      "assets/images/lao-zhang-breakfast-2.webp",
+      "assets/images/lao-zhang-breakfast-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0194",
+    "slug": "pianxin-bookstore",
+    "name": "偏心書店／蔧集空間",
+    "category": "生活服務",
+    "subcat": "獨立書店／複合空間",
+    "address": "宜蘭縣頭城鎮城南里沙成路85號1樓",
+    "phone": "暫無資料",
+    "hours": null,
+    "tags": [
+      "書店",
+      "講座",
+      "活動",
+      "課程",
+      "卡牌",
+      "TRPG",
+      "教育諮詢"
+    ],
+    "recommended": [],
+    "editorial": "超乎想像的斜槓書店：有想法的選書、特調飲料、精選點心、誠品般的氛圍、貼心的老闆與多變化的店長；意想不到的，還有卡牌、TRPG及教育諮詢。講座、活動、課程採預約報名制，偏心書院試辦中。營業時間請洽臉書粉絲團。",
+    "facebook": "https://www.facebook.com/profile.php?id=100083004511206&mibextid=LQQJ4d",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/pianxin-bookstore-1.webp",
+      "assets/images/pianxin-bookstore-2.webp",
+      "assets/images/pianxin-bookstore-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0195",
+    "slug": "zhengxiang-soup-dumplings",
+    "name": "蒸香湯包",
+    "category": "小吃",
+    "subcat": "湯包／燒賣",
+    "address": "宜蘭縣頭城鎮城東里開蘭路114號",
+    "phone": "0989-310-977",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–13:30",
+          "17:30–19:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–13:30",
+          "17:30–19:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–13:30",
+          "17:30–19:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–13:30",
+          "17:30–19:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:30–13:30",
+          "17:30–19:30"
+        ]
+      }
+    },
+    "tags": [
+      "湯包",
+      "燒賣",
+      "三星蔥"
+    ],
+    "recommended": [
+      "三星蔥湯包"
+    ],
+    "editorial": "店內特色是「三星蔥湯包」。另有魚翅餃、港式燒賣等品項。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/zhengxiang-soup-dumplings-1.webp",
+      "assets/images/zhengxiang-soup-dumplings-2.webp",
+      "assets/images/zhengxiang-soup-dumplings-3.webp"
+    ]
   }
 ];

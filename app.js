@@ -1,6 +1,7 @@
 
 const app=document.querySelector("#app");
 const places=window.LIVING_PLACES||[];
+const placeCount=document.querySelector("#placeCount");if(placeCount)placeCount.textContent=`店家與服務 ${places.length} 間`;
 const categories=[["🍜","餐廳"],["🥐","早午餐"],["🌙","晚餐"],["🥢","小吃"],["🍰","點心"],["🧋","飲料"],["☕","咖啡"],["🩺","醫療照護"],["🧰","生活服務"],["🔧","居家修繕"],["🚕","交通接送"]];
 let currentCategory="全部",query="";
 // 同一個瀏覽 Session 使用固定亂數；新 Session 才重新洗牌。

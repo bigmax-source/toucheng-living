@@ -1,3 +1,4 @@
-Toucheng Living Build011
-Base: MASTER 2026-08-22 / Build010
-Date: 2026-08-23
+Build012
+Base: Build011a Hotfix
+Updated: 2026-08-24
+Changes: +7 places (TCL-0189–TCL-0195), 95-place dynamic footer count, supplied photos
