@@ -1,4 +1,4 @@
-Build012
-Base: Build011a Hotfix
-Updated: 2026-08-24
-Changes: +7 places (TCL-0189–TCL-0195), 95-place dynamic footer count, supplied photos
+Build013
+Base: Build012
+Updated: 2026-08-25
+Changes: +8 places (TCL-0210–TCL-0217), total 103 places; hero dynamic place count; incremental new photos

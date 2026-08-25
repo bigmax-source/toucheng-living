@@ -5294,5 +5294,518 @@ window.LIVING_PLACES = [
       "assets/images/zhengxiang-soup-dumplings-2.webp",
       "assets/images/zhengxiang-soup-dumplings-3.webp"
     ]
+  },
+  {
+    "id": "TCL-0210",
+    "slug": "xunen-plumbing-electric",
+    "name": "勛恩水電工程行",
+    "category": "居家修繕",
+    "subcat": "水電工程",
+    "address": "地址請洽店家",
+    "phone": "0910-664-091",
+    "hours": null,
+    "tags": [
+      "水電維修",
+      "裝修工程",
+      "燈飾照明",
+      "衛浴設備",
+      "監控系統"
+    ],
+    "recommended": [],
+    "editorial": "林坤輝（阿輝）師傅提供室內配線（屋內裝修）、自來水配管、用電設備檢驗，以及水電維修、裝修工程、燈飾照明、衛浴設備與監控系統等服務。具室內配線乙級、自來水配管丙級與用電設備檢驗丙級技術士資格；LINE ID：djpcjo。名片中的 LINE QR Code 已保留於照片，可直接掃描聯絡。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/xunen-plumbing-electric-1.webp",
+      "assets/images/xunen-plumbing-electric-2.webp"
+    ]
+  },
+  {
+    "id": "TCL-0211",
+    "slug": "pingtouge-hair",
+    "name": "平頭哥髮院",
+    "category": "生活服務",
+    "subcat": "理髮",
+    "address": "宜蘭縣頭城鎮城東里和平街110號",
+    "phone": "03-978-0303",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:30–20:00"
+        ]
+      }
+    },
+    "tags": [
+      "理髮",
+      "百元理髮",
+      "家庭式"
+    ],
+    "recommended": [
+      "百元理髮"
+    ],
+    "editorial": "2026 年在頭城還能用新台幣 100 元理髮的店，大概就屬這間最有代表性。沒有醒目的招牌，也沒有很酷的裝潢，就是很純粹的家庭式理髮店，但老闆的用心很容易感受到。從 1 歲的小朋友到 80 歲的長輩都能剪，是不少頭城在地人的日常選擇。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/pingtouge-hair-1.webp"
+    ]
+  },
+  {
+    "id": "TCL-0212",
+    "slug": "kailan108-buying",
+    "name": "頭城－開蘭108美式賣場代購",
+    "category": "生活服務",
+    "subcat": "美式賣場代購",
+    "address": "宜蘭縣頭城鎮城南里開蘭路108號",
+    "phone": "0935-556-532",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "17:00–21:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–21:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
+    },
+    "tags": [
+      "美式賣場",
+      "代購",
+      "線上訂購",
+      "現場取貨"
+    ],
+    "recommended": [],
+    "editorial": "外縣市有大型美式賣場的朋友可能很難理解：宜蘭為什麼會需要這種代購服務？原因很單純——宜蘭沒有 Costco。或者只是懶得為了買一樣東西專程跑一趟，更怕原本只想買 A，最後莫名其妙扛著 BCDEFG 回家。這裡可以先線上訂購，貨到了再到店取貨，碰上優惠時說不定還能撿到折扣。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/kailan108-buying-1.webp"
+    ]
+  },
+  {
+    "id": "TCL-0213",
+    "slug": "old-junior-high-breakfast",
+    "name": "頭城舊國中無名早餐店",
+    "category": "小吃",
+    "subcat": "早餐",
+    "address": "宜蘭縣頭城鎮城西里開蘭路8號",
+    "phone": "0932-358-735",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:15–11:30"
+        ]
+      }
+    },
+    "tags": [
+      "早餐",
+      "蛋餅",
+      "肉圓",
+      "咖啡牛奶",
+      "老店"
+    ],
+    "recommended": [
+      "現擀現煎蛋餅",
+      "蒸肉圓",
+      "特調咖啡牛奶"
+    ],
+    "editorial": "沒有招牌，也沒有店名，但很多以前的頭城國中學生都知道這一家。1995 年以前就已經存在，蛋餅現擀現煎，淋上店家特製甜辣醬和醬油；蒸肉圓加上筍絲，QQ 的外皮也搭同一款醬料。咖啡牛奶是店家特調。對以前在附近上學的人來說，這裡賣的不只是早餐，也是學生時代的一小段日常。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/old-junior-high-breakfast-1.webp",
+      "assets/images/old-junior-high-breakfast-2.webp",
+      "assets/images/old-junior-high-breakfast-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0214",
+    "slug": "toucheng-mian-gao-jian",
+    "name": "頭城麵糕煎",
+    "category": "小吃",
+    "subcat": "麵糕煎",
+    "address": "宜蘭縣頭城鎮城東里開蘭路140號",
+    "phone": "0918-843-566",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:00–16:30"
+        ]
+      }
+    },
+    "tags": [
+      "麵糕煎",
+      "老攤",
+      "第二代",
+      "攤車"
+    ],
+    "recommended": [
+      "麵糕煎"
+    ],
+    "editorial": "一台攤車、一種品項，就這樣賣了好多年。攤車的年紀據說和現在頭城商場的建築物一樣大，如今由第二代接手經營。這裡不用研究菜單，主角就只有麵糕煎。最好吃的時候，是剛好等到新鮮出爐；熱呼呼拿在手上，一塊吃完很容易開始想第二塊。高雄表妹每次回頭城，都一定要吃上一塊才過癮。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/toucheng-mian-gao-jian-1.webp",
+      "assets/images/toucheng-mian-gao-jian-2.webp",
+      "assets/images/toucheng-mian-gao-jian-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0215",
+    "slug": "lai-family-noodles",
+    "name": "賴氏呷麵",
+    "category": "小吃",
+    "subcat": "麵食",
+    "address": "宜蘭縣頭城鎮城北里開蘭路167號",
+    "phone": "03-977-3289",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      }
+    },
+    "tags": [
+      "麵食",
+      "炸醬麵",
+      "滷肉飯",
+      "韓國拉麵"
+    ],
+    "recommended": [
+      "炸醬麵",
+      "滷肉飯",
+      "鍋燒麵"
+    ],
+    "editorial": "從傳統的炒麵、炸醬麵、肉燥乾麵、沙茶乾麵、滷肉飯，到餛飩湯麵、貢丸湯麵、肉焿、魷魚焿、羊肉焿都有；想換個口味，也有韓國拉麵與原味、沙茶、泡菜鍋燒麵可以選。店面乾淨明亮，從早上一路營業到晚餐時間，是想簡單吃碗麵、吃頓飯時很容易走進去的一間頭城日常小吃店。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/lai-family-noodles-1.webp",
+      "assets/images/lai-family-noodles-2.webp",
+      "assets/images/lai-family-noodles-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0216",
+    "slug": "toucheng-oyster-omelet",
+    "name": "頭城老店蚵仔煎",
+    "category": "小吃",
+    "subcat": "蚵仔煎",
+    "address": "宜蘭縣頭城鎮城西里纘祥路33號",
+    "phone": "03-977-0512",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:30–22:30"
+        ]
+      }
+    },
+    "tags": [
+      "蚵仔煎",
+      "米糕",
+      "乾麵",
+      "肉羹",
+      "老店"
+    ],
+    "recommended": [
+      "蚵仔煎",
+      "米糕",
+      "肉羹"
+    ],
+    "editorial": "現在要在頭城鎮上找蚵仔煎，好像就剩這一家了。從以前一盤新台幣 30 元的年代一路吃到現在，小時候吃過之後大概就產生了某種「母鳥效應」——總覺得蚵仔煎就是要長這個樣子、吃起來是這個味道，才叫蚵仔煎。這裡也不只有蚵仔煎，米糕、乾麵、肉羹都是可以一起點的老派組合。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/toucheng-oyster-omelet-1.webp",
+      "assets/images/toucheng-oyster-omelet-2.webp",
+      "assets/images/toucheng-oyster-omelet-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0217",
+    "slug": "jia-hong-beef-noodles",
+    "name": "家宏牛肉麵",
+    "category": "餐廳",
+    "subcat": "牛肉麵／炒飯炒麵",
+    "address": "宜蘭縣頭城鎮新建里青雲路三段26號",
+    "phone": "03-977-6745",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "11:00–13:30",
+          "16:30–19:30"
+        ]
+      }
+    },
+    "tags": [
+      "牛肉麵",
+      "炒飯",
+      "炒麵",
+      "第二代",
+      "老店"
+    ],
+    "recommended": [
+      "牛肉麵",
+      "炒飯",
+      "炒麵"
+    ],
+    "editorial": "現在也是第二代經營。除了牛肉麵，炒飯、炒麵更是好吃！菜單另有牛肉泡河粉、牛肉燴飯、肉絲炒麵、肉絲炒河粉、榨菜肉絲麵，以及多種熱炒、湯類與小菜，是午餐、晚餐都很實在的頭城老店。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/jia-hong-beef-noodles-1.webp",
+      "assets/images/jia-hong-beef-noodles-2.webp",
+      "assets/images/jia-hong-beef-noodles-3.webp"
+    ]
   }
 ];

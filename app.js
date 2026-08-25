@@ -66,7 +66,7 @@ function filtered(){
  });
 }
 function home(){
- app.innerHTML=`<section class="hero"><div class="hero-inner"><h1>頭城生活指南｜頭城生活中</h1><div class="since">頭城二三事 補充／規劃　｜　聯絡信箱 polonews@gmail.com　｜　Facebook 搜尋「頭城二三事」</div></div></section>
+ app.innerHTML=`<section class="hero"><div class="hero-inner"><h1>頭城生活指南｜頭城生活中</h1><div class="since">頭城二三事 補充／規劃　｜　聯絡信箱 polonews@gmail.com　｜　Facebook 搜尋「頭城二三事」　｜　店家與服務 ${places.length} 間</div></div></section>
  <div class="container">
   <section class="section categories-section">
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
