@@ -1,4 +1,4 @@
-Build013
-Base: Build012
-Updated: 2026-08-25
-Changes: +8 places (TCL-0210–TCL-0217), total 103 places; hero dynamic place count; incremental new photos
+Build014
+Base: Build013
+Updated: 2026-08-26
+Changes: +6 places (TCL-0218–TCL-0223), total 109 places; 頭城麵糕煎 category corrected to 點心; incremental new photos only

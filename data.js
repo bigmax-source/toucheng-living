@@ -5524,7 +5524,7 @@ window.LIVING_PLACES = [
     "id": "TCL-0214",
     "slug": "toucheng-mian-gao-jian",
     "name": "頭城麵糕煎",
-    "category": "小吃",
+    "category": "點心",
     "subcat": "麵糕煎",
     "address": "宜蘭縣頭城鎮城東里開蘭路140號",
     "phone": "0918-843-566",
@@ -5806,6 +5806,344 @@ window.LIVING_PLACES = [
       "assets/images/jia-hong-beef-noodles-1.webp",
       "assets/images/jia-hong-beef-noodles-2.webp",
       "assets/images/jia-hong-beef-noodles-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0218",
+    "slug": "house-double-brunch",
+    "name": "好室成雙",
+    "category": "餐廳",
+    "subcat": "早午餐",
+    "address": "宜蘭縣頭城鎮大坑里文化路182號",
+    "phone": "0909-543-939",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–15:30"
+        ]
+      }
+    },
+    "tags": [
+      "早午餐",
+      "LGBTQ+ 友善空間",
+      "女性業主",
+      "重劃區"
+    ],
+    "recommended": [
+      "早午餐盤"
+    ],
+    "editorial": "位在頭城重劃區裡的一間舒服早午餐店，店面明亮乾淨，從餐點到空間都有自己的風格。餐點以早午餐盤為主，可以吃到煙燻豬肉、鴨賞、明太子、煙燻鮭魚等不同搭配。店家同時是 LGBTQ+ 友善空間，也是女性業主經營的商家，適合想找一間舒服坐下來吃早午餐、慢慢聊聊天的地方。",
+    "instagram": "https://www.instagram.com/_house.x.double",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/house-double-1.webp",
+      "assets/images/house-double-2.webp",
+      "assets/images/house-double-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0219",
+    "slug": "toucheng-soymilk-shop",
+    "name": "頭城豆漿店",
+    "category": "餐廳",
+    "subcat": "早餐／宵夜",
+    "address": "宜蘭縣頭城鎮城南里青雲路三段127號",
+    "phone": "03-977-1160",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "20:30–00:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00",
+          "20:30–00:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00",
+          "20:30–00:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00",
+          "20:30–00:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00",
+          "20:30–00:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00",
+          "20:30–00:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "00:00–09:00"
+        ]
+      }
+    },
+    "tags": [
+      "豆漿",
+      "鍋貼",
+      "煎包",
+      "飯糰",
+      "宵夜早餐",
+      "衝浪補給"
+    ],
+    "recommended": [
+      "鍋貼",
+      "煎包",
+      "飯糰"
+    ],
+    "editorial": "除了便利商店，這大概是整個頭城半夜三點還能找到熱食的少數店面之一。我最喜歡鍋貼與煎包；高中通勤時，阿嬤也常買他們家的飯糰給我。對衝浪客來說，這裡也是下水前很好用的補給點，不管半夜、清晨，還是剛起床想找一份熱食早餐，都很方便。",
+    "facebook": "https://www.facebook.com/touchensoymilk",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/toucheng-soymilk-1.webp",
+      "assets/images/toucheng-soymilk-2.webp",
+      "assets/images/toucheng-soymilk-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0220",
+    "slug": "comebuy-toucheng",
+    "name": "COMEBUY 宜蘭頭城店",
+    "category": "飲料",
+    "subcat": "手搖飲",
+    "address": "宜蘭縣頭城鎮城東里青雲路三段226號",
+    "phone": "03-977-9913",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      }
+    },
+    "tags": [
+      "手搖飲",
+      "奶茶",
+      "鮮調果茶",
+      "無咖啡因"
+    ],
+    "recommended": [],
+    "editorial": "頭城青雲路上的連鎖手搖飲店，品項從奶茶、鮮調果茶到無咖啡因飲品都有，選擇很多。每天固定營業到晚上 8:30，想買杯飲料帶走很方便。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/comebuy-toucheng-1.webp",
+      "assets/images/comebuy-toucheng-2.webp"
+    ]
+  },
+  {
+    "id": "TCL-0221",
+    "slug": "deantang-herbal-pharmacy",
+    "name": "德安堂藥房",
+    "category": "醫療照護",
+    "subcat": "中藥房",
+    "address": "宜蘭縣頭城鎮城西里開蘭路16號",
+    "phone": "03-977-3668",
+    "hours": null,
+    "tags": [
+      "中藥房",
+      "抓藥",
+      "防蚊包",
+      "百年謝籃",
+      "手寫藥帖"
+    ],
+    "recommended": [],
+    "editorial": "德安堂不只是買藥、抓藥的地方，也保存著一段頭城老藥房的生活記憶。淑真姐會帶著孩子實際抓藥、製作防蚊包，讓原本看起來有些距離的中藥文化，變成可以親手接觸的生活體驗。店裡還保存祖輩傳下來的手寫藥帖，以及百年謝籃的故事，對孩子來說是認識傳統藥房的機會，對大人來說，也能重新看見一間老店累積下來的地方記憶。",
+    "facebook": "https://www.facebook.com/share/17A7ZV26rA/",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/deantang-herbal-1.webp",
+      "assets/images/deantang-herbal-2.webp",
+      "assets/images/deantang-herbal-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0222",
+    "slug": "clothing-shop-cold-noodles",
+    "name": "假裝是服飾店的涼麵店",
+    "category": "小吃",
+    "subcat": "涼麵",
+    "address": "宜蘭縣頭城鎮城西里開蘭路35號",
+    "phone": "03-977-3123",
+    "hours": null,
+    "tags": [
+      "涼麵",
+      "限量",
+      "蒜味",
+      "辣味",
+      "團購"
+    ],
+    "recommended": [
+      "涼麵"
+    ],
+    "editorial": "外觀看起來根本就是服飾店，但裡面真的有賣涼麵。第一次來可能會在門口懷疑人生，不過不用怕，勇敢走進去跟老闆或老闆娘說「我要買涼麵」就對了。涼麵以團購為主要生意，數量有限，建議早點來，下午很容易就賣光。醬料是很道地的台式口味，蒜味是真的有蒜味，辣味也是真的有辣；蒜味版本吃完之後，女朋友或太太可能兩天都不太想跟你親嘴——這句是稱讚。店門口還有一個咖啡小攤，找到它就代表你沒有走錯地方。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/clothing-shop-cold-noodles-1.webp",
+      "assets/images/clothing-shop-cold-noodles-2.webp"
+    ]
+  },
+  {
+    "id": "TCL-0223",
+    "slug": "beginner-redbean-cake-toucheng",
+    "name": "初心紅豆餅－頭城店",
+    "category": "點心",
+    "subcat": "紅豆餅／豆花",
+    "address": "宜蘭縣頭城鎮城東里民鋒路6-7號",
+    "phone": "0981-881-427",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "08:30–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "紅豆餅",
+      "豆花",
+      "米粉羹",
+      "限量"
+    ],
+    "recommended": [
+      "紅豆餅",
+      "豆花",
+      "古早味米粉羹"
+    ],
+    "editorial": "雖然名字叫「初心紅豆餅」，但這裡不只是紅豆餅。各種口味的紅豆餅餡料都很飽滿之外，店內還有頭城比較少見、而且數量有限的古早味米粉羹，另外也有料給得很實在的豆花。想吃甜的可以選紅豆餅或豆花，想來點鹹的就看看當天米粉羹還有沒有。算是一間名字很單純，但實際上比想像中更有內容的小店。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/beginner-redbean-cake-1.webp",
+      "assets/images/beginner-redbean-cake-2.webp",
+      "assets/images/beginner-redbean-cake-3.webp"
     ]
   }
 ];
