@@ -6145,5 +6145,324 @@ window.LIVING_PLACES = [
       "assets/images/beginner-redbean-cake-2.webp",
       "assets/images/beginner-redbean-cake-3.webp"
     ]
-  }
+  },
+{
+  "id": "TCL-0224",
+  "slug": "aizawa-chanti-wine-fashion",
+  "name": "愛澤香緹紅酒服飾店",
+  "category": "生活服務",
+  "subcat": "服飾／生活選物",
+  "address": "宜蘭縣頭城鎮青雲路三段158號",
+  "phone": "",
+  "hours": {
+    "一": {
+      "status": "休息"
+    },
+    "二": {
+      "status": "休息"
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "10:00–18:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "10:00–18:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "10:00–18:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "10:00–18:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "10:00–18:00"
+      ]
+    }
+  },
+  "tags": [
+    "女性服飾",
+    "鞋類",
+    "紅酒",
+    "白酒",
+    "洋酒"
+  ],
+  "recommended": [],
+  "editorial": "青雲路上一間少見的複合型店面，把女性服飾、鞋類與紅白酒、洋酒放在同一個空間裡。店內不是單純的服飾店，也不是傳統酒類專賣店，而是把穿搭與生活選物結合在一起，形成很有自己風格的店面。",
+  "verified": true,
+  "editorial_title": "店家介紹",
+  "images": [
+    "assets/images/aizawa-chanti-1.webp",
+    "assets/images/aizawa-chanti-2.webp",
+    "assets/images/aizawa-chanti-3.webp"
+  ]
+},
+{
+  "id": "TCL-0225",
+  "slug": "xiangnei-vegetarian",
+  "name": "巷內蔬齋",
+  "category": "小吃",
+  "subcat": "素食",
+  "address": "宜蘭縣頭城鎮拔雅里東五巷4號",
+  "phone": "0958-226-968",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "10:30–14:00"
+      ]
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "10:30–14:00"
+      ]
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "10:30–14:00"
+      ]
+    },
+    "四": {
+      "status": "休息"
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "10:30–14:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "10:30–14:00"
+      ]
+    },
+    "日": {
+      "status": "休息"
+    }
+  },
+  "tags": [
+    "素食",
+    "便當",
+    "炒麵",
+    "炒米粉",
+    "紅燒湯"
+  ],
+  "recommended": [
+    "素食便當",
+    "炒麵",
+    "炒米粉"
+  ],
+  "editorial": "藏在東五巷裡的素食小店，主打日常、實在的蔬食餐點。除了白米便當、黃米便當，也有炒麵、炒米粉、素羹、素羹麵，以及紅燒湯、紅燒麵等選擇。如果想在頭城找一餐簡單、不花俏的素食，這間就是很實用的選擇。",
+  "verified": true,
+  "editorial_title": "店家介紹",
+  "images": [
+    "assets/images/xiangnei-vegetarian-1.webp",
+    "assets/images/xiangnei-vegetarian-2.webp",
+    "assets/images/xiangnei-vegetarian-3.webp"
+  ]
+},
+{
+  "id": "TCL-0226",
+  "slug": "hean-vegetarian",
+  "name": "禾安素食坊｜越南素食料理",
+  "category": "小吃",
+  "subcat": "越南素食料理",
+  "address": "宜蘭縣頭城鎮城西里開蘭路12號",
+  "phone": "03-977-9967",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "07:00–19:00"
+      ]
+    },
+    "二": {
+      "status": "休息"
+    },
+    "三": {
+      "status": "休息"
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "07:00–19:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "07:00–19:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "07:00–19:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "07:00–19:00"
+      ]
+    }
+  },
+  "tags": [
+    "素食",
+    "越南料理",
+    "米線",
+    "法國麵包"
+  ],
+  "recommended": [
+    "越南素食料理",
+    "米線",
+    "法國麵包"
+  ],
+  "editorial": "開蘭路上的素食小店，除了台式素食，也能吃到很有特色的越南素食料理。從米線、湯麵到法國麵包，都有和一般素食店不太一樣的選擇。想吃素，但又不想每天都是相同的便當或傳統素食，這間會是很有變化的一個選擇。",
+  "verified": true,
+  "editorial_title": "店家介紹",
+  "images": [
+    "assets/images/hean-vegetarian-1.webp",
+    "assets/images/hean-vegetarian-2.webp",
+    "assets/images/hean-vegetarian-3.webp"
+  ]
+},
+{
+  "id": "TCL-0227",
+  "slug": "zhenjia-vegetarian",
+  "name": "珍佳素食",
+  "category": "小吃",
+  "subcat": "素食",
+  "address": "宜蘭縣頭城鎮城北里沙成路44號",
+  "phone": "03-977-0703",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "09:00–19:00"
+      ]
+    },
+    "二": {
+      "status": "休息"
+    },
+    "三": {
+      "status": "休息"
+    },
+    "四": {
+      "status": "休息"
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "09:00–19:00"
+      ]
+    },
+    "六": {
+      "status": "營業",
+      "slots": [
+        "09:00–19:00"
+      ]
+    },
+    "日": {
+      "status": "營業",
+      "slots": [
+        "09:00–19:00"
+      ]
+    }
+  },
+  "tags": [
+    "素食",
+    "素食麵",
+    "素食飯",
+    "素食小菜"
+  ],
+  "recommended": [],
+  "editorial": "沙成路上的素食小店，主打日常、實在的素食餐點。從麵、飯到各式小菜都有，想簡單吃一餐很方便。店內餐點偏傳統台式素食路線，選擇不少，也很適合想找一份不複雜、能直接吃飽的素食餐點。",
+  "verified": true,
+  "editorial_title": "店家介紹",
+  "images": [
+    "assets/images/zhenjia-vegetarian-1.webp",
+    "assets/images/zhenjia-vegetarian-2.webp",
+    "assets/images/zhenjia-vegetarian-3.webp"
+  ]
+},
+{
+  "id": "TCL-0228",
+  "slug": "miaokou-vegetarian",
+  "name": "廟口素食",
+  "category": "小吃",
+  "subcat": "素食",
+  "address": "宜蘭縣頭城鎮城東里和平街100號",
+  "phone": "03-977-7168",
+  "hours": {
+    "一": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "二": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "三": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "四": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "五": {
+      "status": "營業",
+      "slots": [
+        "10:00–19:00"
+      ]
+    },
+    "六": {
+      "status": "休息"
+    },
+    "日": {
+      "status": "休息"
+    }
+  },
+  "tags": [
+    "素食",
+    "素食臭豆腐",
+    "現炸",
+    "素食飯麵"
+  ],
+  "recommended": [
+    "現炸素食臭豆腐"
+  ],
+  "editorial": "和平街上的素食小店，除了飯麵類，還有很有特色的現炸素食臭豆腐。現點現炸，外層酥、裡面保有豆腐口感，再配上泡菜，很值得專程來吃。如果想在頭城找一間可以吃飽、又有招牌特色的素食店，這間會是很實用的選擇。",
+  "verified": true,
+  "editorial_title": "店家介紹",
+  "images": [
+    "assets/images/miaokou-vegetarian-1.webp",
+    "assets/images/miaokou-vegetarian-2.webp",
+    "assets/images/miaokou-vegetarian-3.webp"
+  ]
+}
 ];

@@ -1,4 +1,4 @@
-Build014
-Base: Build013
-Updated: 2026-08-26
-Changes: +6 places (TCL-0218–TCL-0223), total 109 places; 頭城麵糕煎 category corrected to 點心; incremental new photos only
+Build015
+Base: Build014
+Updated: 2026-08-27
+Changes: +5 places (TCL-0224–TCL-0228), total 114 places; 素食正式納入 searchable feature tags; incremental new photos only
