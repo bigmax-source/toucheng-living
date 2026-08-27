@@ -176,5 +176,5 @@ function renderWizard(){
 }
 function route(){const h=location.hash.slice(1);if(h.startsWith("place/"))detail(h.split("/")[1]);else if(h.startsWith("claim/"))startClaim(h.split("/")[1]);else home()}
 window.addEventListener("hashchange",route);
-document.querySelector("#joinBtn").onclick=()=>alert("Build006 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
+document.querySelector("#joinBtn").onclick=()=>alert("Build016 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
 route();

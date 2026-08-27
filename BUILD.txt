@@ -1,4 +1,4 @@
-Build015
-Base: Build014
+Build016
+Base: Build015
 Updated: 2026-08-27
-Changes: +5 places (TCL-0224–TCL-0228), total 114 places; 素食正式納入 searchable feature tags; incremental new photos only
+Changes: +6 places (TCL-0229–TCL-0234), total 120 places; 愛澤香緹店名修正為「愛澤香緹洋酒服飾店」; Chrome favicon 改為 🌊; incremental new photos only

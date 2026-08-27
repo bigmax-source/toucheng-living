@@ -6146,323 +6146,729 @@ window.LIVING_PLACES = [
       "assets/images/beginner-redbean-cake-3.webp"
     ]
   },
-{
-  "id": "TCL-0224",
-  "slug": "aizawa-chanti-wine-fashion",
-  "name": "愛澤香緹紅酒服飾店",
-  "category": "生活服務",
-  "subcat": "服飾／生活選物",
-  "address": "宜蘭縣頭城鎮青雲路三段158號",
-  "phone": "",
-  "hours": {
-    "一": {
-      "status": "休息"
+  {
+    "id": "TCL-0224",
+    "slug": "aizawa-chanti-liquor-fashion",
+    "name": "愛澤香緹洋酒服飾店",
+    "category": "生活服務",
+    "subcat": "服飾／生活選物",
+    "address": "宜蘭縣頭城鎮青雲路三段158號",
+    "phone": "",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      }
     },
-    "二": {
-      "status": "休息"
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "10:00–18:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "10:00–18:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "10:00–18:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "10:00–18:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "10:00–18:00"
-      ]
-    }
+    "tags": [
+      "女性服飾",
+      "鞋類",
+      "紅酒",
+      "白酒",
+      "洋酒"
+    ],
+    "recommended": [],
+    "editorial": "青雲路上一間少見的複合型店面，把女性服飾、鞋類與紅白酒、洋酒放在同一個空間裡。店內不是單純的服飾店，也不是傳統酒類專賣店，而是把穿搭與生活選物結合在一起，形成很有自己風格的店面。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/aizawa-chanti-1.webp",
+      "assets/images/aizawa-chanti-2.webp",
+      "assets/images/aizawa-chanti-3.webp"
+    ]
   },
-  "tags": [
-    "女性服飾",
-    "鞋類",
-    "紅酒",
-    "白酒",
-    "洋酒"
-  ],
-  "recommended": [],
-  "editorial": "青雲路上一間少見的複合型店面，把女性服飾、鞋類與紅白酒、洋酒放在同一個空間裡。店內不是單純的服飾店，也不是傳統酒類專賣店，而是把穿搭與生活選物結合在一起，形成很有自己風格的店面。",
-  "verified": true,
-  "editorial_title": "店家介紹",
-  "images": [
-    "assets/images/aizawa-chanti-1.webp",
-    "assets/images/aizawa-chanti-2.webp",
-    "assets/images/aizawa-chanti-3.webp"
-  ]
-},
-{
-  "id": "TCL-0225",
-  "slug": "xiangnei-vegetarian",
-  "name": "巷內蔬齋",
-  "category": "小吃",
-  "subcat": "素食",
-  "address": "宜蘭縣頭城鎮拔雅里東五巷4號",
-  "phone": "0958-226-968",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "10:30–14:00"
-      ]
+  {
+    "id": "TCL-0225",
+    "slug": "xiangnei-vegetarian",
+    "name": "巷內蔬齋",
+    "category": "小吃",
+    "subcat": "素食",
+    "address": "宜蘭縣頭城鎮拔雅里東五巷4號",
+    "phone": "0958-226-968",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "10:30–14:00"
-      ]
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "10:30–14:00"
-      ]
-    },
-    "四": {
-      "status": "休息"
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "10:30–14:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "10:30–14:00"
-      ]
-    },
-    "日": {
-      "status": "休息"
-    }
+    "tags": [
+      "素食",
+      "便當",
+      "炒麵",
+      "炒米粉",
+      "紅燒湯"
+    ],
+    "recommended": [
+      "素食便當",
+      "炒麵",
+      "炒米粉"
+    ],
+    "editorial": "藏在東五巷裡的素食小店，主打日常、實在的蔬食餐點。除了白米便當、黃米便當，也有炒麵、炒米粉、素羹、素羹麵，以及紅燒湯、紅燒麵等選擇。如果想在頭城找一餐簡單、不花俏的素食，這間就是很實用的選擇。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/xiangnei-vegetarian-1.webp",
+      "assets/images/xiangnei-vegetarian-2.webp",
+      "assets/images/xiangnei-vegetarian-3.webp"
+    ]
   },
-  "tags": [
-    "素食",
-    "便當",
-    "炒麵",
-    "炒米粉",
-    "紅燒湯"
-  ],
-  "recommended": [
-    "素食便當",
-    "炒麵",
-    "炒米粉"
-  ],
-  "editorial": "藏在東五巷裡的素食小店，主打日常、實在的蔬食餐點。除了白米便當、黃米便當，也有炒麵、炒米粉、素羹、素羹麵，以及紅燒湯、紅燒麵等選擇。如果想在頭城找一餐簡單、不花俏的素食，這間就是很實用的選擇。",
-  "verified": true,
-  "editorial_title": "店家介紹",
-  "images": [
-    "assets/images/xiangnei-vegetarian-1.webp",
-    "assets/images/xiangnei-vegetarian-2.webp",
-    "assets/images/xiangnei-vegetarian-3.webp"
-  ]
-},
-{
-  "id": "TCL-0226",
-  "slug": "hean-vegetarian",
-  "name": "禾安素食坊｜越南素食料理",
-  "category": "小吃",
-  "subcat": "越南素食料理",
-  "address": "宜蘭縣頭城鎮城西里開蘭路12號",
-  "phone": "03-977-9967",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "07:00–19:00"
-      ]
+  {
+    "id": "TCL-0226",
+    "slug": "hean-vegetarian",
+    "name": "禾安素食坊｜越南素食料理",
+    "category": "小吃",
+    "subcat": "越南素食料理",
+    "address": "宜蘭縣頭城鎮城西里開蘭路12號",
+    "phone": "03-977-9967",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:00–19:00"
+        ]
+      }
     },
-    "二": {
-      "status": "休息"
-    },
-    "三": {
-      "status": "休息"
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "07:00–19:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "07:00–19:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "07:00–19:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "07:00–19:00"
-      ]
-    }
+    "tags": [
+      "素食",
+      "越南料理",
+      "米線",
+      "法國麵包"
+    ],
+    "recommended": [
+      "越南素食料理",
+      "米線",
+      "法國麵包"
+    ],
+    "editorial": "開蘭路上的素食小店，除了台式素食，也能吃到很有特色的越南素食料理。從米線、湯麵到法國麵包，都有和一般素食店不太一樣的選擇。想吃素，但又不想每天都是相同的便當或傳統素食，這間會是很有變化的一個選擇。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/hean-vegetarian-1.webp",
+      "assets/images/hean-vegetarian-2.webp",
+      "assets/images/hean-vegetarian-3.webp"
+    ]
   },
-  "tags": [
-    "素食",
-    "越南料理",
-    "米線",
-    "法國麵包"
-  ],
-  "recommended": [
-    "越南素食料理",
-    "米線",
-    "法國麵包"
-  ],
-  "editorial": "開蘭路上的素食小店，除了台式素食，也能吃到很有特色的越南素食料理。從米線、湯麵到法國麵包，都有和一般素食店不太一樣的選擇。想吃素，但又不想每天都是相同的便當或傳統素食，這間會是很有變化的一個選擇。",
-  "verified": true,
-  "editorial_title": "店家介紹",
-  "images": [
-    "assets/images/hean-vegetarian-1.webp",
-    "assets/images/hean-vegetarian-2.webp",
-    "assets/images/hean-vegetarian-3.webp"
-  ]
-},
-{
-  "id": "TCL-0227",
-  "slug": "zhenjia-vegetarian",
-  "name": "珍佳素食",
-  "category": "小吃",
-  "subcat": "素食",
-  "address": "宜蘭縣頭城鎮城北里沙成路44號",
-  "phone": "03-977-0703",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "09:00–19:00"
-      ]
+  {
+    "id": "TCL-0227",
+    "slug": "zhenjia-vegetarian",
+    "name": "珍佳素食",
+    "category": "小吃",
+    "subcat": "素食",
+    "address": "宜蘭縣頭城鎮城北里沙成路44號",
+    "phone": "03-977-0703",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–19:00"
+        ]
+      }
     },
-    "二": {
-      "status": "休息"
-    },
-    "三": {
-      "status": "休息"
-    },
-    "四": {
-      "status": "休息"
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "09:00–19:00"
-      ]
-    },
-    "六": {
-      "status": "營業",
-      "slots": [
-        "09:00–19:00"
-      ]
-    },
-    "日": {
-      "status": "營業",
-      "slots": [
-        "09:00–19:00"
-      ]
-    }
+    "tags": [
+      "素食",
+      "素食麵",
+      "素食飯",
+      "素食小菜"
+    ],
+    "recommended": [],
+    "editorial": "沙成路上的素食小店，主打日常、實在的素食餐點。從麵、飯到各式小菜都有，想簡單吃一餐很方便。店內餐點偏傳統台式素食路線，選擇不少，也很適合想找一份不複雜、能直接吃飽的素食餐點。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/zhenjia-vegetarian-1.webp",
+      "assets/images/zhenjia-vegetarian-2.webp",
+      "assets/images/zhenjia-vegetarian-3.webp"
+    ]
   },
-  "tags": [
-    "素食",
-    "素食麵",
-    "素食飯",
-    "素食小菜"
-  ],
-  "recommended": [],
-  "editorial": "沙成路上的素食小店，主打日常、實在的素食餐點。從麵、飯到各式小菜都有，想簡單吃一餐很方便。店內餐點偏傳統台式素食路線，選擇不少，也很適合想找一份不複雜、能直接吃飽的素食餐點。",
-  "verified": true,
-  "editorial_title": "店家介紹",
-  "images": [
-    "assets/images/zhenjia-vegetarian-1.webp",
-    "assets/images/zhenjia-vegetarian-2.webp",
-    "assets/images/zhenjia-vegetarian-3.webp"
-  ]
-},
-{
-  "id": "TCL-0228",
-  "slug": "miaokou-vegetarian",
-  "name": "廟口素食",
-  "category": "小吃",
-  "subcat": "素食",
-  "address": "宜蘭縣頭城鎮城東里和平街100號",
-  "phone": "03-977-7168",
-  "hours": {
-    "一": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
+  {
+    "id": "TCL-0228",
+    "slug": "miaokou-vegetarian",
+    "name": "廟口素食",
+    "category": "小吃",
+    "subcat": "素食",
+    "address": "宜蘭縣頭城鎮城東里和平街100號",
+    "phone": "03-977-7168",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "六": {
+        "status": "休息"
+      },
+      "日": {
+        "status": "休息"
+      }
     },
-    "二": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "三": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "四": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "五": {
-      "status": "營業",
-      "slots": [
-        "10:00–19:00"
-      ]
-    },
-    "六": {
-      "status": "休息"
-    },
-    "日": {
-      "status": "休息"
-    }
+    "tags": [
+      "素食",
+      "素食臭豆腐",
+      "現炸",
+      "素食飯麵"
+    ],
+    "recommended": [
+      "現炸素食臭豆腐"
+    ],
+    "editorial": "和平街上的素食小店，除了飯麵類，還有很有特色的現炸素食臭豆腐。現點現炸，外層酥、裡面保有豆腐口感，再配上泡菜，很值得專程來吃。如果想在頭城找一間可以吃飽、又有招牌特色的素食店，這間會是很實用的選擇。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/miaokou-vegetarian-1.webp",
+      "assets/images/miaokou-vegetarian-2.webp",
+      "assets/images/miaokou-vegetarian-3.webp"
+    ]
   },
-  "tags": [
-    "素食",
-    "素食臭豆腐",
-    "現炸",
-    "素食飯麵"
-  ],
-  "recommended": [
-    "現炸素食臭豆腐"
-  ],
-  "editorial": "和平街上的素食小店，除了飯麵類，還有很有特色的現炸素食臭豆腐。現點現炸，外層酥、裡面保有豆腐口感，再配上泡菜，很值得專程來吃。如果想在頭城找一間可以吃飽、又有招牌特色的素食店，這間會是很實用的選擇。",
-  "verified": true,
-  "editorial_title": "店家介紹",
-  "images": [
-    "assets/images/miaokou-vegetarian-1.webp",
-    "assets/images/miaokou-vegetarian-2.webp",
-    "assets/images/miaokou-vegetarian-3.webp"
-  ]
-}
+  {
+    "id": "TCL-0229",
+    "slug": "kakahong",
+    "name": "Kakahong 卡卡紅",
+    "category": "咖啡",
+    "subcat": "咖啡／甜點",
+    "address": "宜蘭縣頭城鎮新建里開蘭東路34號",
+    "phone": "",
+    "website": "https://www.kakahong.com/",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "12:30–17:30"
+        ]
+      }
+    },
+    "tags": [
+      "千層蛋糕",
+      "咖啡",
+      "甜點",
+      "LGBTQ+ 友善空間",
+      "女性業主",
+      "浪人聚集",
+      "老屋"
+    ],
+    "recommended": [
+      "千層蛋糕",
+      "咖啡",
+      "其他飲品"
+    ],
+    "editorial": "開蘭東路上的白磚老屋咖啡店，空間帶著舒服的老屋感，也是附近浪人們容易聚在一起放鬆聊天的地方。店內的千層蛋糕、咖啡與其他飲品都很有特色，親人的店狗也常成為客人記住這裡的原因之一。附近停車相對方便，適合午後坐下來慢慢喝杯咖啡、吃個甜點。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/kakahong-1.webp",
+      "assets/images/kakahong-2.webp",
+      "assets/images/kakahong-3.webp",
+      "assets/images/kakahong-4.webp"
+    ]
+  },
+  {
+    "id": "TCL-0230",
+    "slug": "junkfood-lovefood",
+    "name": "匠客福",
+    "category": "餐廳",
+    "subcat": "早午餐／午餐",
+    "address": "宜蘭縣頭城鎮新建里開蘭東路36號",
+    "phone": "0900-644-818",
+    "instagram": "https://www.instagram.com/junkfood_lovefood/",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "休息"
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–14:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–14:00"
+        ]
+      }
+    },
+    "tags": [
+      "漢堡",
+      "飯食",
+      "海鮮",
+      "雞肉",
+      "牛肉",
+      "露台",
+      "早午餐"
+    ],
+    "recommended": [
+      "漢堡",
+      "飯食"
+    ],
+    "editorial": "開蘭東路上的休閒餐廳，店內有座位，也設有戶外露台，整體空間很放鬆。餐點從搭配肉類的飯食，到海鮮、雞肉、牛肉漢堡都有，想吃得比較有份量或來一頓週末早午餐都很適合。店外牆面的彩繪很有辨識度，也帶著這一帶特有的浪人聚集感。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/junkfood-lovefood-1.webp",
+      "assets/images/junkfood-lovefood-2.webp",
+      "assets/images/junkfood-lovefood-3.webp",
+      "assets/images/junkfood-lovefood-4.webp"
+    ]
+  },
+  {
+    "id": "TCL-0231",
+    "slug": "chuanshao-baobei",
+    "name": "串燒寶貝",
+    "category": "小吃",
+    "subcat": "晚餐／宵夜",
+    "address": "宜蘭縣頭城鎮拔雅里復興路59-3號",
+    "phone": "0926-377-880",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "16:00–23:30"
+        ]
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "16:00–23:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "16:00–23:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "16:00–23:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "16:00–23:30"
+        ]
+      }
+    },
+    "tags": [
+      "串燒",
+      "雞腿捲",
+      "香菇",
+      "豆皮",
+      "宵夜"
+    ],
+    "recommended": [
+      "雞腿捲",
+      "香菇",
+      "豆皮"
+    ],
+    "editorial": "復興路上的晚間串燒店，雞腿捲、香菇和豆皮都很推薦，醬汁有自己的特色。老闆大方又親切，適合傍晚到晚上買一份串燒，當晚餐或宵夜慢慢吃。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/chuanshao-baobei-1.webp",
+      "assets/images/chuanshao-baobei-2.webp",
+      "assets/images/chuanshao-baobei-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0232",
+    "slug": "huaba-pet-grooming",
+    "name": "花爸寵物美容",
+    "category": "生活服務",
+    "subcat": "寵物美容",
+    "address": "宜蘭縣頭城鎮拔雅里復興路59號1樓",
+    "phone": "0911-626-680",
+    "facebook": "https://www.facebook.com/share/1BYrYcf7Pj/",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "寵物美容",
+      "毛孩清潔",
+      "美容服務"
+    ],
+    "recommended": [],
+    "editorial": "復興路上的寵物美容店，提供毛孩日常清潔與美容服務。店內空間明亮，從外觀到美容區都很容易辨識，對附近飼主來說是方便的寵物服務據點。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/huaba-pet-grooming-1.webp",
+      "assets/images/huaba-pet-grooming-2.webp",
+      "assets/images/huaba-pet-grooming-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0233",
+    "slug": "fuxing-riceball",
+    "name": "福興大飯糰",
+    "category": "餐廳",
+    "subcat": "早餐",
+    "address": "宜蘭縣頭城鎮開蘭路210之2號",
+    "phone": "0912-094-890",
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:40–12:30"
+        ]
+      }
+    },
+    "tags": [
+      "飯糰",
+      "蛋餅",
+      "早餐",
+      "飽足系"
+    ],
+    "recommended": [
+      "飯糰"
+    ],
+    "editorial": "份量非常有存在感的頭城早餐店，飯糰一拿到手就知道不是走小鳥胃路線。口味選擇不少，搭配蛋、肉類與不同配料，一顆吃完真的很容易直接飽到中午。如果早上想吃一份夠有份量、可以撐很久的早餐，這間很適合。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/fuxing-riceball-1.webp",
+      "assets/images/fuxing-riceball-2.webp",
+      "assets/images/fuxing-riceball-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0234",
+    "slug": "defang-yushanfang",
+    "name": "德芳御膳坊",
+    "category": "小吃",
+    "subcat": "特色小吃／熟食",
+    "address": "宜蘭縣頭城鎮城東里青雲路三段275號",
+    "phone": "03-977-0113",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–19:00"
+        ]
+      }
+    },
+    "tags": [
+      "三星蔥油餅",
+      "仙草汁",
+      "獅子頭",
+      "熟食"
+    ],
+    "recommended": [
+      "三星蔥油餅",
+      "天然仙草汁",
+      "獅子頭"
+    ],
+    "editorial": "青雲路上的特色小吃店，三星蔥油餅很容易一不小心就再點第二份。店內也有認真熬煮的天然仙草汁，連無糖版本都很順口；另外還有手路菜獅子頭，可以直接買回家自己料理。從現煎小吃、飲品到帶回家的熟食都有，是一間品項不算複雜，但每樣都很有記憶點的小店。",
+    "verified": true,
+    "editorial_title": "店家介紹",
+    "images": [
+      "assets/images/defang-yushanfang-1.webp",
+      "assets/images/defang-yushanfang-2.webp",
+      "assets/images/defang-yushanfang-3.webp"
+    ]
+  }
 ];
