@@ -1072,16 +1072,67 @@ window.LIVING_PLACES = [
     "name": "台灣第一家鹽酥雞",
     "category": "點心",
     "subcat": "鹽酥雞",
-    "address": "宜蘭縣頭城鎮開蘭路90號",
+    "address": "宜蘭縣頭城鎮城南里開蘭路90號",
     "phone": "0930-698-569",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "五": {
+        "status": "休息"
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "17:00–23:00"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "鹽酥雞",
+      "炸物",
+      "晚餐",
+      "宵夜"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "鹽酥雞",
+      "雞排"
+    ],
+    "editorial": "開蘭路上的鹽酥雞攤，傍晚開始營業，炸物、雞排與各式配料選擇齊全。",
+    "images": [
+      "assets/images/taiwan-first-yansuji-1.webp",
+      "assets/images/taiwan-first-yansuji-2.webp",
+      "assets/images/taiwan-first-yansuji-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0202",
@@ -1089,16 +1140,66 @@ window.LIVING_PLACES = [
     "name": "頭城第一家鹽酥雞",
     "category": "點心",
     "subcat": "鹽酥雞",
-    "address": "宜蘭縣頭城鎮民鋒路1-3號",
+    "address": "宜蘭縣頭城鎮城北里民鋒路1-3號",
     "phone": "03-977-8130",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "15:00–21:00"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "鹽酥雞",
+      "炸物",
+      "下午茶",
+      "晚餐"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "鹽酥雞"
+    ],
+    "editorial": "民鋒路上的鹽酥雞店，下午三點開始營業，炸物櫃裡品項不少，適合下午到晚餐時間外帶。",
+    "images": [
+      "assets/images/toucheng-first-yansuji-1.webp",
+      "assets/images/toucheng-first-yansuji-2.webp",
+      "assets/images/toucheng-first-yansuji-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0203",
@@ -1106,16 +1207,67 @@ window.LIVING_PLACES = [
     "name": "布丁雞排",
     "category": "點心",
     "subcat": "雞排炸物",
-    "address": "宜蘭縣頭城鎮開蘭路91號",
+    "address": "宜蘭縣頭城鎮城北里開蘭路91號",
     "phone": "03-977-7578",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "15:30–23:30"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
+    },
     "tags": [
-      "待店家補充"
+      "雞排",
+      "炸物",
+      "晚餐",
+      "宵夜",
+      "可電話訂餐"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "雞排"
+    ],
+    "editorial": "開蘭路上的炸物老店，可以先電話訂餐，時間差不多再到店付款取貨，省去現場久候。",
+    "images": [
+      "assets/images/buding-chicken-1.webp",
+      "assets/images/buding-chicken-2.webp",
+      "assets/images/buding-chicken-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0204",
@@ -1123,16 +1275,66 @@ window.LIVING_PLACES = [
     "name": "香好佳雞排",
     "category": "點心",
     "subcat": "雞排炸物",
-    "address": "宜蘭縣頭城鎮青雲路二段273號",
+    "address": "宜蘭縣頭城鎮金面里青雲路二段273號",
     "phone": "03-977-6543",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "16:00–22:00"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
+    },
     "tags": [
-      "待店家補充"
+      "雞排",
+      "炸物",
+      "晚餐",
+      "外帶"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "雞排"
+    ],
+    "editorial": "青雲路二段上的雞排炸物店，下午四點開始營業，炸物與串類選擇不少。",
+    "images": [
+      "assets/images/xianghaojia-chicken-1.webp",
+      "assets/images/xianghaojia-chicken-2.webp",
+      "assets/images/xianghaojia-chicken-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0205",
@@ -1140,16 +1342,54 @@ window.LIVING_PLACES = [
     "name": "志明與春嬌炸物店",
     "category": "點心",
     "subcat": "炸物",
-    "address": "宜蘭縣頭城鎮沙成路97號",
+    "address": "宜蘭縣頭城鎮城北里沙成路97號",
     "phone": "暫無公開電話",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "休息"
+      },
+      "二": {
+        "status": "休息"
+      },
+      "三": {
+        "status": "休息"
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "休息"
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "14:00–22:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:00"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "炸物",
+      "週末限定",
+      "下午茶",
+      "外帶"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "炸物"
+    ],
+    "editorial": "沙成路上的炸物攤車，目前主要在週末營業；週六到晚上十點，週日到晚上八點。",
+    "images": [
+      "assets/images/zhiming-chunjiao-1.webp",
+      "assets/images/zhiming-chunjiao-2.webp",
+      "assets/images/zhiming-chunjiao-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0206",
@@ -1157,33 +1397,70 @@ window.LIVING_PLACES = [
     "name": "珍湘碳烤",
     "category": "點心",
     "subcat": "碳烤",
-    "address": "宜蘭縣頭城鎮民鋒路78-4號",
+    "address": "宜蘭縣頭城鎮城東里民鋒路78-4號",
     "phone": "0921-823-477",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "18:30–23:30"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "碳烤",
+      "串燒",
+      "晚餐",
+      "宵夜"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
-  },
-  {
-    "id": "TCL-0207",
-    "slug": "tcl-0207",
-    "name": "串燒寶貝",
-    "category": "點心",
-    "subcat": "串燒",
-    "address": "宜蘭縣頭城鎮復興路59-3號",
-    "phone": "0926-377-880",
-    "hours": null,
-    "tags": [
-      "待店家補充"
+    "recommended": [
+      "碳烤",
+      "雞排"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "editorial": "民鋒路上的晚間碳烤店，每天傍晚六點半開始營業，炸物與碳烤串類都有。",
+    "images": [
+      "assets/images/zhenxiang-bbq-1.webp",
+      "assets/images/zhenxiang-bbq-2.webp",
+      "assets/images/zhenxiang-bbq-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0208",
@@ -1191,16 +1468,65 @@ window.LIVING_PLACES = [
     "name": "羽鹿炭烤",
     "category": "點心",
     "subcat": "碳烤",
-    "address": "宜蘭縣頭城鎮協天路842號",
+    "address": "宜蘭縣頭城鎮武營里協天路842號",
     "phone": "0928-463-754",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      },
+      "四": {
+        "status": "休息"
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "17:00–22:00"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "炭烤",
+      "串燒",
+      "晚餐"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "串燒"
+    ],
+    "editorial": "協天路上的炭烤店，店內有座位與晚間氛圍，主打各式串燒與烤物。",
+    "images": [
+      "assets/images/yulu-bbq-1.webp",
+      "assets/images/yulu-bbq-2.webp",
+      "assets/images/yulu-bbq-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0209",
@@ -1208,16 +1534,70 @@ window.LIVING_PLACES = [
     "name": "珍珍燒烤店",
     "category": "點心",
     "subcat": "燒烤",
-    "address": "宜蘭縣頭城鎮和平街131號",
+    "address": "宜蘭縣頭城鎮城東里和平街131號",
     "phone": "0918-964-248",
-    "hours": null,
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "19:30–02:00"
+        ]
+      }
+    },
     "tags": [
-      "待店家補充"
+      "燒烤",
+      "炸物",
+      "宵夜",
+      "跨日營業"
     ],
-    "recommended": [],
-    "editorial": "",
-    "images": [],
-    "verified": false
+    "recommended": [
+      "燒烤",
+      "炸物"
+    ],
+    "editorial": "和平街上的晚間燒烤店，每晚七點半開始營業到凌晨兩點，是頭城少數營業到深夜的炸物／燒烤選擇。",
+    "images": [
+      "assets/images/zhenzhen-bbq-1.webp",
+      "assets/images/zhenzhen-bbq-2.webp",
+      "assets/images/zhenzhen-bbq-3.webp"
+    ],
+    "verified": true,
+    "editorial_title": "店家介紹"
   },
   {
     "id": "TCL-0117",
