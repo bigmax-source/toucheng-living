@@ -60,7 +60,7 @@ function categoryMatch(s,cat){
  return s.category===cat;
 }
 function filtered(){
- return places.filter(s=>{const cat=categoryMatch(s,currentCategory);const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());return cat&&q;}).sort((a,b)=>{
+ return places.filter(s=>{const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());const cat=query?true:categoryMatch(s,currentCategory);return cat&&q;}).sort((a,b)=>{
    const ar=currentOpenState(a).open?0:1,br=currentOpenState(b).open?0:1;if(ar!==br)return ar-br;
    return pageRandomOrder.get(a.id)-pageRandomOrder.get(b.id);
  });

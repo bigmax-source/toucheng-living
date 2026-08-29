@@ -7250,5 +7250,307 @@ window.LIVING_PLACES = [
       "assets/images/defang-yushanfang-2.webp",
       "assets/images/defang-yushanfang-3.webp"
     ]
+  },
+  {
+    "id": "TCL-0235",
+    "slug": "stuchen-toucheng",
+    "name": "學廚食坊",
+    "category": "小吃",
+    "subcat": "燴飯／學生美食",
+    "address": "宜蘭縣頭城鎮拔雅里文雅路6號",
+    "phone": "0916-171-928",
+    "facebook": "https://www.facebook.com/Stuchen.tw",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "09:00–20:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "09:00–17:00",
+          "18:00–20:00"
+        ]
+      }
+    },
+    "tags": [
+      "燴飯",
+      "牛肉燴飯",
+      "羊肉燴飯",
+      "咖哩",
+      "學生美食"
+    ],
+    "recommended": [
+      "牛肉燴飯",
+      "羊肉燴飯",
+      "咖哩燴飯"
+    ],
+    "editorial": "文雅路上的在地食坊，店內空間帶著很有辨識度的「學廚」風格，從黑板留言、學生美食元素到用餐空間，都有一種輕鬆、不拘束的感覺。餐點以各式燴飯為主，從牛肉、羊肉、豬肉、雞肉、海鮮，到咖哩、椒麻系列都有，想吃一份熱騰騰又有飽足感的飯類，選擇相當多。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/stuchen-1.webp",
+      "assets/images/stuchen-2.webp",
+      "assets/images/stuchen-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0236",
+    "slug": "neighbor-braised-pork-rice",
+    "name": "鄰家魯肉飯",
+    "category": "小吃",
+    "subcat": "魯肉飯／家常小吃",
+    "address": "宜蘭縣頭城鎮城北里沙成路40號",
+    "phone": "0911-217-179",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–14:30",
+          "16:00–19:30"
+        ]
+      },
+      "日": {
+        "status": "休息"
+      }
+    },
+    "tags": [
+      "魯肉飯",
+      "炸蛋",
+      "湯品",
+      "LGBTQ+ 友善空間",
+      "女性業主"
+    ],
+    "recommended": [
+      "魯肉飯",
+      "炸蛋",
+      "餛飩／乾麵"
+    ],
+    "editorial": "沙成路上的家常小吃店，主打魯肉飯，也能搭配炸蛋、湯品等一起吃。整體就是很適合日常來吃一頓的路線，份量實在、選擇直接。店內同時標示為 LGBTQ+ 友善空間，也是女性業主經營的商家。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/neighbor-braised-pork-rice-1.webp",
+      "assets/images/neighbor-braised-pork-rice-2.webp",
+      "assets/images/neighbor-braised-pork-rice-3.webp",
+      "assets/images/neighbor-braised-pork-rice-4.webp",
+      "assets/images/neighbor-braised-pork-rice-5.webp"
+    ]
+  },
+  {
+    "id": "TCL-0237",
+    "slug": "toucheng-braised-pork-intestine-vermicelli",
+    "name": "頭城滷肉大腸麵線",
+    "category": "小吃",
+    "subcat": "大腸麵線／早餐",
+    "address": "宜蘭縣頭城鎮城北里沙成路99號",
+    "phone": "03-977-4766",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–18:30"
+        ]
+      }
+    },
+    "tags": [
+      "大腸麵線",
+      "滷肉",
+      "學生早餐",
+      "在地老味道"
+    ],
+    "recommended": [
+      "滷肉大腸麵線"
+    ],
+    "editorial": "沙成路上的在地小吃，特色是少見的大腸麵線加滷肉組合，也是許多頭城學生熟悉的早餐選擇。早上六點就開始營業，想吃一碗熱呼呼、帶點古早味的麵線很方便。店家就在 AQUA 水瓶隔壁，位置很好認。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "relations": [
+      {
+        "place_id": "TCL-0132",
+        "label": "隔壁店家"
+      }
+    ],
+    "images": [
+      "assets/images/toucheng-braised-pork-intestine-vermicelli-1.webp",
+      "assets/images/toucheng-braised-pork-intestine-vermicelli-2.webp",
+      "assets/images/toucheng-braised-pork-intestine-vermicelli-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0238",
+    "slug": "xiaoliangyuan-shaved-ice",
+    "name": "小涼園冰果室",
+    "category": "點心",
+    "subcat": "冰品／剉冰",
+    "address": "宜蘭縣頭城鎮城南里開蘭路88號",
+    "phone": "暫無資料",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:30–20:30"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–17:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:30–17:00"
+        ]
+      }
+    },
+    "tags": [
+      "剉冰",
+      "八寶冰",
+      "細沙冰",
+      "老店",
+      "第二代",
+      "季節營業"
+    ],
+    "recommended": [
+      "八寶冰",
+      "細沙剉冰"
+    ],
+    "editorial": "開蘭路上的老字號冰果室，已經營超過30年，目前由第二代接手。每年大約從清明節前後開始營業，一路賣到11月左右進入季節性休息。這裡最有記憶點的是非常細緻的傳統剉冰，口感和一般粗冰很不一樣；熟客和行家常點八寶冰，一碗上桌就是滿滿配料。對很多頭城人來說，它不只是冰店，也是一種夏天開始的訊號。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/xiaoliangyuan-shaved-ice-1.webp",
+      "assets/images/xiaoliangyuan-shaved-ice-2.webp",
+      "assets/images/xiaoliangyuan-shaved-ice-3.webp"
+    ]
   }
 ];

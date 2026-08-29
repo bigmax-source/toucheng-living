@@ -1,4 +1,4 @@
-Build017
-Base: Build016
-Updated: 2026-08-28
-Changes: 8 existing places completed with photos/hours; removed duplicate incomplete TCL-0207 串燒寶貝; total 119 places; browser title removed duplicate 🌊 while favicon remains 🌊; incremental package contains only this round's 24 added photos.
+Build018
+Base: Build017
+Updated: 2026-08-29
+Changes: added 4 places and 14 photos; fixed global text search so query ignores active category; total 123 places.
