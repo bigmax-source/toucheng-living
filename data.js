@@ -7552,5 +7552,436 @@ window.LIVING_PLACES = [
       "assets/images/xiaoliangyuan-shaved-ice-2.webp",
       "assets/images/xiaoliangyuan-shaved-ice-3.webp"
     ]
+  },
+  {
+    "id": "TCL-0239",
+    "slug": "ten-dollar-fried",
+    "name": "10元炸炸店",
+    "category": "小吃",
+    "subcat": "炸物",
+    "address": "宜蘭縣頭城鎮城西里纘祥路33號",
+    "phone": "03-978-9664",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "14:00–20:30"
+        ]
+      },
+      "六": {
+        "status": "休息",
+        "slots": []
+      },
+      "日": {
+        "status": "休息",
+        "slots": []
+      }
+    },
+    "tags": [
+      "炸物",
+      "雞排",
+      "鹽酥雞",
+      "學生小吃",
+      "外帶"
+    ],
+    "recommended": [
+      "雞排",
+      "鹽酥雞",
+      "甜不辣",
+      "薯條"
+    ],
+    "editorial": "纘祥路上的炸物攤，也是頭城家商學生放學後，從學校一路往頭城車站方向走時的最後炸物補給站。品項從雞排、鹽酥雞、甜不辣、薯條到各式串炸都有，是頭城鎮上炸物版圖的最後一塊拼圖。想在搭車前帶一包現炸小吃上路，這間的位置剛剛好。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/ten-dollar-fried-1.webp",
+      "assets/images/ten-dollar-fried-2.webp",
+      "assets/images/ten-dollar-fried-3.webp"
+    ]
+  },
+  {
+    "id": "TCL-0240",
+    "slug": "wuying-handmade-buns",
+    "name": "武營手作包子",
+    "category": "早餐",
+    "subcat": "包子／饅頭",
+    "address": "宜蘭縣頭城鎮武營里開蘭路210-1號",
+    "phone": "0987-669-420",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–12:00"
+        ]
+      }
+    },
+    "tags": [
+      "包子",
+      "饅頭",
+      "梅乾菜包",
+      "手作",
+      "現做"
+    ],
+    "recommended": [
+      "梅乾菜包",
+      "包子",
+      "饅頭"
+    ],
+    "editorial": "武營里的手作包子店，每天凌晨四點就開始製作，早上六點開門販售。包子、饅頭品項不少，從肉包、菜包到各式甜口味都有。最推薦的是梅乾菜口味，香氣重又耐吃，常常一吃就是兩個。想吃剛出爐的，早點來最對味。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/wuying-handmade-buns-3.webp",
+      "assets/images/wuying-handmade-buns-1.webp",
+      "assets/images/wuying-handmade-buns-2.webp",
+      "assets/images/wuying-handmade-buns-4.webp"
+    ]
+  },
+  {
+    "id": "TCL-0241",
+    "slug": "rihua-grocery",
+    "name": "日華商行",
+    "category": "點心",
+    "subcat": "傳統糕點／商行",
+    "address": "宜蘭縣頭城鎮城東里開蘭路182號",
+    "phone": "暫無資料",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "06:00–15:00"
+        ]
+      }
+    },
+    "tags": [
+      "糕點",
+      "傳統糕點",
+      "節慶糕點",
+      "菜市場",
+      "伴手禮"
+    ],
+    "recommended": [
+      "傳統糕點",
+      "節慶糕點"
+    ],
+    "editorial": "頭城菜市場裡的傳統糕點購買處，逢年過節想找應景糕點時，很容易就會想到這裡。每天一早六點開始營業，很有市場型店家的生活節奏。週日店門口附近還常會出現壽司攤等不同的小攤商，讓這一帶除了買糕點之外，也多了一點逛市場挖寶的樂趣。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/rihua-grocery-1.webp"
+    ]
+  },
+  {
+    "id": "TCL-0242",
+    "slug": "wanlixiang-drink",
+    "name": "萬里香飲料店",
+    "category": "飲料",
+    "subcat": "茶飲",
+    "address": "宜蘭縣頭城鎮城北里民鋒路6號",
+    "phone": "03-977-9422",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:00–21:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:00–18:00"
+        ]
+      }
+    },
+    "tags": [
+      "飲料",
+      "茶飲",
+      "奶茶",
+      "學生回憶",
+      "放學小吃"
+    ],
+    "recommended": [
+      "茶飲",
+      "奶茶"
+    ],
+    "editorial": "民鋒路上的在地飲料店，是不少頭城學子放學後熟悉的味道。店裡品項多，從茶飲、奶茶到各式調味飲品都有，價格也維持傳統飲料店的親民路線。對在地學生來說，這裡不只是買一杯飲料，更像是放學路上的固定補給站。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/wanlixiang-drink-1.webp",
+      "assets/images/wanlixiang-drink-2.webp"
+    ]
+  },
+  {
+    "id": "TCL-0243",
+    "slug": "sanfeng-grocery",
+    "name": "三豐餅店",
+    "category": "生活服務",
+    "subcat": "在地商行",
+    "address": "宜蘭縣頭城鎮城西里開蘭路34號",
+    "phone": "03-977-2464",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "07:00–22:30"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "07:00–22:30"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "07:00–22:30"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "07:00–22:30"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "07:00–23:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "07:00–23:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "07:00–22:00"
+        ]
+      }
+    },
+    "tags": [
+      "商行",
+      "酒類",
+      "古早味零食",
+      "餅乾",
+      "伴手零嘴"
+    ],
+    "recommended": [
+      "古早味零食",
+      "餅乾"
+    ],
+    "editorial": "開蘭路上的在地型商行，主打酒類、古早味零食與各式餅乾。店面保留很傳統的街邊商行樣貌，想找一些以前常見、現在反而比較少看到的零食，也很適合來這裡挖寶。從早上七點一路營業到晚上，週五、週六甚至到23:00，是頭城鎮上營業時間相當長的一間老派商行。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/sanfeng-grocery-1.webp"
+    ]
+  },
+  {
+    "id": "TCL-0244",
+    "slug": "yongyue-grocery",
+    "name": "永悅商行",
+    "category": "生活服務",
+    "subcat": "在地商行",
+    "address": "宜蘭縣頭城鎮城西里開蘭路36號",
+    "phone": "03-977-2036",
+    "hours": {
+      "一": {
+        "status": "營業",
+        "slots": [
+          "09:30–23:00"
+        ]
+      },
+      "二": {
+        "status": "營業",
+        "slots": [
+          "09:30–23:00"
+        ]
+      },
+      "三": {
+        "status": "營業",
+        "slots": [
+          "09:30–23:00"
+        ]
+      },
+      "四": {
+        "status": "營業",
+        "slots": [
+          "09:30–23:00"
+        ]
+      },
+      "五": {
+        "status": "營業",
+        "slots": [
+          "09:30–23:00"
+        ]
+      },
+      "六": {
+        "status": "營業",
+        "slots": [
+          "10:30–23:00"
+        ]
+      },
+      "日": {
+        "status": "營業",
+        "slots": [
+          "10:30–23:00"
+        ]
+      }
+    },
+    "tags": [
+      "商行",
+      "食品雜貨",
+      "調味料",
+      "料理食材",
+      "酒類",
+      "零食",
+      "影視取景"
+    ],
+    "recommended": [
+      "料理食材",
+      "調味料",
+      "零食"
+    ],
+    "editorial": "開蘭路上的在地老商行，店內從零食、飲料、酒類，到日常烹飪會用到的各式食材、調味料都有，屬於很典型、也很實用的街坊型雜貨商行。這裡同時也是影視作品《欠妳的那場婚禮》的取景地點之一，對熟悉頭城街景的人來說，店面本身就很有辨識度。",
+    "editorial_title": "店家介紹",
+    "verified": true,
+    "images": [
+      "assets/images/yongyue-grocery-1.webp",
+      "assets/images/yongyue-grocery-2.webp",
+      "assets/images/yongyue-grocery-3.webp",
+      "assets/images/yongyue-grocery-4.webp"
+    ]
   }
 ];

@@ -60,7 +60,21 @@ function categoryMatch(s,cat){
  return s.category===cat;
 }
 function filtered(){
- return places.filter(s=>{const q=!query||[s.name,s.category,s.subcat,s.address,s.phone,(s.tags||[]).join(" "),(s.recommended||[]).join(" ")].join(" ").toLowerCase().includes(query.toLowerCase());const cat=query?true:categoryMatch(s,currentCategory);return cat&&q;}).sort((a,b)=>{
+ const q=query.trim().toLowerCase();
+ const searchRank=s=>{
+   if(!q)return 0;
+   if((s.name||"").toLowerCase().includes(q))return 0;
+   const secondary=[...(s.recommended||[]),...(s.tags||[])].join(" ").toLowerCase();
+   if(secondary.includes(q))return 1;
+   return 99;
+ };
+ return places.filter(s=>{
+   const rank=searchRank(s);
+   const match=!q||rank<99;
+   const cat=q?true:categoryMatch(s,currentCategory);
+   return cat&&match;
+ }).sort((a,b)=>{
+   if(q){const ra=searchRank(a),rb=searchRank(b);if(ra!==rb)return ra-rb;}
    const ar=currentOpenState(a).open?0:1,br=currentOpenState(b).open?0:1;if(ar!==br)return ar-br;
    return pageRandomOrder.get(a.id)-pageRandomOrder.get(b.id);
  });
@@ -72,7 +86,7 @@ function home(){
    <div class="categories">${categories.map(([i,n])=>`<button class="cat ${currentCategory===n?'active':''}" data-cat="${n}"><span>${i}</span>${n}</button>`).join("")}</div>
   </section>
   <section class="section results-section">
-   <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、地址、推薦品項…" value="${esc(query)}"></div>
+   <div class="toolbar"><input id="search" class="search" placeholder="搜尋店名、推薦品項或標籤…" value="${esc(query)}"></div>
    <div id="cards"></div>
   </section>
  </div>`;
@@ -176,5 +190,5 @@ function renderWizard(){
 }
 function route(){const h=location.hash.slice(1);if(h.startsWith("place/"))detail(h.split("/")[1]);else if(h.startsWith("claim/"))startClaim(h.split("/")[1]);else home()}
 window.addEventListener("hashchange",route);
-document.querySelector("#joinBtn").onclick=()=>alert("Build017 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
+document.querySelector("#joinBtn").onclick=()=>alert("Build019 目前先提供已建立 Living Card 的店家領取更新；新店家加入功能會在串接 Supabase 後開放。");
 route();

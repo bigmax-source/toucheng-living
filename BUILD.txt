@@ -1,4 +1,4 @@
-Build018
-Base: Build017
-Updated: 2026-08-29
-Changes: added 4 places and 14 photos; fixed global text search so query ignores active category; total 123 places.
+Build019
+Base: Build018
+Updated: 2026-08-30
+Changes: added 6 places and 15 photos; search now uses name first, then recommended/tags only; total 129 places.
